@@ -5,7 +5,7 @@
 
 ## The front end agent, "Vivian Flame" is able to generate hypotheses from this data. 
 
-### The front end agent calls plugin-nft-generation on /GENERATE_COLLECTIOM
+## Vivian calls plugin-nft-generation on /GENERATE_COLLECTIOn
 
 #### The agent posts to Discord and X. 
 
