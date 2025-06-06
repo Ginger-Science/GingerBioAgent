@@ -1,0 +1,119 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/example",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Histopathological Analysis of Pseudoexfoliation Material in Ocular Surgeries: Clinical Implications",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Laura Denisa Stejar"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Anca-Maria Istrate-Ofițeru"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Ioana Teodora Tofolean"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Dana Preoteasa"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Florian Baltă"
+    }
+  ],
+  "dcterms:abstract": "Background: Pseudoexfoliation syndrome (PEX) is a common age-related ocular condition characterized by the accumulation of a fibrillar, pseudoexfoliative material on the anterior segment of the eye. This study aims to investigate the histopathological characteristics of pseudoexfoliative material within different ocular structures. Methods: A total of 32 anterior lens capsules, 3 eyelid fragments, and 12 conjunctival specimens were obtained from patients clinically diagnosed with PEX during ocular surgeries. Results: PEX material, characterized by its fibrillar components, is consistently present across multiple ocular structures. The presence of fibrillar eosinophilic deposits across these structures highlights the systemic distribution of PEX material. Conclusions: The involvement of the eyelid and conjunctiva plays a crucial role in understanding PEX pathophysiology.",
+  "schema:datePublished": "2024-10-01",
+  "schema:keywords": [
+    "histopathology",
+    "pseudoexfoliation syndrome",
+    "anterior lens capsule",
+    "eyelid",
+    "conjunctiva"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1234/venue",
+    "@type": "fabio:Journal",
+    "schema:name": "Ophthalmology Journal"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section-1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Pseudoexfoliation syndrome has been characterized by the abnormal production and deposition of extracellular material on the anterior segment of the eye."
+    },
+    {
+      "@id": "section-2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Materials and Methods",
+      "fabio:hasContent": "This is a prospective, interventional study carried out on 80 patients operated on at the Onioptic Hospital of Ophthalmology."
+    },
+    {
+      "@id": "section-3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "The study’s findings reveal that PEX material is consistently present across multiple ocular structures."
+    },
+    {
+      "@id": "section-4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "The consistent detection of pseudoexfoliative material across various ocular tissues supports the notion that PEX is a multifactorial disorder."
+    },
+    {
+      "@id": "section-5",
+      "@type": "fabio:Section",
+      "dcterms:title": "Conclusions",
+      "fabio:hasContent": "This study provides insights into the histopathological characteristics of PXM within various ocular structures."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Cataract surgery risks in pseudoexfoliation syndrome",
+      "bibo:doi": "10.1038/s41586-020-XXXXX"
+    },
+    {
+      "@id": "https://doi.org/10.1167/iovs.XX.XX.XX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Impact of Pseudoexfoliation on Intraocular Pressure",
+      "bibo:doi": "10.1167/iovs.XX.XX.XX"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "http://purl.org/obo/DOID_14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

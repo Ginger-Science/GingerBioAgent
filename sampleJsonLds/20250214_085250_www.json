@@ -1,0 +1,119 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/62936",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Bone collagen tensile properties of the aging human proximal femur",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-5630-3764",
+      "@type": "foaf:Person",
+      "foaf:name": "Stefan Bracher"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5075-9172",
+      "@type": "foaf:Person",
+      "foaf:name": "Benjamin Voumard"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2670-4712",
+      "@type": "foaf:Person",
+      "foaf:name": "Mathieu Simon"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7677-8463",
+      "@type": "foaf:Person",
+      "foaf:name": "Tatiana Kochetkova"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6935-5641",
+      "@type": "foaf:Person",
+      "foaf:name": "Michael Pretterklieber"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4881-192X",
+      "@type": "foaf:Person",
+      "foaf:name": "Philippe Zysset"
+    }
+  ],
+  "dcterms:abstract": "Despite the dominant role of bone mass in osteoporotic fractures, aging bone tissue properties must be thoroughly understood to improve osteoporosis management. In this context, collagen content and integrity are considered important factors, although limited research has been conducted on the tensile behavior of demineralized compact bone in relation to its porosity and elastic properties in the native mineralized state. Therefore, this study aims to examine the age-dependency of mineralized bone and collagen micromechanical properties.",
+  "schema:datePublished": "2024-06-01",
+  "schema:keywords": [
+    "Cortical bone",
+    "Collagen type I",
+    "Raman spectroscopy",
+    "Tensile strength",
+    "micro-CT",
+    "Gravimetric analysis"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1000/j.jbiomech.2024.05.001",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Biomechanics"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section-1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Osteoporosis is a systemic, metabolic skeletal bone disease identified by reduced bone mass and microstructural deterioration, resulting in increased bone fragility."
+    },
+    {
+      "@id": "section-2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "Eighty fresh frozen anatomic specimens of human bone sections from the proximal part of the femoral diaphysis were used in this study."
+    },
+    {
+      "@id": "section-3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Young's modulus of demineralized bone was significantly related to tissue mineral density."
+    },
+    {
+      "@id": "section-4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "The mechanical properties of the organic phase, that include collagen and non-collagenous proteins, are independent of donor age."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Osteoporosis and its impact on fracture",
+      "bibo:doi": "10.1038/s41586-020-XXXX"
+    },
+    {
+      "@id": "https://doi.org/10.1000/j.jbiomech.2020.01.001",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Colagen properties in bone mechanics",
+      "bibo:doi": "10.1000/j.jbiomech.2020.01.001"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0006954",
+      "schema:name": "inflammatory response"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_0050555",
+      "schema:name": "osteoporosis"
+    }
+  ]
+}

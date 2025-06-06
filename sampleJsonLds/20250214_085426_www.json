@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/CJ-23-0657",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Senotherapies for Cardiovascular Diseases: A Novel Approach to Combat Aging",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0003-1825-2469",
+      "@type": "foaf:Person",
+      "foaf:name": "Mitsuo Saito"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3249-8442",
+      "@type": "foaf:Person",
+      "foaf:name": "Takashi Matsuda"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Genji Kato"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8910",
+      "@type": "foaf:Person",
+      "foaf:name": "John L. Kay"
+    }
+  ],
+  "dcterms:abstract": "Aging is a major risk factor for cardiovascular diseases (CVDs). This review discusses emerging therapies targeting senescent cells, known as senotherapies, and their potential in treating age-associated diseases, particularly CVDs. Recent studies indicate that senolytics, which selectively eliminate senescent cells, may improve clinical outcomes in various cardiovascular conditions. This paper summarizes the evidence and discusses the future prospects for the application of these therapies in clinical settings.",
+  "schema:datePublished": "2023-10-01",
+  "schema:keywords": [
+    "Senotherapies",
+    "Cardiovascular Diseases",
+    "Aging",
+    "Senolytics",
+    "Cell Senescence"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://journals.sagepub.com/home/cj",
+    "@type": "fabio:Journal",
+    "schema:name": "Circulation Journal"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Cardiovascular diseases (CVDs) continue to be the leading cause of death globally, particularly among the elderly population. This section introduces the importance of addressing age-related factors in managing CVDs."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Senotherapies Overview",
+      "fabio:hasContent": "Senotherapies, particularly senolytics, target the accumulation of senescent cells in tissues. These therapies may offer new options for treating CVDs that are not responsive to conventional approaches."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Clinical Implications",
+      "fabio:hasContent": "The section discusses ongoing clinical trials evaluating senolytics for various CVDs, their potential effectiveness, and how they may integrate with existing treatment paradigms."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2019.04.011",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "A senolytic therapy for treating age-related conditions",
+      "bibo:doi": "10.1016/j.cell.2019.04.011"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-2648-6",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The effects of senolytics on aged tissues",
+      "bibo:doi": "10.1038/s41586-020-2648-6"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0008284",
+      "schema:name": "Cell Proliferation"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_0050180",
+      "schema:name": "Cardiovascular Disease"
+    },
+    {
+      "@id": "http://id.nlm.nih.gov/mesh/D015179",
+      "schema:name": "Pre-Eclampsia"
+    }
+  ]
+}

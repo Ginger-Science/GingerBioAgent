@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/abcd1234",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Senolysis potentiates endothelial progenitor cell adhesion to and integration into the brain vasculature",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Tri Duc Lam"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "István Tóth"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Anca Hermenean"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Imola Wilhelm"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Claudine Kieda"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "István Krizbai"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Attila E Farkas"
+    }
+  ],
+  "dcterms:abstract": "Background: One of the most severe consequences of ageing is cognitive decline, which is associated with dysfunction of the brain microvasculature. Thus, repairing the brain vasculature could result in healthier brain function. Methods: To better understand the potential beneficial effect of endothelial progenitor cells (EPCs) in vascular repair, we studied the adhesion and integration of EPCs using the early embryonic mouse aorta–gonad–mesonephros – MAgEC 10.5 endothelial cell line. Results: Combination of progenitor cell therapy with senolytic therapy and prior activation of EPCs are promising for improving EPC adhesion and integration into the cerebral vasculature.",
+  "schema:datePublished": "2024-11-03",
+  "schema:keywords": [
+    "Brain",
+    "Ageing",
+    "Endothelial progenitor cells",
+    "Senescence",
+    "Senolysis",
+    "Vascular regeneration"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1234/journalname",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Vascular Research"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "The introduction discusses the effects of ageing on brain microvasculature and the potential of EPCs in vascular repair."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "The methods involved observing the integration of MAgEC 10.5 cells through in vivo and ex vivo techniques."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "The results detail the improved adhesion and integration of EPCs post-senolytic treatment and activation."
+    },
+    {
+      "@id": "section4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "The discussion explores the implications of using EPC therapy in conjunction with senolytics for brain rejuvenation."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-1234-z",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Role of endothelial progenitor cells in vascular repair",
+      "bibo:doi": "10.1038/s41586-020-1234-z"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jneuro.2019.08.004",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Senolytic therapy as a means to enhance vascular function",
+      "bibo:doi": "10.1016/j.jneuro.2019.08.004"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "GO:0007155",
+      "schema:name": "Cell adhesion"
+    },
+    {
+      "@id": "DOID:14330",
+      "schema:name": "Lung cancer"
+    },
+    {
+      "@id": "MESH:D015179",
+      "schema:name": "Pre-Eclampsia"
+    }
+  ]
+}

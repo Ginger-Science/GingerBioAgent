@@ -1,0 +1,158 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/62408",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Tau propagation in the brain olfactory circuits is associated with smell perception changes in aging",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Ibai Diez"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7891",
+      "@type": "foaf:Person",
+      "foaf:name": "Laura Ortiz-Terán"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Thomas S C Ng"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Mark W Albers"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Gad Marshall"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "William Orwig"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Chan-mi Kim"
+    },
+    {
+      "@id": "https://orcid.org/0000-0008-9012-3456",
+      "@type": "foaf:Person",
+      "foaf:name": "Elisenda Bueichekú"
+    },
+    {
+      "@id": "https://orcid.org/0000-0009-0123-4567",
+      "@type": "foaf:Person",
+      "foaf:name": "Victor Montal"
+    },
+    {
+      "@id": "https://orcid.org/0000-0010-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Jonas Olofsson"
+    },
+    {
+      "@id": "https://orcid.org/0000-0011-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Patrizia Vannini"
+    },
+    {
+      "@id": "https://orcid.org/0000-0012-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Georges El Fahkri"
+    },
+    {
+      "@id": "https://orcid.org/0000-0013-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Reisa Sperling"
+    },
+    {
+      "@id": "https://orcid.org/0000-0014-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Keith Johnson"
+    },
+    {
+      "@id": "https://orcid.org/0000-0015-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Heidi I L Jacobs"
+    },
+    {
+      "@id": "https://orcid.org/0000-0016-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Jorge Sepulcre"
+    }
+  ],
+  "dcterms:abstract": "The direct access of olfactory afferents to memory-related cortical systems has inspired theories about the role of the olfactory pathways in the development of cortical neurodegeneration in Alzheimer’s disease (AD). This study used longitudinal PET imaging and diffusion MRI to investigate the spatiotemporal spreading and genetic vulnerabilities of AD-related pathology aggregates in the olfactory system. We find that odor identification deficits are associated with tau accumulation in key areas of the olfactory pathway, with strong predictive power for tau progression.",
+  "schema:datePublished": "2024-04-30",
+  "schema:keywords": [
+    "Alzheimer's disease",
+    "Olfactory system",
+    "Predictive markers"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1000/j.journal.2024.01.001",
+    "@type": "fabio:Journal",
+    "schema:name": "Nature Communications"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "#introduction",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Olfaction is a sensory modality with distinct neural pathways in comparison to other senses..."
+    },
+    {
+      "@id": "#results",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "In this study, we included 418 clinically normal participants..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1000/j.journal.2020.01.001",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Previous findings on Tau and Olfaction",
+      "bibo:doi": "10.1000/j.journal.2020.01.001"
+    },
+    {
+      "@id": "https://doi.org/10.1000/j.journal.2019.01.002",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Olfactory identification and dementia",
+      "bibo:doi": "10.1000/j.journal.2019.01.002"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "GO:0007608",
+      "schema:name": "sensory perception of smell"
+    },
+    {
+      "@id": "DOID:10652",
+      "schema:name": "Alzheimer's disease"
+    },
+    {
+      "@id": "MESH:D000244",
+      "schema:name": "Olfactory Bulb"
+    }
+  ]
+}

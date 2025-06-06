@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1186/s12979-023-00394-0",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "The effect of metformin on senescence of T lymphocytes",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Jia Yang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Hai-Cheng Liu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Jian-Qing Zhang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Jian-Yong Zou"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Xin Zhang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Wo-Ming Chen"
+    },
+    {
+      "@id": "https://orcid.org/0000-0008-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Yong Gu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0009-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Hai Hong"
+    }
+  ],
+  "dcterms:abstract": "This study evaluates the effects of metformin on senescence of T lymphocytes, focusing on its potential immunomodulatory effects and how it may mitigate age-related declines in immune function.",
+  "schema:datePublished": "2023-11-15",
+  "schema:keywords": [
+    "Senescent T cell",
+    "Metformin",
+    "Immunosenescence",
+    "Cytokines",
+    "Aging"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1186/s12979-023-00394-0",
+    "@type": "fabio:Journal",
+    "schema:name": "BMC Immunology"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Immunosenescence occurs as people age, which leads to a higher incidence of age-related diseases..."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "PBMCs isolation from different age population; Flow Cytometry is applied..."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "The middle-aged group had the highest proportion of senescent T cells..."
+    },
+    {
+      "@id": "section4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Conclusion",
+      "fabio:hasContent": "Our findings reveal that metformin could inhibit T cell senescence..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-2678-x",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Insights into the effects of metformin in cancer",
+      "bibo:doi": "10.1038/s41586-020-2678-x"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2018.12.020",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The role of TNF-α in T-cell functionality",
+      "bibo:doi": "10.1016/j.cell.2018.12.020"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_14330",
+      "schema:name": "lung cancer"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_15377",
+      "schema:name": "water"
+    }
+  ]
+}

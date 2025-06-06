@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/example1234",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Cytomegalovirus and Epstein–Barr virus co-infected young and middle-aged adults can have an aging-related T-cell phenotype",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Marloes I Hofstee"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Alper Cevirgel"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Mary-Lène de Zeeuw-Brouwer"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9876-5432",
+      "@type": "foaf:Person",
+      "foaf:name": "Lia de Rond"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Fiona van der Klis"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Anne-Marie Buisman"
+    }
+  ],
+  "dcterms:abstract": "Cytomegalovirus (CMV) is known to alter circulating effector memory or re-expressing CD45RA+(TemRA) T-cell numbers, but whether Epstein–Barr virus (EBV) does the same or this is amplified during a CMV and EBV co-infection is unclear. This study identifies changes in T-cell numbers in CMV or EBV-seropositive individuals, exploring immune cell composition in various age groups.",
+  "schema:datePublished": "2023-06-22",
+  "schema:keywords": [
+    "Cytomegalovirus",
+    "Epstein–Barr virus",
+    "T cells",
+    "Co-infection",
+    "Immunosenescence"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1016/j.jinf.2023.06.012",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Infection"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Cytomegalovirus (CMV) and Epstein-Barr virus (EBV) are two prevalent herpesviruses that can significantly alter immune cell dynamics."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Analysis revealed that CMV+ and EBV+ adults exhibited a significantly altered T-cell subset distribution compared to controls..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.immuni.2020.06.020",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "CMV alters immune response dynamics",
+      "bibo:doi": "10.1016/j.immuni.2020.06.020"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nrm.2015.3",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The impact of EBV on T-cell diversity",
+      "bibo:doi": "10.1038/nrm.2015.3"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0006955",
+      "schema:name": "Immune response"
+    },
+    {
+      "@id": "doid:14330",
+      "schema:name": "lung cancer"
+    },
+    {
+      "@id": "chebi:15377",
+      "schema:name": "water"
+    }
+  ]
+}

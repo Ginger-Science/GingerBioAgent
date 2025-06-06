@@ -1,0 +1,163 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.2533/chimia.2016.496",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Advanced UV Absorbers for the Protection of Human Skin",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1825-0097",
+      "@type": "foaf:Person",
+      "foaf:name": "Dietmar Hüglin"
+    }
+  ],
+  "dcterms:abstract": "The increasing awareness of the damaging effects of UV radiation to human skin triggered the market introduction of new cosmetic UV absorbers. This article summarizes the outcome of a multi-year research program, in which the author contributed to the development of different new UV filters. First of all, the molecular design and the basic properties of bis-ethylhexyloxyphenol methoxyphenyl triazine (BEMT) will be presented. This oil-soluble filter, which today is widely used in both beach products and skin care products, exhibits inherent photostability and strong broad-spectrum UV-A/UV-B absorbance. Based on the concept of micronized organic UV absorbers, the UV-B filter tris biphenyl triazine (TBPT) will be introduced. At present TBPT exhibits the highest efficacy of all cosmetic UV absorbers in the market (measured by area under the UV spectrum). Finally, the concept of liposomogenic UV absorbers will be featured. This approach was developed to create water-resistant UV filters, as liposomogenic structures are thought to integrate into the lipids of the horny layer. Due to prohibitively high costs, this technology did not result in a commercial product so far.",
+  "schema:datePublished": "2016-04-01",
+  "schema:keywords": [
+    "Cosmetics",
+    "Liposome",
+    "Photostability",
+    "Sun protection",
+    "UV absorbers",
+    "Water resistance"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://chimia.ch",
+    "@type": "fabio:Journal",
+    "schema:name": "CHIMIA International Journal for Chemistry"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "The presence of ultraviolet (UV) absorbers in skincare and cosmetic products represents a key benefit that the cosmetics industry can provide to consumers. Increasing awareness of the damaging effects of UV radiation has led to a significant demand for improved protection of human skin, the largest organ of the body."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Case Studies",
+      "fabio:hasContent": "2.1 Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine\nPolymers such as BEMT, the leading UV broad-spectrum filter, exhibit excellent photostability and skin adhesion."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2005.05.012",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Importance of UV protection in skincare",
+      "bibo:doi": "10.1016/j.cell.2005.05.012"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Advancements in sunscreen formulations",
+      "bibo:doi": "10.1038/s41586-020-XXXXX"
+    }
+  ],
+  "ontologies": [
+    {
+      "@id": "GO:0055114",
+      "schema:name": "oxidation-reduction process"
+    },
+    {
+      "@id": "GO:0016020",
+      "schema:name": "membrane"
+    },
+    {
+      "@id": "GO:0003707",
+      "schema:name": "steroid hormone receptor activity"
+    },
+    {
+      "@id": "DOID:1021",
+      "schema:name": "skin disease"
+    },
+    {
+      "@id": "DOID:4450",
+      "schema:name": "photodermatosis"
+    },
+    {
+      "@id": "CHEBI:5357",
+      "schema:name": "triazine"
+    },
+    {
+      "@id": "CHEBI:48281",
+      "schema:name": "benzimidazole"
+    },
+    {
+      "@id": "ATC:D01AE05",
+      "schema:name": "octocrylene"
+    },
+    {
+      "@id": "ATC:D01AE06",
+      "schema:name": "oxybenzone"
+    },
+    {
+      "@id": "MONDO:0001785",
+      "schema:name": "actinic keratosis"
+    },
+    {
+      "@id": "PW:0000183",
+      "schema:name": "UV response pathway"
+    },
+    {
+      "@id": "PW:0000139",
+      "schema:name": "lipid metabolism pathway"
+    },
+    {
+      "@id": "ECO:0000218",
+      "schema:name": "sequence analysis evidence"
+    },
+    {
+      "@id": "ECO:0000353",
+      "schema:name": "experimental sensitive sequence analysis evidence"
+    },
+    {
+      "@id": "MESH:D006801",
+      "schema:name": "Hydroxyphenyl Triazine"
+    },
+    {
+      "@id": "MESH:D000077384",
+      "schema:name": "Oxybenzone"
+    },
+    {
+      "@id": "BIBO:Document",
+      "schema:name": "scientific article"
+    },
+    {
+      "@id": "BIBO:BookSection",
+      "schema:name": "book section"
+    },
+    {
+      "@id": "cito:citesAsDataSource",
+      "schema:name": "cites as data source"
+    },
+    {
+      "@id": "cito:discusses",
+      "schema:name": "discusses"
+    },
+    {
+      "@id": "fabio:ScholarlyArticle",
+      "schema:name": "scholarly article"
+    },
+    {
+      "@id": "fabio:ResearchPaper",
+      "schema:name": "research paper"
+    }
+  ],
+  "schema:relatedTo": []
+}

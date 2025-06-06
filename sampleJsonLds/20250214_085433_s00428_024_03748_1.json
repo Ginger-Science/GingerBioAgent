@@ -1,0 +1,113 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1007/s00428-024-03748-1",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Mallory-Denk bodies and hepatocellular senescence: a causal relationship?",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Helmut Denk"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-9876-5432",
+      "@type": "foaf:Person",
+      "foaf:name": "Peter M. Abuja"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Kurt Zatloukal"
+    }
+  ],
+  "dcterms:abstract": "Mallory-Denk bodies (MDBs) are hepatocellular cytoplasmic inclusions occurring in chronic liver diseases, with implications in senescence and chronic stress. This study investigates the relationship between MDB formation and the expression of senescence markers, suggesting a complex role in liver pathology.",
+  "schema:datePublished": "2024-01-30",
+  "schema:keywords": [
+    "Mallory-Denk bodies",
+    "senescence",
+    "hepatocellular carcinoma",
+    "chronic liver disease",
+    "oxidative stress"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://www.springer.com/journal/428",
+    "@type": "fabio:Journal",
+    "schema:name": "Virchows Archiv"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Mallory-Denk bodies (MDBs) are hepatocellular cytoplasmic inclusions that occur in various chronic liver diseases..."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "Liver specimens were obtained from patients diagnosed with conditions associated with MDBs..."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Light microscopy revealed MDBs with varying characteristics in liver specimens from different conditions..."
+    },
+    {
+      "@id": "section4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "The findings suggest a relationship between MDB formation and cellular senescence in chronic liver disease..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.jhep.2021.100301",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Evaluating causality of cellular senescence in non-alcoholic fatty liver disease",
+      "bibo:doi": "10.1016/j.jhep.2021.100301"
+    },
+    {
+      "@id": "https://doi.org/10.3390/cells10092012",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Cellular Senescence in Cholestatic Liver Injury",
+      "bibo:doi": "10.3390/cells10092012"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s00428-024-03720-0",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Pathological features of hepatocellular carcinoma",
+      "bibo:doi": "10.1007/s00428-024-03720-0"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0008284",
+      "schema:name": "regulation of cell proliferation"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_14330",
+      "schema:name": "lung cancer"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_15377",
+      "schema:name": "water"
+    }
+  ]
+}

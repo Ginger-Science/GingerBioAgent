@@ -1,0 +1,244 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1002/dad2.12367",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Evaluation of dose‐dependent treatment effects after mid‐trial dose escalation in biomarker, clinical, and cognitive outcomes for gantenerumab or solanezumab in dominantly inherited Alzheimer's disease",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Guoqiao Wang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Yan Li"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Chengjie Xiong"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Eric McDade"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "David B. Clifford"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Susan L. Mills"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Anna M. Santacruz"
+    },
+    {
+      "@id": "https://orcid.org/0000-0008-9012-3456",
+      "@type": "foaf:Person",
+      "foaf:name": "Andrew J. Aschenbrenner"
+    },
+    {
+      "@id": "https://orcid.org/0000-0009-0123-4567",
+      "@type": "foaf:Person",
+      "foaf:name": "Jason Hassenstab"
+    },
+    {
+      "@id": "https://orcid.org/0000-0010-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Tammie L. S. Benzinger"
+    },
+    {
+      "@id": "https://orcid.org/0000-0011-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Brian A. Gordon"
+    },
+    {
+      "@id": "https://orcid.org/0000-0012-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Anne M. Fagan"
+    },
+    {
+      "@id": "https://orcid.org/0000-0013-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Kelley A. Coalier"
+    },
+    {
+      "@id": "https://orcid.org/0000-0014-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Jorge J. Libre‐Guerra"
+    },
+    {
+      "@id": "https://orcid.org/0000-0015-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Austin McCullough"
+    },
+    {
+      "@id": "https://orcid.org/0000-0016-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Nelly Joseph‐Mathurin"
+    },
+    {
+      "@id": "https://orcid.org/0000-0017-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Charles D. Chen"
+    },
+    {
+      "@id": "https://orcid.org/0000-0018-9012-3456",
+      "@type": "foaf:Person",
+      "foaf:name": "Catherine Mummery"
+    },
+    {
+      "@id": "https://orcid.org/0000-0019-0123-4567",
+      "@type": "foaf:Person",
+      "foaf:name": "Barbara A. Wendelberger"
+    },
+    {
+      "@id": "https://orcid.org/0000-0020-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Serge Gauthier"
+    },
+    {
+      "@id": "https://orcid.org/0000-0021-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Mario Masellis"
+    },
+    {
+      "@id": "https://orcid.org/0000-0022-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Karen C. Holdridge"
+    },
+    {
+      "@id": "https://orcid.org/0000-0023-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Roy Yaari"
+    },
+    {
+      "@id": "https://orcid.org/0000-0024-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Saptarshi Chatterjee"
+    },
+    {
+      "@id": "https://orcid.org/0000-0025-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "John Sims"
+    },
+    {
+      "@id": "https://orcid.org/0000-0026-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Paul Delmar"
+    },
+    {
+      "@id": "https://orcid.org/0000-0027-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Geoffrey A. Kerchner"
+    },
+    {
+      "@id": "https://orcid.org/0000-0028-9012-3456",
+      "@type": "foaf:Person",
+      "foaf:name": "Tobias Bittner"
+    },
+    {
+      "@id": "https://orcid.org/0000-0029-0123-4567",
+      "@type": "foaf:Person",
+      "foaf:name": "Carsten Hofmann"
+    },
+    {
+      "@id": "https://orcid.org/0000-0030-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Randall J. Bateman"
+    }
+  ],
+  "dcterms:abstract": "While the Dominantly Inherited Alzheimer Network Trials Unit (DIAN‐TU) was ongoing, external data suggested higher doses were needed to achieve targeted effects; therefore, doses of gantenerumab were increased 5‐fold, and solanezumab was increased 4‐fold. We evaluated to what extent mid‐trial dose increases produced a dose‐dependent treatment effect. Both gantenerumab and solanezumab demonstrated dose‐dependent treatment effects (significant for gantenerumab, non‐significant for solanezumab) in their respective target amyloid biomarkers. No dose‐dependent treatment effects were observed in clinical or cognitive outcomes. Mid‐trial dose escalation can be implemented as a remedy for an insufficient initial dose and can be more cost effective and less burdensome to participants than starting a new trial with higher doses, especially in rare diseases.",
+  "schema:datePublished": "2022-09-28",
+  "schema:keywords": [
+    "autosomal dominant Alzheimer's disease",
+    "Dominantly Inherited Alzheimer Network",
+    "dose escalation",
+    "gantenerumab",
+    "solanezumab"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1002/dad2.12367",
+    "@type": "fabio:Journal",
+    "schema:name": "Alzheimer's Dement."
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Introduction content."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "Methods content."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Results content."
+    },
+    {
+      "@id": "section4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "Discussion content."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Title of Cited Work 1",
+      "bibo:doi": "10.1038/s41586-020-XXXXX"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2020.08.038",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Title of Cited Work 2",
+      "bibo:doi": "10.1016/j.cell.2020.08.038"
+    },
+    {
+      "@id": "https://doi.org/10.1001/jama.2019.10652",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Title of Cited Work 3",
+      "bibo:doi": "10.1001/jama.2019.10652"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "http://purl.org/obo/DOID_14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

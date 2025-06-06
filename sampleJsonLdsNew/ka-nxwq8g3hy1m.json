@@ -1,0 +1,119 @@
+{
+  "@context": {
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "cito": "http://purl.org/spar/cito/",
+    "doco": "http://purl.org/spar/doco/",
+    "pro": "http://purl.org/spar/pro/",
+    "obi": "http://purl.obolibrary.org/obo/",
+    "schema": "http://schema.org/"
+  },
+  "@type": "fabio:ResearchPaper",
+  "dcterms:title": "Increased frequency of clonal hematopoiesis of indeterminate potential in Bloom syndrome probands and carriers",
+  "dcterms:abstract": "Bloom syndrome (BSyn, OMIM #210900) is a rare autosomal recessive disorder characterized by growth restriction, sun sensitivity, insulin resistance, mild immune deficiency, and increased risk of early-onset malignancy. Recent studies have identified increased risk of cancers in BLM PV carriers. Using exome sequencing of BSyn patients and BLM carriers, researchers found that both BSyn probands and BLM carriers exhibited an increased frequency of CHIP compared to sex- and age-matched controls. This study sheds new light on the interplay between genetic predispositions and somatic variation and highlights the need for additional studies to further evaluate the mechanisms and potential clinical implications for patients with one or two BLM PV.",
+  "dcterms:date": "2025-01",
+  "dcterms:publisher": "Haematologica",
+  "fabio:hasJournalVolume": "110",
+  "fabio:hasPageNumbers": "187",
+  "obi:OBI_0000299": {
+    "dcterms:description": "Exome sequencing data from 29 peripheral blood DNA samples"
+  },
+  "obi:OBI_0000968": [
+    {
+      "foaf:name": "Illumina NovaSeq S1",
+      "dcterms:description": "Used for sequencing with 2x150 flowcell"
+    },
+    {
+      "foaf:name": "Nextera DNA Flex Pre-Enrichment Library Prep",
+      "dcterms:description": "Used for library preparation"
+    },
+    {
+      "foaf:name": "Roche NimbleGen exome capture kit",
+      "dcterms:description": "Used for exome capture"
+    }
+  ],
+  "obi:OBI_0000293": {
+    "dcterms:description": "29 peripheral blood DNA samples from BSR, including ten BSyn probands and their biological parents"
+  },
+  "obi:OBI_0200000": {
+    "dcterms:description": "GATK best-practices pipeline for quality control, mapping and variant-calling"
+  },
+  "obi:OBI_0000251": {
+    "dcterms:description": "Study participants provided informed consent under a protocol approved by the Weill Cornell Medical College Institutional Review Board"
+  },
+  "obi:OBI_0000070": {
+    "dcterms:description": "Exome sequencing with variant allele frequency analysis (VAF<0.3 for somatic variants, VAF≥0.3 for germline variants)"
+  },
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1159/000456545",
+      "dcterms:title": "Bloom's syndrome clinical spectrum, molecular pathogenesis, and cancer predisposition"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt1113",
+      "dcterms:title": "ClinVar public archive of relationships among sequence variation and human phenotype"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.gim.2022.03.027",
+      "dcterms:title": "Age of first cancer diagnosis and survival in Bloom syndrome"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cancergen.2015.12.006",
+      "dcterms:title": "The risk for developing cancer in Israeli ATM, BLM, and FANCC heterozygous mutation carriers"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s10689-014-9755-y",
+      "dcterms:title": "Prevalence of the BLM nonsense mutation, p.Q548X, in ovarian cancer patients from Central and Eastern Europe"
+    },
+    {
+      "@id": "https://doi.org/10.1038/srep14060",
+      "dcterms:title": "Deleterious germline BLM mutations and the risk for early-onset colorectal cancer"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pgen.1002894",
+      "dcterms:title": "Exome sequencing identifies rare deleterious mutations in DNA repair genes FANCC and BLM as potential breast cancer susceptibility alleles"
+    },
+    {
+      "@id": "https://doi.org/10.1073/pnas.2019652117",
+      "dcterms:title": "Heterozygous germline BLM mutations increase susceptibility to asbestos and mesothelioma"
+    },
+    {
+      "@id": "https://doi.org/10.1056/NEJMoa1408617",
+      "dcterms:title": "Age-related clonal hematopoiesis associated with adverse outcomes"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-2819-2",
+      "dcterms:title": "Inherited causes of clonal haematopoiesis in 97,691 whole genomes"
+    },
+    {
+      "@id": "https://doi.org/10.1182/blood.2019003537",
+      "dcterms:title": "Cancer spectrum and outcomes in the Mendelian short telomere syndromes"
+    },
+    {
+      "@id": "https://doi.org/10.1182/blood-2023-171755",
+      "dcterms:title": "Genetic determinants of clonal hematopoiesis and progression to hematologic malignancies in 479,117 individuals"
+    },
+    {
+      "@id": "https://doi.org/10.1101/gr.107524.110",
+      "dcterms:title": "The genome analysis toolkit a MapReduce framework for analyzing next-generation DNA sequencing data"
+    },
+    {
+      "@id": "https://doi.org/10.1002/humu.23903",
+      "dcterms:title": "A substantial proportion of apparently heterozygous TP53 pathogenic variants detected with a next-generation sequencing hereditary pan-cancer panel are acquired somatically"
+    },
+    {
+      "@id": "https://doi.org/10.1182/blood-2015-03-631747",
+      "dcterms:title": "Clonal hematopoiesis of indeterminate potential and its distinction from myelodysplastic syndromes"
+    }
+  ],
+  "@id": "https://doi.org/I apologize, but the images you've uploaded appear to be just repeated rows of the letter \"d\". There is no visible DOI or paper content in these images. Could you please upload a clear image of the actual paper or document?",
+  "dcterms:hasPart": "A research paper published in Haematologica volume 110 page 187 in January 2025 investigates Bloom syndrome and clonal hematopoiesis of indeterminate potential CHIP Bloom syndrome BSyn OMIM 210900 is a rare autosomal recessive disorder characterized by growth restriction sun sensitivity insulin resistance mild immune deficiency and increased risk of early onset malignancy The study found increased cancer risks in BLM PV carriers Through exome sequencing of BSyn patients and BLM carriers researchers discovered both groups showed higher CHIP frequency compared to matched controls The research utilized 29 peripheral blood DNA samples including ten BSyn probands and their biological parents The methodology employed several key instruments including Illumina NovaSeq S1 for sequencing with 2x150 flowcell Nextera DNA Flex Pre Enrichment Library Prep for library preparation and Roche NimbleGen exome capture kit The analysis protocol followed GATK best practices pipeline for quality control mapping and variant calling with specific parameters for variant allele frequency analysis VAF less than 03 for somatic variants and VAF greater than or equal to 03 for germline variants All study participants provided informed consent under a protocol approved by the Weill Cornell Medical College Institutional Review Board This research contributes to understanding the relationship between genetic predispositions and somatic variation emphasizing the importance of further studies to evaluate mechanisms and potential clinical implications for patients with one or two BLM PV The findings illuminate the complex interplay between inherited genetic variants and acquired somatic mutations in the context of blood disorders and cancer predisposition",
+  "schema:relatedTo": [
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101963",
+      "@type": "schema:Organization",
+      "schema:name": "Cerebrum DAO"
+    }
+  ]
+}

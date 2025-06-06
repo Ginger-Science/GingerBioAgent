@@ -1,0 +1,147 @@
+{
+  "@context": {
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "cito": "http://purl.org/spar/cito/",
+    "doco": "http://purl.org/spar/doco/",
+    "pro": "http://purl.org/spar/pro/",
+    "obi": "http://purl.obolibrary.org/obo/",
+    "schema": "http://schema.org/"
+  },
+  "@type": "fabio:ResearchPaper",
+  "dcterms:title": "Dopamine neuronal loss contributes to memory and reward dysfunction in a model of Alzheimer’s disease",
+  "obi:OBI_0000299": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_1904948",
+      "obi:BFO_0000066": {
+        "@id": "http://purl.obolibrary.org/obo/GO_1904866",
+        "dcterms:description": "The selective loss of dopaminergic neurons occurring specifically in the ventral tegmental area (VTA) at pre-plaque stages in Tg2576 mice."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0006915",
+      "obi:BFO_0000050": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0055045",
+        "dcterms:description": "Apoptotic cell death is a component of the neurodegeneration process observed in VTA dopaminergic neurons."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0099124",
+      "obi:BFO_0000066": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0021766",
+        "dcterms:description": "Dopamine release takes place in the hippocampus, with reduced outflow in Tg2576 mice affecting memory and synaptic plasticity."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0048167",
+      "obi:BFO_0000066": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0098685",
+        "dcterms:description": "Synaptic plasticity processes occur in the hippocampal CA1 region, with impairments developing in Tg2576 mice."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0007613",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0014046",
+        "dcterms:description": "Dopamine signaling regulates memory formation processes, with reduced dopamine leading to memory deficits."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_10652",
+      "dcterms:title": "Alzheimer's disease",
+      "dcterms:description": "The study found that dopaminergic neuronal loss in the ventral tegmental area (VTA) occurs at pre-plaque stages, contributing to memory deficits and reward dysfunction. The loss of VTA dopaminergic neurons leads to reduced dopamine outflow in the hippocampus and nucleus accumbens shell, affecting memory formation and reward processing. Treatment with L-DOPA or selegiline restored memory performance and reward processing deficits."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_14330",
+      "dcterms:title": "Parkinson's disease",
+      "dcterms:description": "The paper mentions Parkinson's disease in contrast to their Alzheimer's findings, noting that in PD there is selective loss of dopaminergic neurons in the substantia nigra pars compacta (SNpc), while neurons are largely spared in the VTA, which is opposite to the pattern observed in their Alzheimer's model."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_18243",
+      "dcterms:title": "dopamine",
+      "dcterms:description": "Reduced levels observed in hippocampus and nucleus accumbens shell of Tg2576 mice at 6 months of age. Decreased dopamine outflow correlates with memory deficits and reward processing dysfunction. Dopaminergic neurons in ventral tegmental area show selective degeneration starting at 3 months of age."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_15765",
+      "dcterms:title": "levodopa",
+      "dcterms:description": "Administration of levodopa (L-DOPA) rescued CA1 synaptic plasticity, dendritic spine density, hippocampal post-synaptic density composition, memory deficits and impairment in food reward processing in Tg2576 mice."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_9087",
+      "dcterms:title": "selegiline",
+      "dcterms:description": "Treatment with selegiline, a monoamine oxidase-B inhibitor, increased dopamine outflow in the hippocampus and improved synaptic plasticity, memory performance, and reward processing in Tg2576 mice."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_33569",
+      "dcterms:title": "noradrenaline",
+      "dcterms:description": "Noradrenaline outflow in the hippocampus did not differ between wild-type and Tg2576 mice at 6 months of age, suggesting preserved noradrenergic projections from the locus coeruleus."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/N04BA01",
+      "dcterms:title": "Levodopa",
+      "dcterms:description": "Levodopa (L-DOPA) administration completely rescued CA1 synaptic plasticity, dendritic spine density, hippocampal post-synaptic density composition, memory deficits and impairment in food reward processing in Tg2576 mouse model of Alzheimer's disease."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/N04BD01",
+      "dcterms:title": "Selegiline",
+      "dcterms:description": "Selegiline, a monoamine oxidase-B inhibitor, increased dopamine outflow in the hippocampus, restored synaptic plasticity, dendritic spine density, memory performance, and reward processing deficits in Tg2576 mice. Treatment led to restoration of both D1 receptors and GluA1 expression in hippocampal PSD fractions."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/N02CB01",
+      "dcterms:title": "Benserazide",
+      "dcterms:description": "Benserazide was administered at 12 mg/kg along with L-DOPA (10 mg/kg) in the treatment protocol for Tg2576 mice."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1097/NEN.0b013e31825018f7",
+      "dcterms:title": "Correlation of Alzheimer disease neuropathologic changes with cognitive status a review of the literature"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0140-6736(15)01124-1",
+      "dcterms:title": "Alzheimer's disease"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.pneurobio.2012.07.001",
+      "dcterms:title": "Brain excitability and connectivity of neuronal assemblies in Alzheimer's disease from animal models to human findings"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nature17172",
+      "dcterms:title": "Memory retrieval by activating engram cells in mouse models of early Alzheimer's disease"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.neurobiolaging.2005.09.012",
+      "dcterms:title": "Hippocampal synaptic loss in early Alzheimer's disease and mild cognitive impairment"
+    },
+    {
+      "@id": "https://doi.org/10.1146/annurev.psych.093008.100523",
+      "dcterms:title": "Hippocampal-neocortical interactions in memory formation, consolidation, and reconsolidation"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0079-6123(08)63820-4",
+      "dcterms:title": "Actions of norepinephrine in the rat hippocampus"
+    },
+    {
+      "@id": "https://doi.org/10.1385/MN:17:1-3:59",
+      "dcterms:title": "Comparison of the effects of serotonin in the hippocampus and the entorhinal cortex"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.bbr.2011.01.020",
+      "dcterms:title": "Learning deferred imitation of long spatial sequences"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.tics.2016.01.001",
+      "dcterms:title": "The locus coeruleus essential for maintaining cognitive function and the aging brain"
+    }
+  ],
+  "@id": "https://doi.org/10.1038/ncomms14207",
+  "dcterms:hasPart": "The study examines dopaminergic neuron loss in Alzheimers disease focusing on the ventral tegmental area VTA in Tg2576 mice The research demonstrates selective loss of dopaminergic neurons specifically in the VTA during pre plaque stages contrasting with Parkinsons disease where neurons are lost in the substantia nigra pars compacta but preserved in VTA Apoptotic cell death contributes to VTA dopaminergic neuron degeneration affecting dopamine release in the hippocampus and impacting synaptic plasticity particularly in the hippocampal CA1 region Reduced dopamine outflow in Tg2576 mice leads to memory deficits and impaired reward processing while noradrenaline outflow remains unchanged indicating preserved noradrenergic projections from the locus coeruleus The study investigated several treatments Levodopa L DOPA administration successfully rescued multiple deficits including CA1 synaptic plasticity dendritic spine density hippocampal post synaptic density composition memory function and food reward processing L DOPA was administered at 10 mg kg along with benserazide at 12 mg kg Similarly selegiline a monoamine oxidase B inhibitor improved dopamine outflow in the hippocampus restored synaptic plasticity dendritic spine density memory performance and reward processing The treatment also restored D1 receptors and GluA1 expression in hippocampal PSD fractions These findings establish a clear link between dopamine signaling memory formation and reward processing in Alzheimers disease with dopaminergic dysfunction occurring at early stages The research suggests potential therapeutic approaches through dopamine system modulation using established drugs like L DOPA and selegiline",
+  "schema:relatedTo": [
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101963",
+      "@type": "schema:Organization",
+      "schema:name": "Cerebrum DAO"
+    }
+  ]
+}

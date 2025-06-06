@@ -1,0 +1,226 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.3390/ijms241512152",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Melanocortin 1 Receptor (MC1R): Pharmacological and Therapeutic Aspects",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Yoonwoo Mun"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Woohyun Kim"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Dongyun Shin"
+    }
+  ],
+  "dcterms:abstract": "Melanocortins play crucial roles in regulating stress response, inflammation, and skin pigmentation. In this review, the focus is on the melanocortin 1 receptor (MC1R), a G protein-coupled receptor primarily known for regulating skin pigmentation and exhibiting anti-inflammatory effects. The review discusses the structure, signaling pathways, and related diseases of MC1R, as well as the potential therapeutic use of synthetic peptides and small molecule modulators of MC1R.",
+  "schema:datePublished": "2023-08-17",
+  "schema:keywords": [
+    "melanocortin",
+    "receptor",
+    "peptide",
+    "modulator",
+    "disease"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.3390/",
+    "@type": "fabio:Journal",
+    "schema:name": "International Journal of Molecular Sciences"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "#introduction",
+      "@type": "fabio:Section",
+      "dcterms:title": "1. Introduction",
+      "fabio:hasContent": "The introduction discusses melanocortins as hormones that play crucial roles in physiological processes, including stress response, inflammation, and skin pigmentation."
+    },
+    {
+      "@id": "#mc1r",
+      "@type": "fabio:Section",
+      "dcterms:title": "2. Melanocortin 1 Receptor (MC1R)",
+      "fabio:hasContent": "This section provides detailed information on the structure and signaling pathways of MC1R, highlighting its role in cellular functions, pigmentation, and inflammatory diseases."
+    },
+    {
+      "@id": "#relatedDiseases",
+      "@type": "fabio:Section",
+      "dcterms:title": "3. MC1R-Related Diseases",
+      "fabio:hasContent": "The section explores diseases associated with MC1R activity, such as melanoma and systemic sclerosis, and discusses therapeutic targets."
+    },
+    {
+      "@id": "#modulators",
+      "@type": "fabio:Section",
+      "dcterms:title": "4. Modulators",
+      "fabio:hasContent": "This section reviews synthetic peptide modulators and small molecules targeting MC1R, focusing on their therapeutic potential."
+    },
+    {
+      "@id": "#conclusion",
+      "@type": "fabio:Section",
+      "dcterms:title": "5. Conclusions",
+      "fabio:hasContent": "The conclusion summarizes the therapeutic importance of MC1R in treating various conditions and highlights future research directions."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2005.05.012",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "A cited work related to MC1R signaling",
+      "bibo:doi": "10.1016/j.cell.2005.05.012"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-2649-2",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "A cited work on melanocortin receptors",
+      "bibo:doi": "10.1038/s41586-020-2649-2"
+    }
+  ],
+  "ontologies": [
+    {
+      "@id": "GO:0007186",
+      "schema:name": "G-protein coupled receptor signaling pathway"
+    },
+    {
+      "@id": "GO:0034685",
+      "schema:name": "melanocortin receptor activity"
+    },
+    {
+      "@id": "MONDO:0005080",
+      "schema:name": "systemic sclerosis"
+    },
+    {
+      "@id": "DOID:1909",
+      "schema:name": "atherosclerosis"
+    },
+    {
+      "@id": "CHEBI:7236",
+      "schema:name": "afamelanotide"
+    },
+    {
+      "@id": "PW:0001006",
+      "schema:name": "cAMP signaling pathway"
+    },
+    {
+      "@id": "ECO:0000315",
+      "schema:name": "mutant phenotype evidence"
+    },
+    {
+      "@id": "MESH:D012393",
+      "schema:name": "Receptors, Melanocortin"
+    },
+    {
+      "@id": "BIBO:Article",
+      "schema:name": "academic article"
+    },
+    {
+      "@id": "GO:0009637",
+      "schema:name": "response to blue light"
+    },
+    {
+      "@id": "MONDO:0007733",
+      "schema:name": "neuroinflammation"
+    },
+    {
+      "@id": "DOID:2998",
+      "schema:name": "Parkinson's disease"
+    },
+    {
+      "@id": "CHEBI:68157",
+      "schema:name": "BMS-470539"
+    },
+    {
+      "@id": "PW:0000139",
+      "schema:name": "UV response pathway"
+    },
+    {
+      "@id": "ECO:0000218",
+      "schema:name": "computational evidence"
+    },
+    {
+      "@id": "MESH:D008492",
+      "schema:name": "Melanoma"
+    },
+    {
+      "@id": "DOID:9352",
+      "schema:name": "vitiligo"
+    },
+    {
+      "@id": "MONDO:0012612",
+      "schema:name": "rheumatoid arthritis"
+    },
+    {
+      "@id": "GO:0048017",
+      "schema:name": "inactivation of MAPK activity"
+    },
+    {
+      "@id": "CHEBI:131940",
+      "schema:name": "ChEBI molecule"
+    },
+    {
+      "@id": "PW:0000405",
+      "schema:name": "smooth muscle contraction pathway"
+    },
+    {
+      "@id": "ECO:0000201",
+      "schema:name": "expression pattern evidence"
+    },
+    {
+      "@id": "MESH:D004495",
+      "schema:name": "Drugs, Investigational"
+    },
+    {
+      "@id": "BIBO:Review",
+      "schema:name": "review article"
+    },
+    {
+      "@id": "GO:0007166",
+      "schema:name": "cell surface receptor signaling pathway"
+    },
+    {
+      "@id": "MONDO:0020121",
+      "schema:name": "hypoxic ischemic encephalopathy"
+    },
+    {
+      "@id": "DOID:0080694",
+      "schema:name": "idiopathic pulmonary fibrosis"
+    },
+    {
+      "@id": "CHEBI:47622",
+      "schema:name": "melanotan II"
+    },
+    {
+      "@id": "PW:0001308",
+      "schema:name": "inflammatory response pathway"
+    },
+    {
+      "@id": "ECO:0000006",
+      "schema:name": "experimental evidence"
+    },
+    {
+      "@id": "MESH:D020246",
+      "schema:name": "Scleroderma, Systemic"
+    }
+  ],
+  "schema:relatedTo": []
+}

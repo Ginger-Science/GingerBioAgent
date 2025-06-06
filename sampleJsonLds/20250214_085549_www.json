@@ -1,0 +1,131 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/mtDNAvariants",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "T cell differentiation drives the negative selection of pathogenic mitochondrial DNA variants",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-0915-001X",
+      "@type": "foaf:Person",
+      "foaf:name": "Imogen G Franklin"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8201-0030",
+      "@type": "foaf:Person",
+      "foaf:name": "Paul Milne"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8506-6558",
+      "@type": "foaf:Person",
+      "foaf:name": "Jordan Childs"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3651-2734",
+      "@type": "foaf:Person",
+      "foaf:name": "Róisín M Boggan"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9121-7194",
+      "@type": "foaf:Person",
+      "foaf:name": "Isabel Barrow"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7788-2235",
+      "@type": "foaf:Person",
+      "foaf:name": "Conor Lawless"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3079-7280",
+      "@type": "foaf:Person",
+      "foaf:name": "Gráinne S Gorman"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0897-8700",
+      "@type": "foaf:Person",
+      "foaf:name": "Yi Shiau Ng"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7340-4269",
+      "@type": "foaf:Person",
+      "foaf:name": "Matthew Collin"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2799-4393",
+      "@type": "foaf:Person",
+      "foaf:name": "Oliver M Russell"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5291-2450",
+      "@type": "foaf:Person",
+      "foaf:name": "Sarah J Pickett"
+    }
+  ],
+  "dcterms:abstract": "Fluorescently activated cell-sorting coupled with high-throughput single cell mtDNA sequencing reveals enhanced negative selection of pathogenic mtDNA variants in T cells, with more mature memory cells exhibiting lower mutation levels than their naïve counterparts.",
+  "schema:datePublished": "2023-08-13",
+  "schema:keywords": [
+    "mitochondrial DNA",
+    "T cell differentiation",
+    "negative selection",
+    "pathogenic variants",
+    "single cell sequencing"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1000/journal.pone.000000",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Mitochondrial Research"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Mitochondrial diseases, characterised by impaired oxidative phosphorylation (OXPHOS), can be caused by pathogenic variants in either the mitochondrial or nuclear genomes."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "The selection against m.3243A>G variant is notably present in T cells, especially memory T cells, as shown in data from patients and controls."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Identification of mitochondrial DNA variants in adult mitochondrial disease",
+      "bibo:doi": "10.1038/s41586-020-XXXX"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2019.12.028",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Mitochondrial pathology in immune cells",
+      "bibo:doi": "10.1016/j.cell.2019.12.028"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "http://purl.org/obo/DOID_14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

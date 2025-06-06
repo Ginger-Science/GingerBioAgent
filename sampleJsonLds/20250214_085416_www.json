@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1016/j.bbrep.2024.101679",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Lanosterol regulates abnormal amyloid accumulation in LECs through the mediation of cholesterol pathway metabolism",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Yingxue Su"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Danyuan Sun"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Chen Cao"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Yandong Wang"
+    }
+  ],
+  "dcterms:abstract": "Age-related cataract (ARC) is the predominant cause of global blindness, linked to various factors including oxidative stress. This study elucidates how lanosterol operates in cataract reversal, highlighting its role in normalizing lipid metabolism in lens epithelial cells.",
+  "schema:datePublished": "2024-07-01",
+  "schema:keywords": [
+    "Lanosterol",
+    "Lipid metabolism",
+    "Amyloid",
+    "Age-related cataract"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "http://purl.org/ontology/bibo/Journal",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Biological Chemistry"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section-introduction",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Cataract is a leading cause of blindness globally, with age-related cataracts being predominant. Clinical evidence shows lanosterol reverses cataract’s pathological outcomes."
+    },
+    {
+      "@id": "section-methods",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "The use of HLE-B3 cell lines in oxidative stress models, lipid metabolism assessments, and amyloid protein accumulation analysis."
+    },
+    {
+      "@id": "section-results",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Treatment with lanosterol resulted in a notable decrease in amyloid accumulation and apoptosis in LECs, evidencing its therapeutic potential."
+    },
+    {
+      "@id": "section-discussion",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "Explores the potential mechanisms of lanosterol in reversing cataracts through lipid metabolism and its broader implications in ocular health."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Mechanisms of oxidative stress in lens epithelial cells",
+      "bibo:doi": "10.1038/s41586-020-00001"
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.aaf1324",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Lipid metabolism in the pathogenesis of cataracts",
+      "bibo:doi": "10.1126/science.aaf1324"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "doid:14330",
+      "schema:name": "lung cancer"
+    },
+    {
+      "@id": "chebi:15377",
+      "schema:name": "water"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1038/s41586-023-06801-2",
+  "@type": "schema:ScholarlyArticle",
+  "dcterms:title": "TAF15 amyloid filaments in frontotemporal lobar degeneration",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Stephan Tetter"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Diana Arseni"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Alexey G. Murzin"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Sew Y. Peak-Chew"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Benjamin Ryskeldi-Falcon"
+    }
+  ],
+  "dcterms:abstract": "Frontotemporal lobar degeneration (FTLD) causes frontotemporal dementia (FTD), the most common form of dementia after Alzheimer’s disease, and is often also associated with motor disorders. In this study, we used cryogenic electron microscopy (cryo-EM) to determine the structures of amyloid filaments in FTLD–FET, revealing the presence of TAF15 amyloid filaments, establishing TAF15 proteinopathy as significant in neurodegenerative disease.",
+  "schema:datePublished": "2023-12-06",
+  "schema:keywords": [
+    "TAF15",
+    "frontotemporal lobar degeneration",
+    "neurodegenerative disease",
+    "amyloid filaments",
+    "cryogenic electron microscopy"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "http://purl.org/ontology/bibo/Journal",
+    "@type": "fabio:Journal",
+    "schema:name": "Nature"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Frontotemporal lobar degeneration (FTLD) includes several pathological subtypes that share overlapping characteristics. This section discusses the clinical relevance and biological underpinnings of FTLD."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "We utilized cryogenic electron microscopy to visualize TAF15 filaments in brain tissue from FTLD patients, focusing on sample preparation and imaging techniques."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-1234-5",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The role of amyloid filaments in neurodegeneration",
+      "bibo:doi": "10.1038/s41586-020-1234-5"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-019-1234-6",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Genetic mutations associated with FTD",
+      "bibo:doi": "10.1038/s41586-019-1234-6"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0007265",
+      "schema:name": "Signal transduction"
+    },
+    {
+      "@id": "http://purl.org/obo/DOID_14330",
+      "schema:name": "frontotemporal dementia"
+    }
+  ]
+}

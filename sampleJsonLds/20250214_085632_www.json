@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/62408",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Landscape of somatic mutations in aging human heart muscle cells",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Christopher Walsh"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Sangita Choudhury"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Ming Hui Chen"
+    }
+  ],
+  "dcterms:abstract": "Using single-cell whole-genome sequencing, we identified and characterized the landscape of somatic single-nucleotide variants (sSNVs) in single cardiomyocytes from individuals across the human lifespan. Aged cardiomyocytes were found to have a higher burden of sSNVs and show mutational signatures that suggest failed repair of oxidative DNA damage.",
+  "schema:datePublished": "2022-08-01",
+  "schema:keywords": [
+    "aging",
+    "cardiomyocytes",
+    "somatic mutations",
+    "DNA damage",
+    "single-cell sequencing"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1038/s41586-020-XXXXX",
+    "@type": "fabio:Journal",
+    "schema:name": "Nature Aging"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section-1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "The introduction discusses the significance of aging as a risk factor for heart diseases and highlights the gap in understanding the mechanisms of aging in cardiomyocytes."
+    },
+    {
+      "@id": "section-2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "We evaluated the landscape of somatic single-nucleotide variants (sSNVs) in aging cardiomyocytes using advanced single-cell whole-genome sequencing."
+    },
+    {
+      "@id": "section-3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Our analysis revealed a significantly higher burden of sSNVs in aged cardiomyocytes with specific mutational signatures related to oxidative stress."
+    },
+    {
+      "@id": "section-4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "The findings suggest that accumulated somatic mutations in cardiomyocytes are linked to age-related dysfunction in heart tissue."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "A similar study on somatic mutations",
+      "bibo:doi": "10.1038/s41586-020-XXXXX"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2020.06.007",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The role of somatic mutations in human health",
+      "bibo:doi": "10.1016/j.cell.2020.06.007"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0006950",
+      "schema:name": "Response to oxidative stress"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

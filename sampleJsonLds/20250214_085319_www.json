@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1016/j.heliyon.2023.e13170",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "p15INK4B is an alternative marker of senescent tumor cells in colorectal cancer",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-7898-5672",
+      "@type": "foaf:Person",
+      "foaf:name": "Soon Sang Park"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4472-5134",
+      "@type": "foaf:Person",
+      "foaf:name": "Young-Kyoung Lee"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "So Hyun Park"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Su Bin Lim"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-3456-7891",
+      "@type": "foaf:Person",
+      "foaf:name": "Yong Won Choi"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4567-8902",
+      "@type": "foaf:Person",
+      "foaf:name": "Jun Sang Shin"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Young Hwa Kim"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Jang-Hee Kim"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Tae Jun Park"
+    }
+  ],
+  "dcterms:abstract": "Senescent tumor cells are nonproliferating tumor cells which are closely related to cancer progression by secreting senescence-related molecules, called senescence-associated secreting phenotypes. Therefore, the presence of senescent tumor cells is considered a prognostic factor in various cancer types. In this study, using public single-cell RNA-sequencing data, we found that p15INK4B, a cyclin-dependent kinase inhibitor, is a novel marker for detection of senescent tumor cells in colorectal cancer.",
+  "schema:datePublished": "2023-01-19",
+  "schema:keywords": [
+    "Cellular senescence",
+    "Senescent tumor cells",
+    "Senescence marker",
+    "p16INK4A",
+    "p15INK4B",
+    "Colorectal cancer"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1016/j.heliyon.2023.e13170",
+    "@type": "fabio:Journal",
+    "schema:name": "Heliyon"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section-introduction",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Senescent tumor cells (STCs) are present in a variety of cancer types and play distinct roles in cancer progression."
+    },
+    {
+      "@id": "section-materials-methods",
+      "@type": "fabio:Section",
+      "dcterms:title": "Materials and Methods",
+      "fabio:hasContent": "CRC samples were obtained from patients at Ajou University Hospital following surgical resection. IHC analysis was performed using various primary antibodies."
+    },
+    {
+      "@id": "section-results",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Analysis confirmed that p15INK4B was significantly correlated with p16INK4A expression in CRC tissues."
+    },
+    {
+      "@id": "section-discussion",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "Integrative analysis revealed that p15INK4B is a reliable marker for STCs, but has limitations when considering OIS of precancerous cells."
+    },
+    {
+      "@id": "section-conclusions",
+      "@type": "fabio:Section",
+      "dcterms:title": "Conclusions",
+      "fabio:hasContent": "In conclusion, p15INK4B is an appropriate marker for STCs in CRC and can reliably detect STCs in FFPE samples."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Cellular senescence: new perspectives",
+      "bibo:doi": "10.1038/s41586-020-0001"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.celrep.2020.105195",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The senescence-associated secretory phenotype",
+      "bibo:doi": "10.1016/j.celrep.2020.105195"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "http://purl.org/obo/DOID_14330",
+      "schema:name": "lung cancer"
+    },
+    {
+      "@id": "http://www.ebi.ac.uk/ols/ontologies/chebi/terms/CHEBI:15377",
+      "schema:name": "water"
+    }
+  ]
+}

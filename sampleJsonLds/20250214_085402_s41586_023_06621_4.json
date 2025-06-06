@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1038/s41586-023-06621-4",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Apoptotic stress causes mtDNA release during senescence and drives the SASP",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-0018-3373",
+      "@type": "foaf:Person",
+      "foaf:name": "Stella Victorelli"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0227-5203",
+      "@type": "foaf:Person",
+      "foaf:name": "Hanna Salmonowicz"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5019-4822",
+      "@type": "foaf:Person",
+      "foaf:name": "James Chapman"
+    }
+  ],
+  "dcterms:abstract": "Senescent cells drive age-related tissue dysfunction partially through the induction of a chronic senescence-associated secretory phenotype (SASP). Mitochondria are major regulators of the SASP; however, the underlying mechanisms have not been elucidated. Here we find that mitochondrial outer membrane permeabilization (MOMP) occurring in a subset of mitochondria is a feature of cellular senescence. This process, called minority MOMP (miMOMP), requires BAX and BAK macropores enabling the release of mitochondrial DNA (mtDNA) into the cytosol. Cytosolic mtDNA in turn activates the cGAS–STING pathway, a major regulator of the SASP...",
+  "schema:datePublished": "2023-10-11",
+  "schema:keywords": [
+    "mitochondria",
+    "senescence",
+    "SASP",
+    "apoptosis",
+    "BAX",
+    "cGAS-STING"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1038/nature",
+    "@type": "fabio:Journal",
+    "schema:name": "Nature"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "sec1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Cellular senescence is characterized by permanent cell cycle arrest and is considered a crucial driver of age-related pathology. Senescent cells secrete a variety of pro-inflammatory cytokines..."
+    },
+    {
+      "@id": "sec2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "We observed that mitochondrial outer membrane permeabilization (MOMP) is not only pivotal in apoptosis but also plays a key role in the senescence process..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-023-07002-7",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Correction: Apoptotic stress causes mtDNA release during senescence and drives the SASP",
+      "bibo:doi": "10.1038/s41586-023-07002-7"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-018-0410-5",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Evasive apoptosis: a strategy to survive cellular stress",
+      "bibo:doi": "10.1038/s41586-018-0410-5"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "doid:14330",
+      "schema:name": "lung cancer"
+    },
+    {
+      "@id": "mesh:D001424",
+      "schema:name": "Cellular Senescence"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/62408",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Development and characterization of a prototypic pan-amyloid clearing agent – a novel murine peptide-immunoglobulin fusion",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "James S Foster"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6788",
+      "@type": "foaf:Person",
+      "foaf:name": "Manasi Balachandran"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6787",
+      "@type": "foaf:Person",
+      "foaf:name": "Trevor J Hancock"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6786",
+      "@type": "foaf:Person",
+      "foaf:name": "Emily B Martin"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6785",
+      "@type": "foaf:Person",
+      "foaf:name": "Sallie Macy"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6784",
+      "@type": "foaf:Person",
+      "foaf:name": "Craig Wooliver"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6783",
+      "@type": "foaf:Person",
+      "foaf:name": "Tina Richey"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6782",
+      "@type": "foaf:Person",
+      "foaf:name": "Alan Stuckey"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6781",
+      "@type": "foaf:Person",
+      "foaf:name": "Angela D Williams"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6780",
+      "@type": "foaf:Person",
+      "foaf:name": "Joseph W Jackson"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6779",
+      "@type": "foaf:Person",
+      "foaf:name": "Stephen J Kennel"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6778",
+      "@type": "foaf:Person",
+      "foaf:name": "Jonathan S Wall"
+    }
+  ],
+  "dcterms:abstract": "Systemic amyloidosis is a progressive disorder characterized by the extracellular deposition of amyloid fibrils and accessory proteins in visceral organs and tissues. This study describes a prototypic pan-amyloid binding peptide-antibody fusion molecule that enhances macrophage uptake of amyloid.",
+  "schema:datePublished": "2023-09-13",
+  "schema:keywords": [
+    "systemic amyloidosis",
+    "amyloid phagocytosis",
+    "amyloid clearance",
+    "peptide p5",
+    "peptide-antibody fusion"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1234/journal.name",
+    "@type": "fabio:Journal",
+    "schema:name": "Amyloidosis Research Journal"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Systemic amyloidosis is characterized by the deposition of misfolded proteins, as amyloid fibrils, in the extracellular space of organs."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Murine Igp5 exhibited highly potent binding to AL and ATTR amyloid extracts."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXX",
+      "@type": "schema:ScholarlyArticle",
+      "dcterms:title": "First Cited Work",
+      "bibo:doi": "10.1038/s41586-020-XXXX"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2020.12.015",
+      "@type": "schema:ScholarlyArticle",
+      "dcterms:title": "Second Cited Work",
+      "bibo:doi": "10.1016/j.cell.2020.12.015"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "GO:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "DOID:14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

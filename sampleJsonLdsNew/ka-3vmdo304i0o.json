@@ -1,0 +1,213 @@
+{
+  "@context": {
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "cito": "http://purl.org/spar/cito/",
+    "doco": "http://purl.org/spar/doco/",
+    "pro": "http://purl.org/spar/pro/",
+    "obi": "http://purl.obolibrary.org/obo/",
+    "schema": "http://schema.org/"
+  },
+  "@type": "fabio:ResearchPaper",
+  "dcterms:abstract": "The cellular processes that govern tumor resistance to immunotherapy remain poorly understood. To gain insight into these processes, here we perform a genome-scale CRISPR activation screen for genes that enable human melanoma cells to evade cytotoxic T cell killing. Overexpression of four top candidate genes (CD274 (PD-L1), MCL1, JUNB, and B3GNT2) conferred resistance in diverse cancer cell types and mouse xenografts. By investigating the resistance mechanisms, we find that MCL1 and JUNB modulate the mitochondrial apoptosis pathway. JUNB encodes a transcription factor that downregulates FasL and TRAIL receptors, upregulates the MCL1 relative BCL2A1, and activates the NF-κB pathway. B3GNT2 encodes a poly-N-acetyllactosamine synthase that targets >10 ligands and receptors to disrupt interactions between tumor and T cells and reduce T cell activation. Inhibition of candidate genes sensitized tumor models to T cell cytotoxicity. Our results demonstrate that systematic gain-of-function screening can elucidate resistance pathways and identify potential targets for cancer immunotherapy.",
+  "obi:OBI_0000299": [
+    {
+      "dcterms:description": "Identification of genes enabling melanoma cells to evade T cell killing"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0042110",
+      "dcterms:name": "T cell activation",
+      "obi:RO_0002629": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0016015",
+        "dcterms:name": "cytolytic activity",
+        "dcterms:description": "The paper demonstrates that T cell activation leads to increased cytolytic activity against tumor cells, with activation being measured through IFNγ secretion."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0140208",
+      "dcterms:name": "mitochondrial apoptosis",
+      "obi:BFO_0000050": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0012501",
+        "dcterms:name": "programmed cell death",
+        "dcterms:description": "The paper shows that MCL1 and JUNB regulate resistance to cell death by modulating the mitochondrial apoptosis pathway."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0070085",
+      "dcterms:name": "glycosylation",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0007166",
+        "dcterms:name": "cell surface receptor signaling",
+        "dcterms:description": "B3GNT2-mediated glycosylation modifies cell surface receptors, affecting their interactions and signaling capabilities."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0038061",
+      "dcterms:name": "NF-kB signaling",
+      "obi:RO_0002629": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0006915",
+        "dcterms:name": "apoptotic process",
+        "dcterms:description": "The paper shows that JUNB activates the NF-κB pathway, which leads to regulation of apoptotic processes through BCL2A1 upregulation."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0140888",
+      "dcterms:name": "interferon gamma signaling",
+      "obi:RO_0002629": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0006955",
+        "dcterms:name": "immune response",
+        "dcterms:description": "The study demonstrates that IFNγ secretion by T cells is a key mediator of immune response against tumor cells."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_1909",
+      "dcterms:title": "melanoma",
+      "dcterms:description": "Study identifies genes (CD274, MCL1, JUNB, B3GNT2) that enable melanoma cells to evade T cell killing. These genes confer resistance to immunotherapy through different mechanisms including modulation of mitochondrial apoptosis pathway and disruption of T cell-tumor cell interactions."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_3908",
+      "dcterms:title": "non-small cell lung carcinoma",
+      "dcterms:description": "Candidate genes identified in melanoma also showed resistance effects in non-small cell lung cancer cells, demonstrating broader applicability of these resistance mechanisms across cancer types."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_0050861",
+      "dcterms:title": "colorectal adenocarcinoma",
+      "dcterms:description": "Expression of resistance genes, particularly MCL1 and B3GNT2, demonstrated significant effects in colorectal adenocarcinoma cells, showing resistance to T cell-mediated killing."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_2394",
+      "dcterms:title": "ovarian cancer",
+      "dcterms:description": "Ovarian cancer cells showed resistance to T cell cytotoxicity when expressing the identified candidate genes, particularly MCL1 and JUNB."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_3068",
+      "dcterms:title": "glioblastoma",
+      "dcterms:description": "The identified resistance genes showed effectiveness in glioblastoma cells, contributing to immune evasion mechanisms."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_769",
+      "dcterms:title": "neuroblastoma",
+      "dcterms:description": "Neuroblastoma cells demonstrated resistance to T cell killing when expressing the identified candidate genes, indicating broad applicability of these resistance mechanisms."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_4074",
+      "dcterms:title": "pancreatic adenocarcinoma",
+      "dcterms:description": "Primary patient-derived pancreatic adenocarcinoma models showed sensitivity to inhibition of the identified resistance genes, particularly MCL1 and B3GNT2, suggesting potential therapeutic applications."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_26174",
+      "dcterms:title": "Poly-N-acetyllactosamine",
+      "dcterms:description": "Functions as a key glycan modification added by B3GNT2 enzyme that disrupts interactions between tumor and T cells, reducing T cell activation and contributing to immunotherapy resistance"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_5939",
+      "dcterms:title": "Interferon gamma",
+      "dcterms:description": "Secreted by T cells during cytotoxicity response, with reduced secretion observed when B3GNT2 is overexpressed in tumor cells"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_197440",
+      "dcterms:title": "Tumor Necrosis Factor alpha",
+      "dcterms:description": "Part of the death receptor signaling pathway involved in T cell-mediated tumor killing, with MCL1 and JUNB providing resistance against TNF-induced cell death"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_59640",
+      "dcterms:title": "N-acetylglucosamine",
+      "dcterms:description": "Component of glycosylation modifications added by B3GNT2, contributes to immune evasion through altered cell surface protein interactions"
+    }
+  ],
+  "obi:OBI_0000293": [
+    {
+      "dcterms:description": "Human melanoma cells and cytotoxic T cells"
+    }
+  ],
+  "obi:OBI_0200000": [
+    {
+      "dcterms:description": "Genome-scale CRISPR activation screen"
+    }
+  ],
+  "obi:OBI_0000070": [
+    {
+      "dcterms:description": "CRISPR activation screen, T cell cytotoxicity assays"
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1056/nejmoa1606774",
+      "dcterms:title": "Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nature21349",
+      "dcterms:title": "Elements of cancer immunity and the cancer-immune set point"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.immuni.2019.12.011",
+      "dcterms:title": "Top 10 Challenges in Cancer Immunotherapy"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nm730",
+      "dcterms:title": "Mutations associated with acquired resistance to PD-1 blockade in melanoma"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nm730",
+      "dcterms:title": "Tumor-associated B7-H1 promotes T-cell apoptosis A potential mechanism of immune evasion"
+    },
+    {
+      "@id": "https://doi.org/10.1084/jem.20130066",
+      "dcterms:title": "Indoleamine 2,3-dioxygenase is a critical resistance mechanism in antitumor T cell immunotherapy targeting CTLA-4"
+    },
+    {
+      "@id": "https://doi.org/10.1016/s1074-7613(03)00152-3",
+      "dcterms:title": "B7-H4, a Molecule of the B7 Family, Negatively Regulates T Cell Immunity"
+    },
+    {
+      "@id": "https://doi.org/10.1073/pnas.1305569110",
+      "dcterms:title": "Anti-CD47 antibody-mediated phagocytosis of cancer by macrophages primes an effective antitumor T-cell response"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nature23270",
+      "dcterms:title": "Nivolumab plus ipilimumab in advanced melanoma"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-2746-2",
+      "dcterms:title": "Functional genomic landscape of cancer-intrinsic evasion of killing by T cells"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nature23270",
+      "dcterms:title": "In vivo CRISPR screening identifies Ptpn2 as a cancer immunotherapy target"
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.aao1710",
+      "dcterms:title": "A major chromatin regulator determines resistance of tumor cells to T cell-mediated killing"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nature23477",
+      "dcterms:title": "Identification of essential genes for cancer immunotherapy"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2019.06.014",
+      "dcterms:title": "Augmenting Immunotherapy Impact by Lowering Tumor TNF Cytotoxicity Threshold"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nrg.2017.97",
+      "dcterms:title": "Am I ready for CRISPR? A user's guide to genetic screens"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41598-019-56670-x",
+      "dcterms:title": "Genome-scale CRISPR activation screen uncovers tumor-intrinsic modulators of CD3 bispecific antibody efficacy"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-022-29205-8",
+      "dcterms:title": "CRISPR activation screen identifies BCL-2 proteins and B3GNT2 as drivers of cancer resistance to T cell-mediated cytotoxicity"
+    }
+  ],
+  "@id": "https://doi.org/10.1038/s41467-022-29205-8",
+  "dcterms:hasPart": "A genome-scale CRISPR activation screen study investigating tumor resistance to immunotherapy identified key genes enabling melanoma cells to evade cytotoxic T cell killing The research discovered four primary candidate genes CD274 MCL1 JUNB and B3GNT2 that confer resistance across multiple cancer types including melanoma non-small cell lung carcinoma colorectal adenocarcinoma ovarian cancer glioblastoma neuroblastoma and pancreatic adenocarcinoma MCL1 and JUNB were found to modulate the mitochondrial apoptosis pathway with JUNB functioning as a transcription factor that downregulates FasL and TRAIL receptors while upregulating BCL2A1 and activating the NF-kB pathway B3GNT2 acts as a poly-N-acetyllactosamine synthase targeting multiple ligands and receptors disrupting tumor-T cell interactions and reducing T cell activation The study demonstrated that T cell activation leads to increased cytolytic activity against tumor cells measured through interferon gamma secretion B3GNT2-mediated glycosylation modifies cell surface receptors affecting their interactions and signaling capabilities The research showed that interferon gamma signaling by T cells serves as a key mediator of immune response against tumor cells with reduced secretion observed when B3GNT2 is overexpressed Tumor Necrosis Factor alpha was identified as part of the death receptor signaling pathway involved in T cell-mediated tumor killing with MCL1 and JUNB providing resistance against TNF-induced cell death N-acetylglucosamine functions as a component of glycosylation modifications added by B3GNT2 contributing to immune evasion through altered cell surface protein interactions The study utilized human melanoma cells and cytotoxic T cells as primary materials and employed CRISPR activation screen and T cell cytotoxicity assays as experimental methods Inhibition of the identified candidate genes demonstrated increased sensitivity to T cell cytotoxicity in tumor models suggesting potential therapeutic applications for cancer immunotherapy",
+  "schema:relatedTo": [
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101956",
+      "@type": "schema:Organization",
+      "schema:name": "VitaDAO"
+    }
+  ]
+}

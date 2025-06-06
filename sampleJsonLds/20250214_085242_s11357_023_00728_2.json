@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1007/s11357-023-00728-2",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Increased cellular senescence in doxorubicin-induced murine ovarian injury: effect of senolytics",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Yueyue Gao"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Tong Wu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Xianan Tang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Jingyi Wen"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Yan Zhang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Jinjin Zhang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Shixuan Wang"
+    }
+  ],
+  "dcterms:abstract": "Ovarian injury caused by chemotherapy can lead to early menopause, infertility, and even premature senility in female cancer patients. We hypothesized that the chemotherapy drug, doxorubicin, could increase senescent cell burden in ovarian tissue and that elimination of senescent cells with senolytics would ameliorate doxorubicin-induced ovarian injury. Our data demonstrated an accumulation of cellular senescence in doxorubicin-treated ovaries. However, senolytics did not reverse the ovarian dysfunction indicated by significant follicle loss and stromal fibrosis post-treatment.",
+  "schema:datePublished": "2023-01-17",
+  "schema:keywords": [
+    "Cellular Senescence",
+    "Doxorubicin",
+    "Senolytics",
+    "Ovarian Injury"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1007/s11357-023-00728-2",
+    "@type": "fabio:Journal",
+    "schema:name": "GeroScience"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "#introduction",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "The rapid development of modern medicine has made it possible for many cancers to be detected and treated at an early stage, prolonging survival time..."
+    },
+    {
+      "@id": "#methods",
+      "@type": "fabio:Section",
+      "dcterms:title": "Materials and Methods",
+      "fabio:hasContent": "Female C57BL/6J mice of 7-week-old were purchased and fed freely for one week for environmental adaptation..."
+    },
+    {
+      "@id": "#results",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "We treated female mice with a clinically relevant dose of doxorubicin and observed changes in ovarian function and cellular senescence..."
+    },
+    {
+      "@id": "#discussion",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "Doxorubicin can induce cellular senescence in murine ovaries, and short-term administration of senolytics..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.3322/caac.21660",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Global Cancer Statistics 2020",
+      "bibo:doi": "10.3322/caac.21660"
+    },
+    {
+      "@id": "https://doi.org/10.1002/ajh.26156",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Acute lymphoblastic leukemia: a population-based study of outcome",
+      "bibo:doi": "10.1002/ajh.26156"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.clbc.2019.01.006",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The global and regional survival rate of women with breast cancer",
+      "bibo:doi": "10.1016/j.clbc.2019.01.006"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "GO:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "DOID:14330",
+      "schema:name": "lung cancer"
+    },
+    {
+      "@id": "MESH:D015179",
+      "schema:name": "Pre-Eclampsia"
+    }
+  ]
+}

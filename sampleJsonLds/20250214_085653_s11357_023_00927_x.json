@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1007/s11357-023-00927-x",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Vascular senescence and leak are features of the early breakdown of the blood–brain barrier in Alzheimer’s disease models",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Ka Ka Ting"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Paul Coleman"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Jennifer R. Gamble"
+    }
+  ],
+  "dcterms:abstract": "Alzheimer’s disease (AD) is an age-related disease, with loss of integrity of the blood–brain barrier (BBB) being an early feature. Cellular senescence is one of the reported nine hallmarks of aging. Here, we show for the first time the presence of senescent cells in the vasculature in AD patients and mouse models of AD.",
+  "schema:datePublished": "2023-10-02",
+  "schema:keywords": [
+    "Alzheimer's disease",
+    "blood-brain barrier",
+    "vascular senescence",
+    "endothelial cells",
+    "AD mouse models"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1007/s11357-023-00927-x",
+    "@type": "fabio:Journal",
+    "schema:name": "GeroScience"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Alzheimer’s disease (AD) is an age-related neurodegenerative brain disease having the hallmarks of extracellular amyloid-β (Aβ) plaques, intracellular neurofibrillary tangles and neuroinflammation."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "Our study highlights the possibility that restoring the tight junctions and adherens junctions could represent a novel therapeutic paradigm in the treatment of AD."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-1698-7",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Amyloid-β and Senescence in Alzheimer's Disease",
+      "bibo:doi": "10.1038/s41586-020-1698-7"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.neuron.2018.10.024",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Emerging roles for the vascular system in neurodegenerative disease",
+      "bibo:doi": "10.1016/j.neuron.2018.10.024"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_1163",
+      "schema:name": "Alzheimer's disease"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0007155",
+      "schema:name": "Cell adhesion"
+    }
+  ]
+}

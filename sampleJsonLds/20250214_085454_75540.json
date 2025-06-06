@@ -1,0 +1,194 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.3324/haematol.2022.281915",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Co-targeting BCL-XL and BCL-2 by PROTAC 753B eliminates leukemia cells and enhances efficacy of chemotherapy by targeting senescent cells",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Yannan Jia"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Lina Han"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Cassandra L. Ramage"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Zhe Wang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Connie C. Weng"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Lei Yang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Simona Colla"
+    },
+    {
+      "@id": "https://orcid.org/0000-0008-9012-3456",
+      "@type": "foaf:Person",
+      "foaf:name": "Helen Ma"
+    },
+    {
+      "@id": "https://orcid.org/0000-0009-0123-4567",
+      "@type": "foaf:Person",
+      "foaf:name": "Weiguo Zhang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0010-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Michael Andreeff"
+    },
+    {
+      "@id": "https://orcid.org/0000-0011-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Naval Daver"
+    },
+    {
+      "@id": "https://orcid.org/0000-0012-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Nitin Jain"
+    },
+    {
+      "@id": "https://orcid.org/0000-0013-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Naveen Pemmaraju"
+    },
+    {
+      "@id": "https://orcid.org/0000-0014-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Kapil Bhalla"
+    },
+    {
+      "@id": "https://orcid.org/0000-0015-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Satu Mustjoki"
+    },
+    {
+      "@id": "https://orcid.org/0000-0016-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Peiyi Zhang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0017-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Guangrong Zheng"
+    },
+    {
+      "@id": "https://orcid.org/0000-0018-9012-3456",
+      "@type": "foaf:Person",
+      "foaf:name": "Daohong Zhou"
+    },
+    {
+      "@id": "https://orcid.org/0000-0019-0123-4567",
+      "@type": "foaf:Person",
+      "foaf:name": "Qi Zhang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0020-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Marina Konopleva"
+    }
+  ],
+  "dcterms:abstract": "BCL-XL and BCL-2 are key anti-apoptotic proteins and validated cancer targets. 753B is a novel BCL-XL/BCL-2 proteolysis targeting chimera (PROTAC) that targets both BCL-XL and BCL-2 to the von Hippel-Lindau (VHL) E3 ligase, leading to BCL-XL/BCL-2 ubiquitination and degradation selectively in cells expressing VHL. This study provides a pre-clinical rationale for the utility of 753B in AML therapy, and suggests that 753B could produce an added therapeutic benefit by overcoming cellular senescence-induced chemoresistance when combined with chemotherapy.",
+  "schema:datePublished": "2023-04-20",
+  "schema:keywords": [
+    "BCL-XL",
+    "BCL-2",
+    "leukemia",
+    "PROTAC",
+    "chemotherapy"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.3324/haematol.2022.281915",
+    "@type": "fabio:Journal",
+    "schema:name": "Haematologica"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Acute myeloid leukemia (AML) is a hematopoietic malignancy involving clonal hematopoiesis and defects in differentiation, proliferation, and cell death, resulting in the accumulation of immature blasts."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "Cell lines were treated with 753B and tested for cell viability. In vivo studies used PDX models."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "753B was shown to effectively reduce cell viability in AML cell lines and improve chemotherapy outcomes by targeting senescent cells."
+    },
+    {
+      "@id": "section4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "The findings suggest that 753B may offer a new strategy to overcome resistance to chemotherapy in AML."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2012.06.016",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The Bcl-2 apoptotic switch in cancer development and therapy.",
+      "bibo:doi": "10.1016/j.cell.2012.06.016"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nm.1731",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Selective BCL-2 inhibition by ABT-199 causes on-target cell death in acute myeloid leukemia.",
+      "bibo:doi": "10.1038/nm.1731"
+    },
+    {
+      "@id": "https://doi.org/10.1182/blood-2020-04-780602",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Mechanisms of apoptosis sensitivity and resistance to the BH3 mimetic ABT-737 in acute myeloid leukemia.",
+      "bibo:doi": "10.1182/blood-2020-04-780602"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_0002545",
+      "schema:name": "Acute myeloid leukemia"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_2000130",
+      "schema:name": "cellular senescence"
+    }
+  ]
+}

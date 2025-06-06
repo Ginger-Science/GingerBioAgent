@@ -1,0 +1,224 @@
+{
+  "@context": {
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "cito": "http://purl.org/spar/cito/",
+    "doco": "http://purl.org/spar/doco/",
+    "pro": "http://purl.org/spar/pro/",
+    "obi": "http://purl.obolibrary.org/obo/",
+    "schema": "http://schema.org/"
+  },
+  "@type": "fabio:ResearchPaper",
+  "dcterms:title": "DOPA Decarboxylase Modulates Tau Toxicity",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0003-8245-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Rebecca L. Kow"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7156-3478",
+      "@type": "foaf:Person",
+      "foaf:name": "Carl Sikkema"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Jeanna M. Wheeler"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-1122-3344",
+      "@type": "foaf:Person",
+      "foaf:name": "Charles W. Wilkinson"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5566-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Brian C. Kraemer"
+    }
+  ],
+  "dcterms:abstract": "BACKGROUND The microtubule-associated protein tau accumulates into toxic aggregates in multiple neurodegenerative diseases. We found previously that loss of D2-family dopamine receptors ameliorated tauopathy in multiple models including a Caenorhabditis elegans model of tauopathy. METHODS To better understand how loss of D2-family dopamine receptors can ameliorate tau toxicity, we screened a collection of C. elegans mutations in dopamine-related genes (n = 45) for changes in tau transgene–induced behavioral defects. These included many genes responsible for dopamine synthesis, metabolism, and signaling downstream of the D2 receptors. RESULTS We identiﬁed one dopamine synthesis gene, DOPA decarboxylase (DDC), as a suppressor of tau toxicity in tau transgenic worms. Loss of the C. elegans DDC gene, bas-1, ameliorated the behavioral deﬁcits of tau transgenic worms, reduced phosphorylated and detergent-insoluble tau accumulation, and reduced tau-mediated neuron loss. Loss of function in other genes in the dopamine and serotonin synthesis pathways did not alter tau-induced toxicity; however, their function is required for the suppression of tau toxicity by bas-1. Additional loss of D2-family dopamine receptors did not synergize with bas-1 suppression of tauopathy phenotypes. CONCLUSIONS Loss of the DDC bas-1 reduced tau-induced toxicity in a C. elegans model of tauopathy, while loss of no other dopamine or serotonin synthesis genes tested had this effect. Because loss of activity upstream of DDC could reduce suppression of tau by DDC, this suggests the possibility that loss of DDC suppresses tau via the combined accumulation of dopamine precursor levodopa and serotonin precursor 5-hydroxytryptophan.",
+  "dcterms:date": "2018-03-01",
+  "dcterms:publisher": "Biological Psychiatry",
+  "fabio:hasJournalVolume": "83",
+  "fabio:hasPageNumbers": "438-446",
+  "dcterms:identifier": "http://dx.doi.org/10.1016/j.biopsych.2017.06.007",
+  "obi:OBI_0000299": [
+    {
+      "dcterms:description": "Behavioral analysis data, lifespan analysis data, neurodegeneration assays, protein extraction data, and catecholamine measurements"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0004058",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0019538",
+        "dcterms:description": "Loss of DDC gene bas-1 suppresses tau toxicity by reducing tau phosphorylation and aggregation, showing DDC activity regulates tau protein metabolism."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0042416",
+      "obi:BFO_0000050": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0042423",
+        "dcterms:description": "The paper discusses dopamine synthesis as part of the catecholamine biosynthetic pathway, with DDC catalyzing a key step."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_1903185",
+      "obi:BFO_0000050": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0042416",
+        "dcterms:description": "L-DOPA synthesis is described as an intermediate step in dopamine biosynthesis, catalyzed by tyrosine hydroxylase."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0042427",
+      "obi:BFO_0000066": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0048666",
+        "dcterms:description": "The paper discusses serotonin synthesis occurring in neurons, with DDC catalyzing a key step in this process."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0060159",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0019538",
+        "dcterms:description": "Loss of D2-like dopamine receptors suppresses tau toxicity, indicating dopamine signaling regulates tau metabolism."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_680",
+      "dcterms:title": "Tauopathy",
+      "dcterms:description": "Loss of DOPA decarboxylase (DDC) gene bas-1 reduces tau-induced toxicity, decreases tau phosphorylation, reduces accumulation of insoluble tau, and reduces neurodegeneration in C. elegans models. The suppression appears to work through accumulation of both L-DOPA and 5-HTP precursors."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_10652",
+      "dcterms:title": "Alzheimer's disease",
+      "dcterms:description": "Identified as one of the most commonly occurring tauopathies, characterized by toxic accumulation of abnormal tau protein. The study found tau phosphorylation sites (Ser202, Ser396/Ser404, Ser422) that are elevated in Alzheimer's disease brains can be reduced through DDC modulation."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_9255",
+      "dcterms:title": "Frontotemporal lobar degeneration",
+      "dcterms:description": "Identified as one of the most commonly occurring tauopathies, characterized by accumulation of pathological tau protein. Currently no treatments exist that halt or reverse tau accumulation in this condition."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_18243",
+      "dcterms:title": "dopamine",
+      "dcterms:description": "Loss of D2-family dopamine receptors ameliorated tauopathy. Studies showed tau overexpression alters dopamine signaling by causing loss of dopaminergic neurons. D1 dopamine receptor activation increases tau phosphorylation."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_28790",
+      "dcterms:title": "serotonin",
+      "dcterms:description": "Loss of serotonin synthesis genes alone did not alter tau-induced toxicity, but serotonin pathway function is required for suppression of tau toxicity by bas-1."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_15765",
+      "dcterms:title": "levodopa",
+      "dcterms:description": "Accumulation of levodopa (L-DOPA) precursor, combined with 5-HTP accumulation, appears to be necessary for full suppression of tau toxicity. Loss of tyrosine hydroxylase reduces L-DOPA levels and partially blocks tau suppression."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_28171",
+      "dcterms:title": "5-hydroxytryptophan",
+      "dcterms:description": "5-HTP accumulation, together with L-DOPA accumulation, appears necessary for full suppression of tau toxicity. Loss of tryptophan hydroxylase reduces 5-HTP levels and partially blocks tau suppression."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_15372",
+      "dcterms:title": "tetrahydrobiopterin",
+      "dcterms:description": "Functions as essential cofactor for both tyrosine hydroxylase and tryptophan hydroxylase. Reduction in tetrahydrobiopterin synthesis via cat-4 mutation completely blocks suppression of tau toxicity."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/N04BA01",
+      "dcterms:title": "Levodopa",
+      "dcterms:description": "Levodopa accumulation, along with 5-HTP, may be involved in suppressing tau toxicity. Studies showed that exogenous L-DOPA administration increased tau phosphorylation in mice, contrary to observations in C. elegans lacking DDC gene bas-1. The method of L-DOPA administration affected tau phosphorylation, with pulsatile administration increasing phosphorylation while continuous infusion did not."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/N05AD01",
+      "dcterms:title": "Haloperidol",
+      "dcterms:description": "Haloperidol, a D2 receptor antagonist, was studied for its effects on tauopathy, though the paper notes it is not specific to dopamine receptors. Previous research indicated it may suppress tauopathy by inactivating AMPK and reducing tau phosphorylation in tau mouse models."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/C01CA04",
+      "dcterms:title": "Dopamine",
+      "dcterms:description": "The study found that loss of D2-family dopamine receptors ameliorated tauopathy in multiple models. Overexpression of tau was shown to alter dopamine signaling by causing loss of dopaminergic neurons. Activation of D1 dopamine receptors was noted to increase tau phosphorylation."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/N06AB",
+      "dcterms:title": "Serotonin",
+      "dcterms:description": "The research indicated that serotonin synthesis pathways were involved in tau toxicity regulation, though loss of serotonin alone was not sufficient to explain the suppression of tau-induced toxicity observed in the study."
+    }
+  ],
+  "obi:OBI_0000968": [
+    {
+      "foaf:name": "DeltaVision microscope",
+      "dcterms:description": "Used for counting GABAergic neurons"
+    },
+    {
+      "foaf:name": "Dionex Choulouchem III high-pressure liquid chromatography system",
+      "dcterms:description": "Used for catecholamine measurements"
+    }
+  ],
+  "obi:OBI_0000293": [
+    {
+      "dcterms:description": "C. elegans strains, tau transgenic worms, protein samples, catecholamine samples"
+    }
+  ],
+  "obi:OBI_0200000": [
+    {
+      "dcterms:description": "Behavioral analysis, protein extraction protocols, immunoblotting, catecholamine measurements using electrochemical detection"
+    }
+  ],
+  "obi:OBI_0000070": [
+    {
+      "dcterms:description": "Swimming behavior assays, lifespan assays, neurodegeneration assays, immunoblotting, catecholamine measurements"
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/nrn.2015.1",
+      "dcterms:title": "Tau in physiology and pathology"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jalz.2016.06.2369",
+      "dcterms:title": "Therapeutic strategies for the treatment of tauopathies Hopes and challenges"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.biopsych.2012.08.024",
+      "dcterms:title": "Dopamine D2 Receptor antagonism suppresses tau aggregation and neurotoxicity"
+    },
+    {
+      "@id": "https://doi.org/10.1073/pnas.1533448100",
+      "dcterms:title": "Neurodegeneration and defective neurotransmission in a Caenorhabditis elegans model of tauopathy"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.neurobiolaging.2011.12.028",
+      "dcterms:title": "Loss of dopaminoreceptive neuron causes L-dopa resistant parkinsonism in tauopathy"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s00401-013-1118-5",
+      "dcterms:title": "Loss of vesicular dopamine release precedes tauopathy in degenerative dopaminergic neurons in a Drosophila model expressing human tau"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.neuropharm.2009.06.041",
+      "dcterms:title": "Dopamine D1 receptor activation induces tau phosphorylation via cdk5 and GSK3 signaling pathways"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.trci.2016.06.003",
+      "dcterms:title": "Haloperidol inactivates AMPK and reduces tau phosphorylation in a tau mouse model of Alzheimer's disease"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acschemneuro.6b00248",
+      "dcterms:title": "Classics in chemical neuroscience Haloperidol"
+    }
+  ],
+  "@id": "https://doi.org/10.1016/j.biopsych.2017.06.027",
+  "dcterms:hasPart": "A research paper titled DOPA Decarboxylase Modulates Tau Toxicity authored by Rebecca L Kow Carl Sikkema Jeanna M Wheeler Charles W Wilkinson and Brian C Kraemer was published in Biological Psychiatry on March 1 2018 The study investigated how loss of D2-family dopamine receptors ameliorates tau toxicity in multiple models including Caenorhabditis elegans The researchers screened 45 C elegans mutations in dopamine-related genes focusing on DOPA decarboxylase DDC which was identified as a suppressor of tau toxicity Loss of the C elegans DDC gene bas-1 reduced behavioral deficits phosphorylated and detergent-insoluble tau accumulation and tau-mediated neuron loss The study found that loss of other dopamine and serotonin synthesis genes did not directly alter tau toxicity but their function was required for bas-1 mediated tau toxicity suppression The research examined multiple biological processes including protein metabolism where loss of DDC gene bas-1 suppresses tau toxicity by reducing tau phosphorylation and aggregation The dopamine synthesis pathway was studied as part of the catecholamine biosynthetic pathway with DDC catalyzing a key step L-DOPA synthesis was described as an intermediate step in dopamine biosynthesis catalyzed by tyrosine hydroxylase Serotonin synthesis occurring in neurons with DDC involvement was also investigated The study identified connections to several diseases including tauopathy Alzheimers disease and frontotemporal lobar degeneration Key molecules examined included dopamine where D2-family receptor loss ameliorated tauopathy serotonin whose synthesis genes affected tau toxicity suppression levodopa and 5-hydroxytryptophan whose combined accumulation appeared necessary for tau toxicity suppression and tetrahydrobiopterin which functions as an essential cofactor Various drugs were discussed including Levodopa Haloperidol and selective serotonin reuptake inhibitors The research utilized specialized equipment including a DeltaVision microscope for counting GABAergic neurons and a Dionex Choulouchem III high-pressure liquid chromatography system for catecholamine measurements Experimental methods included swimming behavior assays lifespan assays neurodegeneration assays immunoblotting and catecholamine measurements using C elegans strains tau transgenic worms protein samples and catecholamine samples as research materials",
+  "schema:relatedTo": [
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101956",
+      "@type": "schema:Organization",
+      "schema:name": "VitaDAO"
+    },
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101963",
+      "@type": "schema:Organization",
+      "schema:name": "Cerebrum DAO"
+    }
+  ]
+}

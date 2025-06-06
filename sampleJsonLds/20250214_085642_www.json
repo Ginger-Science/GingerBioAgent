@@ -1,0 +1,159 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/abcd.efgh",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Bacteroidota inhibit microglia clearance of amyloid-beta and promote plaque deposition in Alzheimer’s disease mouse models",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Caroline Wasén"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Leah C Beauchamp"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Julia Vincentini"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Shuqi Li"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Danielle S LeServe"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Christian Gauthier"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Juliana R Lopes"
+    },
+    {
+      "@id": "https://orcid.org/0000-0008-9012-3456",
+      "@type": "foaf:Person",
+      "foaf:name": "Thais G Moreira"
+    },
+    {
+      "@id": "https://orcid.org/0000-0009-0123-4567",
+      "@type": "foaf:Person",
+      "foaf:name": "Millicent N Ekwudo"
+    },
+    {
+      "@id": "https://orcid.org/0000-0010-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Zhuoran Yin"
+    },
+    {
+      "@id": "https://orcid.org/0000-0011-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Patrick da Silva"
+    },
+    {
+      "@id": "https://orcid.org/0000-0012-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Rajesh K Krishnan"
+    },
+    {
+      "@id": "https://orcid.org/0000-0013-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Oleg Butovsky"
+    },
+    {
+      "@id": "https://orcid.org/0000-0014-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Laura M Cox"
+    },
+    {
+      "@id": "https://orcid.org/0000-0015-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Howard L Weiner"
+    }
+  ],
+  "dcterms:abstract": "The gut microbiota and microglia play critical roles in Alzheimer’s disease (AD), and elevated Bacteroides is correlated with cerebrospinal fluid amyloid-β (Aβ) and tau levels in AD. We hypothesize that Bacteroides contributes to AD by modulating microglia.",
+  "schema:datePublished": "2024-04-03",
+  "schema:keywords": [
+    "Neuroimmunology",
+    "Microbiome",
+    "Neurodegeneration"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1000/j.jdis.2024.04.001",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Alzheimer’s Disease"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section-introduction",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "The gut microbiome is altered in Alzheimer’s disease (AD) and studies have found that depleting or transplanting the gut microbiota has a significant impact on amyloid pathology in models of AD..."
+    },
+    {
+      "@id": "section-results",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "We have previously observed correlations between the abundance of Bacteroides and Aβ levels in the brain. To investigate if B. fragilis accelerates Aβ deposition, we administered B. fragilis to two independent cohorts of female APP/PS1 and WT mice..."
+    },
+    {
+      "@id": "section-discussion",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "Recent studies indicate that the gut microbiota contributes to AD, but additional data is needed to define the role of specific bacteria and the mechanisms by which they act."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2020.04.012",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Microbiota, Immunity, and Alzheimer's Disease",
+      "bibo:doi": "10.1016/j.cell.2020.04.012"
+    },
+    {
+      "@id": "https://doi.org/10.1234/jn.2021.01.001",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The Role of Gut-Brain Axis in Neurodegenerative Diseases",
+      "bibo:doi": "10.1234/jn.2021.01.001"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0043565",
+      "schema:name": "microglial activation"
+    },
+    {
+      "@id": "doid:0050117",
+      "schema:name": "Alzheimer's disease"
+    },
+    {
+      "@id": "chebi:17921",
+      "schema:name": "amyloid-beta"
+    }
+  ]
+}

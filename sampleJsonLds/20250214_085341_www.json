@@ -1,0 +1,133 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/example",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Movement disorders are linked to TDP-43 burden in the substantia nigra of FTLD-TDP brain donors",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Luigi Fiondella"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Priya Gami-Patel"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Christian A Blok"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Annemieke J M Rozemuller"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Jeroen J M Hoozemans"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Yolande A L Pijnenburg"
+    },
+    {
+      "@id": "https://orcid.org/0000-0008-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Marta Scarioni"
+    },
+    {
+      "@id": "https://orcid.org/0000-0009-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Anke A Dijkstra"
+    }
+  ],
+  "dcterms:abstract": "Movement disorders (MD) have been linked to degeneration of the substantia nigra (SN) in Parkinson’s disease and include bradykinesia, rigidity, and tremor. They are also present in frontotemporal dementia (FTD), where MD have been linked to frontotemporal lobar degeneration with tau pathology (FTLD-tau). The aims of this study are to characterize the frequency and the nature of MD in a cohort of FTLD-TDP brain donors and to investigate the relationship between the presence of MD, the nigral neuronal loss, and the TDP-43 burden in the SN.",
+  "schema:datePublished": "2023-03-30",
+  "schema:keywords": [
+    "Frontotemporal Dementia",
+    "Frontotemporal Lobar Degeneration",
+    "TDP-43",
+    "Substantia nigra",
+    "Movement disorders",
+    "Brain donors"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1234/journal",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Neurodegeneration"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Frontotemporal dementia (FTD) is an umbrella term for a group of neurodegenerative syndromes that represent the second leading cause of early onset dementia..."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Materials and Methods",
+      "fabio:hasContent": "Post-mortem brain tissue was obtained from the Netherlands Brain Bank..."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "In the whole FTLD-TDP cohort, MD were documented in 17% of the donors (9/53)..."
+    },
+    {
+      "@id": "section4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "The aim of this study was to assess the possible correlation between TDP-43 burden, neuronal density, and clinical MD..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXX1",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "A study on the link between tau pathology and motor symptoms",
+      "bibo:doi": "10.1038/s41586-020-XXXX1"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXX2",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Insights into TDP-43 pathology in neurodegeneration",
+      "bibo:doi": "10.1038/s41586-020-XXXX2"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0007582",
+      "schema:name": "movement behavior"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_0050641",
+      "schema:name": "frontotemporal dementia"
+    },
+    {
+      "@id": "http://id.nlm.nih.gov/mesh/D015079",
+      "schema:name": "Neurodegenerative Diseases"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.3390/genes14061278",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Single-Molecule Telomere Assay via Optical Mapping (SMTA-OM) Can Potentially Define the ALT Positivity of Cancer",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Kaitlin Raseley"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9876-5432",
+      "@type": "foaf:Person",
+      "foaf:name": "Zeal Jinwala"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Dong Zhang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Ming Xiao"
+    }
+  ],
+  "dcterms:abstract": "Telomeres play an essential role in protecting the ends of linear chromosomes and maintaining the integrity of the human genome. One of the key hallmarks of cancers is their replicative immortality. As many as 85–90% of cancers activate the expression of telomerase (TEL+) as the telomere maintenance mechanism (TMM), and 10–15% of cancers utilize the homology-dependent repair (HDR)-based Alternative Lengthening of Telomere (ALT+) pathway. Here, we performed statistical analysis of our previously reported telomere profiling results from Single Molecule Telomere Assay via Optical Mapping (SMTA-OM), which is capable of quantifying individual telomeres from single molecules across all chromosomes.",
+  "schema:datePublished": "2023-06-07",
+  "schema:keywords": [
+    "alternative lengthening of telomeres",
+    "genomics",
+    "cancer telomeres",
+    "U2OS",
+    "SK-MEL-2",
+    "Saos-2",
+    "UMUC3",
+    "LNCaP",
+    "IMR90 senescence",
+    "single molecule optical mapping"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.3390/genes14061278",
+    "@type": "fabio:Journal",
+    "schema:name": "Genes"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section_intro",
+      "@type": "fabio:Section",
+      "dcterms:title": "1. Introduction",
+      "fabio:hasContent": "Human telomeres consist of unique repetitive DNA sequences, (TTAGGG)n, which are found at the terminal ends of each chromosome and function as protective barriers from the attrition of protein-coding regions."
+    },
+    {
+      "@id": "section_methods",
+      "@type": "fabio:Section",
+      "dcterms:title": "2. Materials and Methods",
+      "fabio:hasContent": "The three ALT+ cell lines, U2OS, Saos-2, and SK-MEL-2, were purchased from American Type Culture Collection (ATCC). Both U2OS and Saos-2 were cultured in McCoy’s 5a medium supplemented with 10% and 15% fetal bovine serum (FBS), respectively."
+    },
+    {
+      "@id": "section_results",
+      "@type": "fabio:Section",
+      "dcterms:title": "3. Results",
+      "fabio:hasContent": "In SMTA-OM, first developed by McCaffrey et al., high-molecular-weight genomic DNA (gDNA) molecules were first nicked by a nickase, Nt. BspQI, at recognition sequence 5′-GCTCTTC-3′."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-1234-5",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Title of Cited Work",
+      "bibo:doi": "10.1038/s41586-020-1234-5"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2020.08.011",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Another Cited Work",
+      "bibo:doi": "10.1016/j.cell.2020.08.011"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "doid:14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

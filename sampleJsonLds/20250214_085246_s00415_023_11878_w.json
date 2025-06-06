@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1007/s00415-023-11878-w",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Inclusion body myositis with early onset: a population-based study",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/1234-5678-9012-3456",
+      "@type": "foaf:Person",
+      "foaf:name": "Ulrika Lindgren"
+    },
+    {
+      "@id": "https://orcid.org/2345-6789-0123-4567",
+      "@type": "foaf:Person",
+      "foaf:name": "Carola Hedberg-Oldfors"
+    },
+    {
+      "@id": "https://orcid.org/3456-7890-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Rille Pullerits"
+    },
+    {
+      "@id": "https://orcid.org/4567-8901-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Anders Oldfors"
+    }
+  ],
+  "dcterms:abstract": "Inclusion body myositis (IBM) is an inflammatory myopathy causing progressive weakness, typically presenting after 45 years of age. This study investigates early-onset IBM, defined by symptom onset before 45. In a population-based cohort of 142 patients, we examined six cases of early-onset IBM, their clinical features, mitochondrial DNA alterations, and survival outcomes.",
+  "schema:datePublished": "2023-07-27",
+  "schema:keywords": [
+    "Inclusion Body Myositis",
+    "Early Onset",
+    "Mitochondrial DNA",
+    "Neuromuscular Disorders",
+    "Population-Based Study"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1007/s00415-023-11878-w",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Neurology"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "This section introduces inclusion body myositis (IBM), highlighting the significance of early-onset cases in understanding the disease's progression and clinical features."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "Details the methods used to identify patients fulfilling the criteria for IBM, including inclusion criteria, diagnostic procedures, and data collection."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Presents findings related to symptom onset, clinical features, strength decline, and mitochondrial DNA analysis for early-onset IBM patients."
+    },
+    {
+      "@id": "section4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Conclusion",
+      "fabio:hasContent": "Summarizes the implications of early-onset IBM and its clinical relevance, highlighting the need for further studies on the condition."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.nmd.2013.08.007",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "188th ENMC International Workshop: Inclusion body myositis",
+      "bibo:doi": "10.1016/j.nmd.2013.08.007"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s00415-005-0884-y",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Inclusion body myositis: Clinical features and clinical course of the disease in 64 patients",
+      "bibo:doi": "10.1007/s00415-005-0884-y"
+    },
+    {
+      "@id": "https://doi.org/10.1212/WNL.0000000000206777",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Clinical subgroups and factors associated with progression in patients with inclusion body myositis",
+      "bibo:doi": "10.1212/WNL.0000000000206777"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0003700",
+      "schema:name": "transcription factor activity"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

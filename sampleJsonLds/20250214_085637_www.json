@@ -1,0 +1,190 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1002/dad2.12391",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Amyloid beta plaque accumulation with longitudinal [18F]AZD4694 PET",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/1252bc97-b8c8-42cc-a5ab-814884bffd79",
+      "@type": "foaf:Person",
+      "foaf:name": "Joseph Therriault"
+    },
+    {
+      "@id": "https://orcid.org/1234abcd-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Firoza Z Lussier"
+    },
+    {
+      "@id": "https://orcid.org/2234abcd-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Cécile Tissot"
+    },
+    {
+      "@id": "https://orcid.org/4234abcd-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Mira Chamoun"
+    },
+    {
+      "@id": "https://orcid.org/5234abcd-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Jenna Stevenson"
+    },
+    {
+      "@id": "https://orcid.org/6234abcd-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Nesrine Rahmouni"
+    },
+    {
+      "@id": "https://orcid.org/7234abcd-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Vanessa Pallen"
+    },
+    {
+      "@id": "https://orcid.org/8234abcd-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Gleb Bezgin"
+    },
+    {
+      "@id": "https://orcid.org/9234abcd-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Stijn Servaes"
+    },
+    {
+      "@id": "https://orcid.org/12345678-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Peter Kunach"
+    },
+    {
+      "@id": "https://orcid.org/23456789-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Yi‐Ting Wang"
+    },
+    {
+      "@id": "https://orcid.org/34567890-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Jaime Fernandez‐Arias"
+    },
+    {
+      "@id": "https://orcid.org/45678901-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Marie Vermeiren"
+    },
+    {
+      "@id": "https://orcid.org/56789012-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Tharick A Pascoal"
+    },
+    {
+      "@id": "https://orcid.org/67890123-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Gassan Massarweh"
+    },
+    {
+      "@id": "https://orcid.org/78901234-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Paolo Vitali"
+    },
+    {
+      "@id": "https://orcid.org/89012345-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Jean‐Paul Soucy"
+    },
+    {
+      "@id": "https://orcid.org/90123456-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Paramita Saha‐Chaudhuri"
+    },
+    {
+      "@id": "https://orcid.org/01234567-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Serge Gauthie"
+    },
+    {
+      "@id": "https://orcid.org/hierarchical-id-5678-90ef-ghij-klmnopqrst",
+      "@type": "foaf:Person",
+      "foaf:name": "Pedro Rosa‐Neto"
+    }
+  ],
+  "dcterms:abstract": "[18F]AZD4694 is an amyloid beta (Aβ) imaging agent used in several observational studies and clinical trials. This study assessed 146 individuals evaluated with [18F]AZD4694 at baseline and a 2‐year follow‐up, revealing longitudinal patterns of Aβ accumulation. Results showed that cognitively unimpaired older adults displayed subtle Aβ accumulation, while Aβ positive cases exhibited greater increases, underscoring the agent’s potential to monitor Aβ levels in clinical settings.",
+  "schema:datePublished": "2023-07-01",
+  "schema:keywords": [
+    "Alzheimer's disease",
+    "amyloid beta",
+    "positron emission tomography"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1002/dad2.12391",
+    "@type": "fabio:Journal",
+    "schema:name": "Alzheimer's Dementia"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "[18F]AZD4694 is an amyloid beta (Aβ) imaging agent used in several observational studies and clinical trials."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "We assessed 146 individuals at baseline and a 2‐year follow‐up."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Results indicate that Aβ positive cases exhibited greater Aβ accumulation."
+    },
+    {
+      "@id": "section4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "These findings highlight [18F]AZD4694's role in monitoring Aβ levels."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Cited Source A",
+      "bibo:doi": "10.1038/s41586-020-XXXXX"
+    },
+    {
+      "@id": "https://doi.org/10.1001/jama.2020.1001",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Cited Source B",
+      "bibo:doi": "10.1001/jama.2020.1001"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0007265",
+      "schema:name": "cell signaling"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_2880",
+      "schema:name": "Alzheimer's disease"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/MONDO_0005015",
+      "schema:name": "type 1 diabetes mellitus"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1016/j.ijheh.2023.115455",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Assessing the exposure to the UV filter DHHB in urine samples from the German Environmental Specimen Bank (2000–2021): Evaluating the impact of a potential impurity of di-n-hexyl phthalate in DHHB",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0003-8245-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Max Scherer"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Gerhard Scherer"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-5678-4567",
+      "@type": "foaf:Person",
+      "foaf:name": "Kirsten Riedel"
+    }
+  ],
+  "dcterms:abstract": "Human biomonitoring (HBM) has become a crucial tool for assessing exposure to emerging chemicals. We analyzed 520 24-h urine samples from the German Environmental Specimen Bank (ESB), collected between 2000 and 2021, for exposure to diethylamino hydroxybenzoyl hexyl benzoate (DHHB), a UV filter increasingly used in sunscreen. The major metabolites were examined: 3-(4-carboxybutyl)oxy-2-hydroxybenzophenone (cBHB), 3-(4-hexylcarboxyl)oxy-2-hydroxybenzophenone (hBHB), and 2-(4-ethylhexyl)oxy-6-hydroxybenzophenone (DHEHP). While BHB and HHEHP were still undetected in 2000, the concentrations of cBHB increased slowly up to 2012, and increased more rapidly afterwards, until 2021.",
+  "schema:datePublished": "2023-10-10",
+  "schema:keywords": [
+    "UV filter",
+    "DHHB",
+    "Dihexyl phthalate",
+    "Environmental exposure",
+    "Urine samples"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1016/j.ijheh",
+    "@type": "fabio:Journal",
+    "schema:name": "International Journal of Hygiene and Environmental Health"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "introduction",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Diethylamino hydroxybenzoyl hexyl benzoate (DHHB) known as a UV filter is increasingly incorporated in sunscreens. However, recent research has suggested potential issues with impurities impacting safety."
+    },
+    {
+      "@id": "methods",
+      "@type": "fabio:Section",
+      "dcterms:title": "Materials and Methods",
+      "fabio:hasContent": "Human urine samples were obtained from the German Environmental Specimen Bank. Samples were analyzed for DHHB and its metabolites using LC-MS/MS."
+    },
+    {
+      "@id": "results",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "The analysis showed a significant increase in DHHB metabolites over the years, with a notable rise beginning after 2012."
+    },
+    {
+      "@id": "discussion",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "The increasing trend of DHHB exposure indicates potential environmental and health implications, necessitating further study into long-term effects."
+    },
+    {
+      "@id": "conclusion",
+      "@type": "fabio:Section",
+      "dcterms:title": "Conclusion",
+      "fabio:hasContent": "The study highlights the growing exposure to DHHB and its metabolites, suggesting that regulatory measures might be necessary to address these emerging concerns."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2020.06.012",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Environmental pathways and human exposure to UV filters",
+      "bibo:doi": "10.1016/j.cell.2020.06.012"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-12345-x",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Impacts of UV filter exposure on human health",
+      "bibo:doi": "10.1038/s41586-020-12345-x"
+    }
+  ],
+  "ontologies": [
+    {
+      "@id": "GO:0008152",
+      "schema:name": "metabolic process"
+    },
+    {
+      "@id": "GO:0016787",
+      "schema:name": "hydrolase activity"
+    },
+    {
+      "@id": "GO:0008144",
+      "schema:name": "drug binding"
+    },
+    {
+      "@id": "DOID:0080043",
+      "schema:name": "phthalate syndrome"
+    },
+    {
+      "@id": "DOID:8469",
+      "schema:name": "environmental phthalate exposure"
+    },
+    {
+      "@id": "CHEBI:72673",
+      "schema:name": "diethylhexyl phthalate"
+    },
+    {
+      "@id": "CHEBI:5893",
+      "schema:name": "endocrine disruptor"
+    },
+    {
+      "@id": "ATC:D06BB04",
+      "schema:name": "octocrylene"
+    },
+    {
+      "@id": "MONDO:0017856",
+      "schema:name": "chemical exposure"
+    },
+    {
+      "@id": "PW:0001053",
+      "schema:name": "phthalate pathways"
+    },
+    {
+      "@id": "ECO:0000218",
+      "schema:name": "in vitro study evidence"
+    },
+    {
+      "@id": "MESH:D019330",
+      "schema:name": "Butylated Hydroxytoluene (BHT)"
+    },
+    {
+      "@id": "MESH:D017679",
+      "schema:name": "Environmental Exposure"
+    },
+    {
+      "@id": "BIBO:Journal",
+      "schema:name": "scientific journal"
+    },
+    {
+      "@id": "cito:citesForInformation",
+      "schema:name": "cites for information"
+    },
+    {
+      "@id": "biro:BookChapter",
+      "schema:name": "book chapter"
+    },
+    {
+      "@id": "fabio:AcademicArticle",
+      "schema:name": "academic article"
+    },
+    {
+      "@id": "GO:0016657",
+      "schema:name": "oxidoreductase activity"
+    },
+    {
+      "@id": "PW:0000808",
+      "schema:name": "oxidative stress pathway"
+    },
+    {
+      "@id": "ECO:0000312",
+      "schema:name": "experimental model organism evidence"
+    },
+    {
+      "@id": "CHEBI:83935",
+      "schema:name": "octyl methoxycinnamate"
+    },
+    {
+      "@id": "DOID:0060579",
+      "schema:name": "occupational exposure"
+    },
+    {
+      "@id": "MONDO:0020049",
+      "schema:name": "multiple chemical sensitivity"
+    },
+    {
+      "@id": "GO:0042803",
+      "schema:name": "protein homodimerization activity"
+    },
+    {
+      "@id": "ECO:0000205",
+      "schema:name": "biological assay evidence"
+    },
+    {
+      "@id": "MESH:D058620",
+      "schema:name": "Endocrine Disruptors"
+    }
+  ],
+  "schema:relatedTo": []
+}

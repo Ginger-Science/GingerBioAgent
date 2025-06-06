@@ -1,0 +1,257 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1016/j.envint.2019.105068",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Systemic availability of lipophilic organic UV filters through dermal sunscreen exposure",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Julia Hiller"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Katrin Klotz"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Sebastian Meyer"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Wolfgang Uter"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Kerstin Hof"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Annette Greiner"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Thomas Göen"
+    },
+    {
+      "@id": "https://orcid.org/0000-0008-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Hans Drexler"
+    }
+  ],
+  "dcterms:abstract": "Chemical UV filters are common in sunscreens and cosmetics to protect the skin. However, their systemic absorption through dermal exposure raises concerns about potential health risks. This study investigates the real-life exposure of UV filters AVO and OC and their metabolites in the human body. Concentration measurements and pharmacokinetic modeling were performed using GC-MS/MS and UPLC-MS/MS methods. Results revealed detectable levels of UV filters and their metabolites in plasma and urine, emphasizing the need for regulatory risk assessment.",
+  "schema:datePublished": "2019-09-01",
+  "schema:keywords": [
+    "UV filters",
+    "Dermal exposure",
+    "Bioavailability",
+    "Sunscreen",
+    "Toxicology"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1016/S0160-4120(19)30123-4",
+    "@type": "fabio:Journal",
+    "schema:name": "Environment International"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "introduction",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "The introduction discusses the widespread use of chemical UV filters in sunscreens and their protective effects against UV radiation. However, their potential systemic availability and subsequent health risks have raised concerns."
+    },
+    {
+      "@id": "methods",
+      "@type": "fabio:Section",
+      "dcterms:title": "Materials and Methods",
+      "fabio:hasContent": "The study employed a randomized design involving 20 healthy volunteers. Real-life sunscreen application scenarios were simulated to assess systemic absorption using advanced analytical techniques (GC-MS/MS, UPLC-MS/MS)."
+    },
+    {
+      "@id": "results",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Post-application analysis revealed significant systemic absorption of both AVO and OC UV filters, measured in plasma and urine samples. Kinetic modeling indicates persistence and potential bioaccumulation."
+    },
+    {
+      "@id": "discussion",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "The results highlight the systemic availability of UV filters following dermal exposure, necessitating further research and risk assessment to evaluate potential health implications."
+    },
+    {
+      "@id": "conclusion",
+      "@type": "fabio:Section",
+      "dcterms:title": "Conclusion",
+      "fabio:hasContent": "The study provides crucial insights into systemic exposure to UV filters, emphasizing the importance of incorporating real-life application conditions in regulatory toxicological assessments."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.jhazmat.2012.01.023",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Potential health risks of UV filters",
+      "bibo:doi": "10.1016/j.jhazmat.2012.01.023"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s00204-012-0845-3",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Systemic absorption of sunscreen",
+      "bibo:doi": "10.1007/s00204-012-0845-3"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.ecoenv.2008.06.025",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Environmental distribution of cosmetic filters",
+      "bibo:doi": "10.1016/j.ecoenv.2008.06.025"
+    }
+  ],
+  "ontologies": [
+    {
+      "@id": "GO:0016021",
+      "schema:name": "integral component of membrane"
+    },
+    {
+      "@id": "GO:0045087",
+      "schema:name": "innate immune response"
+    },
+    {
+      "@id": "DOID:10852",
+      "schema:name": "allergy"
+    },
+    {
+      "@id": "CHEBI:35195",
+      "schema:name": "sunscreen agent"
+    },
+    {
+      "@id": "ATC:D02BB",
+      "schema:name": "sunscreen products"
+    },
+    {
+      "@id": "MONDO:0005273",
+      "schema:name": "dermatitis"
+    },
+    {
+      "@id": "PW:0000613",
+      "schema:name": "xenobiotic metabolic process"
+    },
+    {
+      "@id": "ECO:0000218",
+      "schema:name": "in vivo experiment evidence"
+    },
+    {
+      "@id": "MESH:D012878",
+      "schema:name": "Skin absorption"
+    },
+    {
+      "@id": "BIBO:Document",
+      "schema:name": "scientific document"
+    },
+    {
+      "@id": "cito:cites",
+      "schema:name": "cites"
+    },
+    {
+      "@id": "RO:0002407",
+      "schema:name": "related to"
+    },
+    {
+      "@id": "GO:0044267",
+      "schema:name": "cellular response to chemical stimulus"
+    },
+    {
+      "@id": "GO:0018149",
+      "schema:name": "peptidyl-serine modification"
+    },
+    {
+      "@id": "DOID:4074",
+      "schema:name": "sunburn"
+    },
+    {
+      "@id": "CHEBI:4880",
+      "schema:name": "avobenzone"
+    },
+    {
+      "@id": "ATC:D09AB04",
+      "schema:name": "sunscreen"
+    },
+    {
+      "@id": "MONDO:0004979",
+      "schema:name": "photodermatosis"
+    },
+    {
+      "@id": "PW:0000003",
+      "schema:name": "metabolic pathway"
+    },
+    {
+      "@id": "ECO:0000204",
+      "schema:name": "laboratory experiments evidence"
+    },
+    {
+      "@id": "MESH:D013508",
+      "schema:name": "Sunscreening Agents"
+    },
+    {
+      "@id": "bibo:Article",
+      "schema:name": "research article"
+    },
+    {
+      "@id": "GO:0055114",
+      "schema:name": "oxidation-reduction process"
+    },
+    {
+      "@id": "GO:0065003",
+      "schema:name": "macromolecular complex assembly"
+    },
+    {
+      "@id": "DOID:6009",
+      "schema:name": "contact dermatitis"
+    },
+    {
+      "@id": "CHEBI:33387",
+      "schema:name": "octocrylene"
+    },
+    {
+      "@id": "ATC:D02BB01",
+      "schema:name": "octocrylene sunscreen"
+    },
+    {
+      "@id": "MONDO:0005306",
+      "schema:name": "eczema"
+    },
+    {
+      "@id": "PW:0001321",
+      "schema:name": "photoprotection pathway"
+    },
+    {
+      "@id": "ECO:0000215",
+      "schema:name": "clinical study evidence"
+    },
+    {
+      "@id": "MESH:D012404",
+      "schema:name": "Skin Diseases"
+    }
+  ],
+  "schema:relatedTo": []
+}

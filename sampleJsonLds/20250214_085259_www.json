@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/abc123",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Cellular Senescence Program is Sensitive to Physical Differences in Polymeric Tissue Scaffolds",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Parul Yadav"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Rahul Shah"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Anindo Roy"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Sibani Jani"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Kaushik Chatterjee"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Deepak Kumar Saini"
+    }
+  ],
+  "dcterms:abstract": "A typical cellular senescence program involves exposing cells to DNA-damaging agents such as ionization radiation or chemotherapeutic drugs, which cause multipronged changes, including increased cell size and volume, the onset of enhanced oxidative stress, and inflammation. In the present study, we examined if the senescence onset decision is sensitive to the design, porosity, and architecture of the substrate. Using irradiated A549 lung cancer cells, we observed that senescence onset is equally diminished compared to the two-dimensional culture formats.",
+  "schema:datePublished": "2024-01-10",
+  "schema:keywords": [
+    "Aging",
+    "Scaffolds",
+    "Biomaterials",
+    "Cellular Senescence",
+    "Tissue Engineering"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1234/journal123",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Tissue Engineering"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Aging is driven by the accumulation of DNA damage..."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Materials and Methods",
+      "fabio:hasContent": "Scaffold Synthesis, Cell Culture and Treatment..."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "We found that scaffold architecture affects cellular morphology..."
+    },
+    {
+      "@id": "section4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "This study highlights the role of cellular size and substrate architecture..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1000/xyz123",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Impact of Scaffold Architecture on Cell Behavior",
+      "bibo:doi": "10.1000/xyz123"
+    },
+    {
+      "@id": "https://doi.org/10.1001/journal.pbio.3000069",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Cellular Response to Mechanical Stimuli",
+      "bibo:doi": "10.1001/journal.pbio.3000069"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "doid:14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

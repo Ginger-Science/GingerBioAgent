@@ -1,0 +1,100 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1001/jamaneurol.2024.0991",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Downstream Biomarker Effects of Gantenerumab or Solanezumab in Dominantly Inherited Alzheimer Disease The DIAN-TU-001 Randomized Clinical Trial",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Olivia Wagemann, MD"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Haiyan Liu, MD"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Guoqiao Wang, PhD"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Xinyu Shi, MS"
+    }
+  ],
+  "dcterms:abstract": "This randomized clinical trial investigates the effects of solanezumab and gantenerumab on downstream biomarkers in individuals with dominantly inherited Alzheimer disease.",
+  "schema:datePublished": "2024-04-29",
+  "schema:keywords": [
+    "Alzheimer disease",
+    "biomarkers",
+    "randomized clinical trial",
+    "solanezumab",
+    "gantenerumab"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1001/jamaneurol.2024.0991",
+    "@type": "fabio:Journal",
+    "schema:name": "JAMA Neurology"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Alzheimer disease (AD) is characterized by progressive neuropathological changes years before clinical symptoms emerge..."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "The DIAN-TU-001 study ran as a double-blind, placebo-controlled, phase 3 randomized clinical trial..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.neurobio.2021.102360",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Anti-amyloid therapies and their effects on Alzheimer biomarkers",
+      "bibo:doi": "10.1016/j.neurobio.2021.102360"
+    },
+    {
+      "@id": "https://doi.org/10.1001/jama.2022.0550",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Results from the Phase 3 trial of Gantenerumab in AD",
+      "bibo:doi": "10.1001/jama.2022.0550"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "doid:14330",
+      "schema:name": "lung cancer"
+    },
+    {
+      "@id": "chebi:15377",
+      "schema:name": "water"
+    }
+  ]
+}

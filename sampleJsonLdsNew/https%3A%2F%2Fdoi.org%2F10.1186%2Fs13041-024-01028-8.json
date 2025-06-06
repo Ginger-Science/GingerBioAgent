@@ -1,0 +1,261 @@
+{
+  "@context": {
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "cito": "http://purl.org/spar/cito/",
+    "doco": "http://purl.org/spar/doco/",
+    "pro": "http://purl.org/spar/pro/",
+    "obi": "http://purl.obolibrary.org/obo/",
+    "schema": "http://schema.org/"
+  },
+  "@type": "fabio:ResearchPaper",
+  "dcterms:title": "L-DOPA regulates neuroinflammation and Aβ pathology through NEP and ADAM17 in a mouse model of AD",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0003-8245-9876",
+      "@type": "foaf:Person",
+      "foaf:name": "Hyun-ju Lee"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7156-4321",
+      "@type": "foaf:Person",
+      "foaf:name": "JinHan Nam"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9234-8765",
+      "@type": "foaf:Person",
+      "foaf:name": "Jeong-Woo Hwang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-1122-5566",
+      "@type": "foaf:Person",
+      "foaf:name": "Jin-Hee Park"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5566-4321",
+      "@type": "foaf:Person",
+      "foaf:name": "Yoo Joo Jeong"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3344-7788",
+      "@type": "foaf:Person",
+      "foaf:name": "Ji-Yeong Jang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-9876-5432",
+      "@type": "foaf:Person",
+      "foaf:name": "Su-Jeong Kim"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "A-Ran Jo"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-8877-6655",
+      "@type": "foaf:Person",
+      "foaf:name": "Hyang-Sook Hoe"
+    }
+  ],
+  "dcterms:abstract": "Dopamine plays important roles in cognitive function and inflammation and therefore is involved in the pathogenesis of neurodegenerative diseases, including Alzheimer's disease (AD). Drugs that increase or maintain dopamine levels in the brain could be a therapeutic strategy for AD. However, the effects of dopamine and its precursor levodopa (L‑DOPA) on Aβ/tau pathology in vivo and the underlying molecular mechanisms have not been studied in detail. Here, we investigated whether L‑DOPA treatment alters neuroinflammation, Aβ pathology, and tau phosphorylation in 5xFAD mice, a model of AD. We found that L‑DOPA administration significantly reduced microgliosis and astrogliosis in 5xFAD mice. In addition, L‑DOPA treatment significantly decreased Aβ plaque number by upregulating NEP and ADAM17 levels in 5xFAD mice. However, L‑DOPA‑treated 5xFAD mice did not exhibit changes in tau hyperphos‑phorylation or tau kinase levels. These data suggest that L‑DOPA alleviates neuroinflammatory responses and Aβ pathology but not tau pathology in this mouse model of AD.",
+  "dcterms:date": "2024",
+  "dcterms:publisher": "Molecular Brain",
+  "fabio:hasJournalVolume": "17",
+  "fabio:hasJournalIssue": "21",
+  "fabio:hasPageNumbers": "1-5",
+  "dcterms:identifier": "https://doi.org/10.1186/s13041-024-01092-8",
+  "obi:OBI_0000299": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0001774",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0150076",
+        "dcterms:description": "The paper shows that sustained activation of microglia leads to chronic neuroinflammatory responses in AD model mice"
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0048143",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0150076",
+        "dcterms:description": "The study demonstrates that activated astrocytes contribute to neuroinflammatory responses in AD model mice"
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0014046",
+      "obi:RO_0002305": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0006954",
+        "dcterms:description": "The paper indicates that dopamine analogues reduce neuroinflammation by suppressing immune responses"
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0004038",
+      "obi:RO_0002305": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0050435",
+        "dcterms:description": "The study shows that neprilysin acts as an Aβ-degrading enzyme, particularly affecting monomeric Aβ"
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0140910",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0050435",
+        "dcterms:description": "The research demonstrates that increased ADAM17 expression is associated with reduced Aβ plaque deposition"
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0050321",
+      "obi:BFO_0000066": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0048666",
+        "dcterms:description": "The paper discusses tau hyperphosphorylation occurring in neurons as part of AD pathology"
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_10652",
+      "dcterms:title": "Alzheimer's disease",
+      "dcterms:description": "Alzheimer's disease (AD) is characterized by amyloid beta (Aβ) plaques, neurofibrillary tangles, and chronic neuroinflammation. The study found that L-DOPA treatment significantly reduced microgliosis and astrogliosis in AD model mice. L-DOPA administration decreased Aβ plaque numbers by upregulating NEP and ADAM17 levels, though it did not affect tau hyperphosphorylation. The research suggests L-DOPA ameliorates neuroinflammatory responses and amyloid plaque deposition but not tau pathology in AD model mice."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_1289",
+      "dcterms:title": "neurodegenerative disease",
+      "dcterms:description": "The study discusses dopamine's role in cognitive function and inflammation in neurodegenerative diseases. Specifically in AD models, dopamine system dysfunction was found to impair synaptic plasticity. The research suggests that drugs increasing or maintaining dopamine levels in the brain could be a therapeutic strategy for neurodegenerative conditions."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_15765",
+      "dcterms:title": "L-DOPA",
+      "dcterms:description": "L-DOPA treatment significantly reduced microgliosis and astrogliosis in 5xFAD mice. It decreased Aβ plaque number by upregulating NEP and ADAM17 levels. Treatment with 10 mg/kg L-DOPA did not affect tau hyperphosphorylation or tau kinase levels."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_18243",
+      "dcterms:title": "dopamine",
+      "dcterms:description": "Dopamine plays important roles in cognitive function and inflammation in AD pathogenesis. Dopamine regulates Aβ metabolism by preventing Aβ dimerization. Dysfunction of the dopamine system impairs synaptic plasticity in AD mouse models."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_64645",
+      "dcterms:title": "amyloid beta",
+      "dcterms:description": "Amyloid beta forms plaques in AD pathology. L-DOPA treatment was found to decrease Aβ plaque numbers in the cortex, subiculum, and hippocampal CA1 region of 5xFAD mice through increased NEP and ADAM17 expression."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_27978",
+      "dcterms:title": "DOPAL",
+      "dcterms:description": "DOPAL, a dopamine metabolite, decreases Aβ oligomerization in human neuroblastoma cells, reducing the cytotoxic effects of Aβ."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/N04BA01",
+      "dcterms:title": "Levodopa",
+      "dcterms:description": "Levodopa (L-DOPA), a dopamine precursor, administered at 10 mg/kg with benserazide (2.5 mg/kg) for 15 days in 5xFAD mice significantly reduced microgliosis and astrogliosis. It decreased Aβ plaque deposition by upregulating NEP and ADAM17 levels. However, this dose did not affect tau hyperphosphorylation or tau kinase levels. The treatment effectively reduced neuroinflammatory responses and amyloid pathology but not tau pathology in the AD mouse model."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/N06AB02",
+      "dcterms:title": "Benserazide",
+      "dcterms:description": "Benserazide was co-administered with L-DOPA at 2.5 mg/kg as an adjunct therapy in the experimental protocol to enhance L-DOPA effectiveness in treating 5xFAD mice."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/C01CA04",
+      "dcterms:title": "Dopamine",
+      "dcterms:description": "Dopamine was found to play important roles in cognitive function and inflammation in AD pathogenesis. Its dysfunction impairs synaptic plasticity in AD mouse models. The study indicates that maintaining or increasing dopamine levels could be a therapeutic strategy for AD treatment."
+    }
+  ],
+  "obi:OBI_0000968": [
+    {
+      "@id": "urn:uuid:a7b3c9d1-e2f4-5g6h-8i9j-0k1l2m3n4o5p",
+      "dcterms:description": "Immunofluorescence staining equipment"
+    }
+  ],
+  "obi:OBI_0000293": [
+    {
+      "@id": "urn:uuid:b8c4d0e2-f3g5-6h7i-9j0k-1l2m3n4o5p6",
+      "dcterms:description": "4-month-old 5xFAD mice, L-DOPA + benserazide (10 mg/kg and 2.5 mg/kg), vehicle (0.9% saline)"
+    }
+  ],
+  "obi:OBI_0200000": [
+    {
+      "@id": "urn:uuid:c9d5e1f3-g4h6-7i8j-0k1l-2m3n4o5p6q7",
+      "dcterms:description": "Quantification of immunofluorescence staining data"
+    }
+  ],
+  "obi:OBI_0000070": [
+    {
+      "@id": "urn:uuid:d0e6f2g4-h5i7-8j9k-1l2m-3n4o5p6q7r8",
+      "dcterms:description": "Immunofluorescence staining for Iba-1, GFAP, 6E10, NEP, and ADAM17"
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.jalz.2021.03.005",
+      "dcterms:title": "Neuropathological hallmarks of Alzheimer's disease in centenarians, in the context of aging"
+    },
+    {
+      "@id": "https://doi.org/10.1038/ncomms14727",
+      "dcterms:title": "Dopamine neuronal loss contributes to memory and reward dysfunction in a model of Alzheimer's disease"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12974-022-02411-3",
+      "dcterms:title": "Dopamine signaling modulates microglial NLRP3 inflammasome activation implications for Parkinson's disease"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acschemneuro.8b00122",
+      "dcterms:title": "Regulatory Activities of Dopamine and Its Derivatives toward Metal-Free and Metal-Induced Amyloid-beta Aggregation, Oxidative Stress, and Inflammation in Alzheimer's Disease"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S1474-4422(15)70016-5",
+      "dcterms:title": "Neuroinflammation in Alzheimer's disease"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12974-018-1327-x",
+      "dcterms:title": "The small molecule CA140 inhibits the neuroinflammatory response in wild-type mice and a mouse model of AD"
+    },
+    {
+      "@id": "https://doi.org/10.3389/fphar.2020.00394",
+      "dcterms:title": "The Cross-Talk Between the Dopaminergic and the Immune System Involved in Schizophrenia"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41380-018-0226-y",
+      "dcterms:title": "Dysfunction of homeostatic control of dopamine by astrocytes in the developing prefrontal cortex leads to cognitive impairments"
+    },
+    {
+      "@id": "https://doi.org/10.1096/fj.03-0770fje",
+      "dcterms:title": "Dopamine and L-dopa disaggregate amyloid fibrils implications for Parkinson's and Alzheimer's disease"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s42003-020-01490-3",
+      "dcterms:title": "A dopamine metabolite stabilizes neurotoxic amyloid-β oligomers"
+    },
+    {
+      "@id": "https://doi.org/10.1016/0047-6374(80)90126-8",
+      "dcterms:title": "Levodopa in the treatment of (PRE) senile dementia"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0173240",
+      "dcterms:title": "Dopamine D2 receptor and β-arrestin 2 mediate Amyloid-β elevation induced by anti-parkinson's disease drugs, levodopa and piribedil, in neuronal cells"
+    },
+    {
+      "@id": "https://doi.org/10.3389/fnagi.2013.00098",
+      "dcterms:title": "Neprilysin and Abeta Clearance Impact of the APP Intracellular Domain in NEP Regulation and Implications in Alzheimer's Disease"
+    },
+    {
+      "@id": "https://doi.org/10.1523/JNEUROSCI.4739-11.2012",
+      "dcterms:title": "Acute Administration of L-Dopa Induces Changes in Methylation Metabolites, Reduced Protein Phosphatase 2A Methylation, and Hyperphosphorylation of Tau Protein in Mouse Brain"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.neuropharm.2009.06.041",
+      "dcterms:title": "Dopamine D1 receptor activation induces tau phosphorylation via cdk5 and GSK3 signaling pathways"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.biopsych.2017.08.019",
+      "dcterms:title": "DOPA Decarboxylase Modulates Tau Toxicity"
+    }
+  ],
+  "@id": "https://doi.org/10.1186/s13041-024-01028-8",
+  "dcterms:hasPart": "A research paper titled L-DOPA regulates neuroinflammation and Aβ pathology through NEP and ADAM17 in a mouse model of AD was authored by Hyun-ju Lee JinHan Nam Jeong-Woo Hwang Jin-Hee Park Yoo Joo Jeong Ji-Yeong Jang Su-Jeong Kim A-Ran Jo and Hyang-Sook Hoe published in Molecular Brain in 2024 Volume 17 Issue 21 Pages 1-5 The study investigates the effects of dopamine and L-DOPA on Alzheimer disease pathology focusing on neuroinflammation amyloid beta pathology and tau phosphorylation in 5xFAD mice L-DOPA administration significantly reduced microgliosis and astrogliosis in these mice while decreasing amyloid beta plaque numbers through upregulation of NEP and ADAM17 levels However L-DOPA treatment did not affect tau hyperphosphorylation or tau kinase levels The research demonstrates that sustained activation of microglia leads to chronic neuroinflammatory responses in AD model mice while activated astrocytes contribute to these responses Dopamine analogues were found to reduce neuroinflammation by suppressing immune responses The study shows that neprilysin acts as an amyloid beta degrading enzyme particularly affecting monomeric forms and increased ADAM17 expression is associated with reduced amyloid beta plaque deposition Tau hyperphosphorylation occurs in neurons as part of AD pathology Alzheimers disease is characterized by amyloid beta plaques neurofibrillary tangles and chronic neuroinflammation The research suggests that drugs increasing or maintaining dopamine levels in the brain could be therapeutic for neurodegenerative conditions L-DOPA treatment at 10 mg kg with benserazide 2 5 mg kg for 15 days significantly reduced neuroinflammation and amyloid pathology DOPAL a dopamine metabolite decreases amyloid beta oligomerization in human neuroblastoma cells reducing cytotoxic effects The study used 4 month old 5xFAD mice treated with L-DOPA plus benserazide or vehicle saline Methodology included immunofluorescence staining for Iba-1 GFAP 6E10 NEP and ADAM17 with subsequent quantification of staining data The research demonstrates that dopamine system dysfunction impairs synaptic plasticity in AD mouse models and maintaining dopamine levels could be a viable therapeutic approach",
+  "schema:relatedTo": [
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101956",
+      "@type": "schema:Organization",
+      "schema:name": "VitaDAO"
+    },
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101963",
+      "@type": "schema:Organization",
+      "schema:name": "Cerebrum DAO"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1002/mco2.346",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Cellular senescence primes liver fibrosis regression through Notch‐EZH2",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Ping Song"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Juan‐Li Duan"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Jian Ding"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Jing‐Jing Liu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Zhi‐Qiang Fang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Hao Xu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Zhi‐Wen Li"
+    },
+    {
+      "@id": "https://orcid.org/0000-0008-9012-3456",
+      "@type": "foaf:Person",
+      "foaf:name": "Wei Du"
+    },
+    {
+      "@id": "https://orcid.org/0000-0009-0123-4567",
+      "@type": "foaf:Person",
+      "foaf:name": "Ming Xu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0010-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Yu‐Wei Ling"
+    },
+    {
+      "@id": "https://orcid.org/0000-0011-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Fei He"
+    },
+    {
+      "@id": "https://orcid.org/0000-0012-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Kai‐Shan Tao"
+    },
+    {
+      "@id": "https://orcid.org/0000-0013-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Lin Wang"
+    }
+  ],
+  "dcterms:abstract": "Cellular senescence plays a pivotal role in wound healing. At the initiation of liver fibrosis regression, accumulated senescent cells were detected and genes of senescence were upregulated. Flow cytometry combined with single‐cell RNA sequencing analyses revealed that most of senescent cells were liver nonparenchymal cells. Removing senescent cells by dasatinib and quercetin (DQ), alleviated hepatic cellular senescence, impeded fibrosis regression, and disrupted liver sinusoids. Clearance of senescent cells not only decreased senescent macrophages but also shrank the proportion of anti‐inflammatory M2 macrophages through apoptotic pathway. Subsequently, macrophages were depleted by clodronate, which diminished hepatic senescent cells and impaired fibrosis regression. Mechanistically, the change of the epigenetic regulator enhancer of zeste homolog2 (EZH2) accompanied with the emergence of hepatic senescent cells while liver fibrosis regressed. Blocking EZH2 signaling by EPZ6438 reduced hepatic senescent cells and macrophages, decelerating liver fibrosis regression. Moreover, the promoter region of EZH2 was transcriptionally suppressed by Notch‐Hes1 (hairy and enhancer of split 1) signaling. Disruption of Notch in macrophages using Lyz2 (lysozyme 2)Cre‐RBP‐J (recombination signal binding protein Jκ)f/ftransgenic mice, enhanced hepatic cellular senescence, and facilitated fibrosis regression by upregulating EZH2 and blocking EZH2 abrogated the above effects caused by Notch deficiency. Ultimately, adopting Notch inhibitor Ly3039478 or exosome‐mediated RBP‐J decoy oligodeoxynucleotides accelerated liver fibrosis regression by augmenting hepatic cellular senescence.",
+  "schema:datePublished": "2023-07-12",
+  "schema:keywords": [
+    "EZH2",
+    "liver fibrosis regression",
+    "macrophage",
+    "Notch",
+    "senescence"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://examplejournal.com/volume/4/issue/1",
+    "@type": "fabio:Journal",
+    "schema:name": "MedComm"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Chronic liver injuries lead to liver fibrosis, by activating hepatic extracellular matrix‐derived myofibroblasts. When the causative injuries are removed, clinical and experimental liver fibrosis may regress."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Accumulated senescent cells emerge at the beginning of liver fibrosis regression. Liver fibrosis was induced by 6‐week CCl4 injection. To evaluate fibrosis regression, mice were sacrificed and analyzed on 1, 2, 3, 4, 5, 7, or 14 days following the removal of CCl4."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1000/xyz123",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "A Study on Cellular Mechanisms",
+      "bibo:doi": "10.1000/xyz123"
+    },
+    {
+      "@id": "https://doi.org/10.1000/xyz456",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Exploring Liver Fibrosis",
+      "bibo:doi": "10.1000/xyz456"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0006950",
+      "schema:name": "Response to stress"
+    },
+    {
+      "@id": "doid:0050273",
+      "schema:name": "Hepatic fibrosis"
+    }
+  ]
+}

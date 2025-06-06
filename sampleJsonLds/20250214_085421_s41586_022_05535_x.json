@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1038/s41586-022-05535-x",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Senescence atlas reveals an aged-like inflamed niche that blunts muscle regeneration",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Victoria Moiseeva"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Andrés Cisneros"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Valentina Sica"
+    }
+  ],
+  "dcterms:abstract": "Tissue regeneration requires coordination between resident stem cells and local niche cells. Here we identify that senescent cells are integral components of the skeletal muscle regenerative niche that repress regeneration at all stages of life. Our results provide a technique for isolating in vivo senescent cells, define a senescence blueprint for muscle, and uncover unproductive functional interactions between senescent cells and stem cells in regenerative niches.",
+  "schema:datePublished": "2022-12-21",
+  "schema:keywords": [
+    "muscle regeneration",
+    "senescence",
+    "inflammation"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1038/nature",
+    "@type": "fabio:Journal",
+    "schema:name": "Nature"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Cellular senescence can negatively impact tissue regeneration by creating a pro-inflammatory environment."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "We identified and characterized senescent cell types in regenerating muscle."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2020.05.022",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Cellular Senescence: A New Therapy for Muscle Repair",
+      "bibo:doi": "10.1016/j.cell.2020.05.022"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-2005-5",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Inflammation in Aging and Muscle Regeneration",
+      "bibo:doi": "10.1038/s41586-020-2005-5"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0006954",
+      "schema:name": "Inflammatory response"
+    },
+    {
+      "@id": "mondo:0012301",
+      "schema:name": "muscle aging"
+    },
+    {
+      "@id": "doid:14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

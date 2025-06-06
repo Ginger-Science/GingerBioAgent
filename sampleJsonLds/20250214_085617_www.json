@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.3390/ph17030270",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Brain-Wide Transgene Expression in Mice by Systemic Injection of Genetically Engineered Exosomes: CAP-Exosomes",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1369-3076",
+      "@type": "foaf:Person",
+      "foaf:name": "Saumyendra N Sarkar"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7989-4578",
+      "@type": "foaf:Person",
+      "foaf:name": "Deborah Corbin"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1388-7467",
+      "@type": "foaf:Person",
+      "foaf:name": "James W Simpkins"
+    }
+  ],
+  "dcterms:abstract": "The bottleneck in drug discovery for central nervous system diseases is the absence of effective systemic drug delivery technology for delivering therapeutic drugs into the brain. Despite advances in the technology used in drug discovery, the development of drugs for central nervous system diseases remains challenging. Here we describe the development of a novel brain-targeted drug delivery system that involves genetically engineered exosomes capable of high expression gene delivery in mice.",
+  "schema:datePublished": "2024-03-01",
+  "schema:keywords": [
+    "exosomes",
+    "CAP-exosomes",
+    "blood–brain barrier",
+    "gene delivery",
+    "neurodegenerative diseases"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://www.mdpi.com/journal/pharmaceuticals",
+    "@type": "schema:Periodical",
+    "schema:name": "Pharmaceuticals"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section-introduction",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "The aging population accompanies an increase of neurological disorders, necessitating improved therapies..."
+    },
+    {
+      "@id": "section-methods",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "BM-MSCs were transfected with plasmids to produce CAP-exosomes..."
+    },
+    {
+      "@id": "section-results",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "CAP-exosomes exhibited enhanced gene delivery and targeting efficiency in the CNS..."
+    },
+    {
+      "@id": "section-discussion",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "Further research will be needed to translate findings from mice to humans..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2019.02.005",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Viral Vectors for Gene Therapy",
+      "bibo:doi": "10.1016/j.cell.2019.02.005"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nrn.2016.104",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Nanotechnology in Neurodegenerative Diseases",
+      "bibo:doi": "10.1038/nrn.2016.104"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0007154",
+      "schema:name": "Cell adhesion"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_0040013",
+      "schema:name": "Neurodegenerative disease"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/abcd1234",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "DNA Damage and Senescence in the Aging and Alzheimer’s Disease Cortex Are Not Uniformly Distributed",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Gnanesh Gutta"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7891",
+      "@type": "foaf:Person",
+      "foaf:name": "Jay Mehta"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Rody Kingston"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Jiaan Xie"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Eliana Brenner"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Fulin Ma"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Karl Herrup"
+    }
+  ],
+  "dcterms:abstract": "Alzheimer’s disease (AD) is a neurodegenerative illness with a typical age of onset exceeding 65 years of age. The age dependency of the condition led us to track the appearance of DNA damage in the frontal cortex of individuals who died with a diagnosis of AD. The connection between aging and the loss of genomic integrity is compelling because DNA damage has also been identified as a possible cause of cellular senescence. This study investigates the distribution of DNA damage and senescence in the AD cortex.",
+  "schema:datePublished": "2024-06-01",
+  "schema:keywords": [
+    "DNA Damage",
+    "Senescence",
+    "Aging",
+    "Alzheimer's Disease",
+    "Cortex"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.12345/journalname",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Alzheimer’s Disease Research"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Alzheimer’s disease is characterized by DNA damage and senescence as prominent features of the aging process."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "Human samples were obtained from ... and were assessed for DNA damage and senescence."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Understanding Alzheimer's Disease Pathophysiology",
+      "bibo:doi": "10.1038/s41586-020-XXXX"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.biopsych.2020.10.016",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Cellular Senescence and Aging",
+      "bibo:doi": "10.1016/j.biopsych.2020.10.016"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0006281",
+      "schema:name": "DNA Repair"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_9370",
+      "schema:name": "Alzheimer's Disease"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "@context": {
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "cito": "http://purl.org/spar/cito/",
+    "doco": "http://purl.org/spar/doco/",
+    "pro": "http://purl.org/spar/pro/",
+    "obi": "http://purl.obolibrary.org/obo/",
+    "schema": "http://schema.org/"
+  },
+  "@type": "fabio:ResearchPaper",
+  "obi:OBI_0000299": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0030097",
+      "dcterms:name": "clonal hematopoiesis",
+      "obi:BFO_0000050": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0030097",
+        "dcterms:name": "hematopoiesis",
+        "dcterms:description": "The paper discusses clonal hematopoiesis as a specific form of blood cell production characterized by somatic mutations in leukemia-related genes."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0002244",
+      "dcterms:name": "hematopoietic cell differentiation",
+      "obi:RO_0002629": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0030097",
+        "dcterms:name": "clonal hematopoiesis",
+        "dcterms:description": "The study reveals that BLM pathogenic variants influence the regulation of hematopoietic cell differentiation, leading to increased clonal hematopoiesis."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0002566",
+      "dcterms:name": "somatic mutation",
+      "obi:BFO_0000050": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0030097",
+        "dcterms:name": "clonal hematopoiesis",
+        "dcterms:description": "The paper defines CHIP as characterized by somatic mutations in leukemia-related genes, making these mutations an integral part of the clonal hematopoiesis process."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0006281",
+      "dcterms:name": "DNA repair",
+      "obi:RO_0002305": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0030097",
+        "dcterms:name": "clonal hematopoiesis",
+        "dcterms:description": "The study shows that defects in DNA repair genes (like BLM) lead to increased clonal hematopoiesis, indicating that normal DNA repair suppresses this process."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0071425",
+      "dcterms:name": "hematopoietic stem cell proliferation",
+      "obi:BFO_0000066": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0048539",
+        "dcterms:name": "bone marrow",
+        "dcterms:description": "The paper discusses clonal hematopoiesis occurring in blood cell production, which takes place in the bone marrow."
+      }
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/not_provided",
+      "dcterms:title": "Bloom's syndrome clinical spectrum, molecular pathogenesis, and cancer predisposition"
+    },
+    {
+      "@id": "https://doi.org/not_provided",
+      "dcterms:title": "ClinVar public archive of relationships among sequence variation and human phenotype"
+    },
+    {
+      "@id": "https://doi.org/not_provided",
+      "dcterms:title": "Age of first cancer diagnosis and survival in Bloom syndrome"
+    },
+    {
+      "@id": "https://doi.org/not_provided",
+      "dcterms:title": "The risk for developing cancer in Israeli ATM, BLM, and FANCC heterozygous mutation carriers"
+    },
+    {
+      "@id": "https://doi.org/not_provided",
+      "dcterms:title": "Prevalence of the BLM nonsense mutation, p.Q548X, in ovarian cancer patients from Central and Eastern Europe"
+    },
+    {
+      "@id": "https://doi.org/10.1038/srep14060",
+      "dcterms:title": "Deleterious germline BLM mutations and the risk for early-onset colorectal cancer"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pgen.1002894",
+      "dcterms:title": "Exome sequencing identifies rare deleterious mutations in DNA repair genes FANCC and BLM as potential breast cancer susceptibility alleles"
+    },
+    {
+      "@id": "https://doi.org/10.1073/pnas.2019652117",
+      "dcterms:title": "Heterozygous germline BLM mutations increase susceptibility to asbestos and mesothelioma"
+    },
+    {
+      "@id": "https://doi.org/10.1056/NEJMoa1408617",
+      "dcterms:title": "Age-related clonal hematopoiesis associated with adverse outcomes"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-2819-2",
+      "dcterms:title": "Inherited causes of clonal haematopoiesis in 97,691 whole genomes"
+    },
+    {
+      "@id": "https://doi.org/10.1182/blood.2019004537",
+      "dcterms:title": "Cancer spectrum and outcomes in the Mendelian short telomere syndromes"
+    },
+    {
+      "@id": "https://doi.org/not_provided",
+      "dcterms:title": "Genetic determinants of clonal hematopoiesis and progression to hematologic malignancies in 479,117 individuals"
+    },
+    {
+      "@id": "https://doi.org/10.1101/gr.107524.110",
+      "dcterms:title": "The genome analysis toolkit a MapReduce framework for analyzing next-generation DNA sequencing data"
+    },
+    {
+      "@id": "https://doi.org/10.1002/humu.23903",
+      "dcterms:title": "A substantial proportion of apparently heterozygous TP53 pathogenic variants detected with a next-generation sequencing hereditary pan-cancer panel are acquired somatically"
+    },
+    {
+      "@id": "https://doi.org/10.1182/blood-2015-03-631747",
+      "dcterms:title": "Clonal hematopoiesis of indeterminate potential and its distinction from myelodysplastic syndromes"
+    }
+  ],
+  "@id": "https://doi.org/10.1016/j.hemoncte.2024.100532",
+  "dcterms:hasPart": "This research paper explores the relationships between clonal hematopoiesis blood cell production and various biological processes The study focuses on clonal hematopoiesis which is characterized by somatic mutations in leukemia related genes occurring during blood cell formation The research demonstrates that BLM pathogenic variants play a significant role in regulating hematopoietic cell differentiation leading to increased clonal hematopoiesis The paper emphasizes how CHIP clonal hematopoiesis of indeterminate potential is defined by specific somatic mutations in leukemia associated genes making these mutations fundamental to the clonal hematopoiesis process A key finding reveals that defects in DNA repair genes particularly BLM result in elevated levels of clonal hematopoiesis suggesting that properly functioning DNA repair mechanisms normally act to suppress this process The study examines hematopoietic stem cell proliferation which occurs within the bone marrow environment highlighting the importance of the bone marrow as the primary site for blood cell production The research connects multiple biological processes including DNA repair mechanisms hematopoietic cell differentiation and somatic mutation development all contributing to the understanding of clonal hematopoiesis and its underlying mechanisms The findings suggest a complex interplay between genetic factors cellular processes and tissue specific environments in the development and progression of clonal hematopoiesis",
+  "schema:relatedTo": [
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101963",
+      "@type": "schema:Organization",
+      "schema:name": "Cerebrum DAO"
+    },
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101964",
+      "@type": "schema:Organization",
+      "schema:name": "Curetopia"
+    }
+  ]
+}

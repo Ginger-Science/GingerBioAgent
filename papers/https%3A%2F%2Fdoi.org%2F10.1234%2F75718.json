@@ -1,0 +1,197 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/75718",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Blood Supply to the Brain",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0003-1111-1111",
+      "@type": "foaf:Person",
+      "foaf:name": "Leonard E. White"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2222-2222",
+      "@type": "foaf:Person",
+      "foaf:name": "Nell B. Cant"
+    }
+  ],
+  "dcterms:abstract": "This tutorial provides an overview of the blood supply to the brain, detailing the major vessels involved in the anterior and posterior circulation, the role of the circle of Willis, and the venous drainage system.",
+  "schema:datePublished": "2023-10-01",
+  "schema:keywords": [
+    "Blood supply",
+    "Brain",
+    "Circle of Willis",
+    "Cerebral circulation",
+    "Neuroscience"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1234/venue",
+    "@type": "fabio:Journal",
+    "schema:name": "Medical Neuroscience"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "#section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Overview of the anterior and posterior circulation",
+      "fabio:hasContent": "This section covers the distribution of blood supply to each subdivision of the brain and spinal cord, focusing on the internal carotid arteries and vertebral/basilar arteries."
+    },
+    {
+      "@id": "#section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "The anterior circulation",
+      "fabio:hasContent": "Discusses the four major branches arising from the internal carotid artery, supplying various parts of the brain including the forebrain and deep structures."
+    },
+    {
+      "@id": "#section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "The posterior circulation",
+      "fabio:hasContent": "Describes the branches from the vertebral and basilar arteries, highlighting the blood supply to the brainstem and associated structures."
+    },
+    {
+      "@id": "#section4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Drainage of venous blood",
+      "fabio:hasContent": "Illustrates the system of veins responsible for draining blood from the brain, focusing on the superior sagittal sinus and internal jugular veins."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2005.05.012",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Mechanisms of brain blood flow regulation",
+      "bibo:doi": "10.1016/j.cell.2005.05.012"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Cerebral circulation in health and disease",
+      "bibo:doi": "10.1038/s41586-020-XXXXX"
+    }
+  ],
+  "ontologies": [
+    {
+      "@id": "GO:0071944",
+      "schema:name": "cell periphery"
+    },
+    {
+      "@id": "GO:0007267",
+      "schema:name": "cell-cell signaling"
+    },
+    {
+      "@id": "GO:0008016",
+      "schema:name": "regulation of heart contraction"
+    },
+    {
+      "@id": "GO:0008217",
+      "schema:name": "regulation of blood pressure"
+    },
+    {
+      "@id": "GO:0006950",
+      "schema:name": "response to stress"
+    },
+    {
+      "@id": "DOID:1826",
+      "schema:name": "cerebral ischemia"
+    },
+    {
+      "@id": "DOID:3908",
+      "schema:name": "intracranial aneurysm"
+    },
+    {
+      "@id": "DOID:5409",
+      "schema:name": "stroke"
+    },
+    {
+      "@id": "CHEBI:59789",
+      "schema:name": "acetylcholine"
+    },
+    {
+      "@id": "CHEBI:50677",
+      "schema:name": "dopamine"
+    },
+    {
+      "@id": "CHEBI:18332",
+      "schema:name": "serotonin"
+    },
+    {
+      "@id": "ATC:B01AC06",
+      "schema:name": "clopidogrel"
+    },
+    {
+      "@id": "ATC:C09CA04",
+      "schema:name": "losartan"
+    },
+    {
+      "@id": "MONDO:0005126",
+      "schema:name": "basilar artery syndrome"
+    },
+    {
+      "@id": "MONDO:0004344",
+      "schema:name": "vertebrobasilar insufficiency"
+    },
+    {
+      "@id": "PW:0000507",
+      "schema:name": "cerebral circulation pathway"
+    },
+    {
+      "@id": "PW:0001365",
+      "schema:name": "neurotransmitter signaling pathway"
+    },
+    {
+      "@id": "ECO:0000218",
+      "schema:name": "functional assay evidence"
+    },
+    {
+      "@id": "ECO:0000182",
+      "schema:name": "clinical trial evidence"
+    },
+    {
+      "@id": "MESH:D001921",
+      "schema:name": "Blood-Brain Barrier"
+    },
+    {
+      "@id": "MESH:D007630",
+      "schema:name": "Neurovascular Coupling"
+    },
+    {
+      "@id": "MESH:D006261",
+      "schema:name": "Intracranial Embolism and Thrombosis"
+    },
+    {
+      "@id": "bibo:ConferencePaper",
+      "schema:name": "conference paper"
+    },
+    {
+      "@id": "bibo:AcademicArticle",
+      "schema:name": "academic article"
+    },
+    {
+      "@id": "cito:usesMethodIn",
+      "schema:name": "uses method in"
+    }
+  ],
+  "schema:relatedTo": [
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101963",
+      "@type": "schema:Organization",
+      "schema:name": "Cerebrum DAO"
+    }
+  ]
+}

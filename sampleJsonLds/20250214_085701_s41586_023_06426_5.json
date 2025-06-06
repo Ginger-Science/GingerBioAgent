@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/62408",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Nuclear genetic control of mtDNA copy number and heteroplasmy in humans",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Rahul Gupta"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Vamsi K. Mootha"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Benjamin M. Neale"
+    }
+  ],
+  "dcterms:abstract": "This study investigates the relationship between nuclear genetic variants and mitochondrial DNA (mtDNA) copy number and heteroplasmy in humans. Our analysis of whole-genome sequencing data across large cohorts reveals significant nuclear control over mtDNA traits, uncovering new insights into the genetic architecture that impacts mitochondrial dynamics and their implications for human health.",
+  "schema:datePublished": "2023-08-16",
+  "schema:keywords": [
+    "Mitochondrial DNA",
+    "Genetic Control",
+    "Copy Number",
+    "Heteroplasmy",
+    "Genome-Wide Association Study"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1038/nature620839",
+    "@type": "fabio:Journal",
+    "schema:name": "Nature"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Mitochondrial DNA (mtDNA) is a maternally inherited, high-copy-number genome required for oxidative phosphorylation. Heteroplasmy refers to the presence of a mixture of mtDNA alleles in an individual and has been associated with disease and aging."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "We analyzed whole-genome sequencing data from large biobanks, focusing on the associations between nuclear genetic variants and mtDNA traits."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-023-06426-5",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Extensive mitochondrial DNA variation across large human populations",
+      "bibo:doi": "10.1038/s41586-023-06426-5"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2022.07.007",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Somatic mutations in mitochondrial DNA associated with neurodegenerative diseases",
+      "bibo:doi": "10.1016/j.cell.2022.07.007"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0006006",
+      "schema:name": "glycolysis"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

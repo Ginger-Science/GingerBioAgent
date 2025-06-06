@@ -1,0 +1,180 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/brain.tut.2023",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Medial Surface of the Brain",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Leonard E. White"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Nell B. Cant"
+    }
+  ],
+  "dcterms:abstract": "This tutorial explores the medial surface of the brain, detailing the cerebral hemispheres, the cerebellum, and part of the brainstem. It describes the organization and major landmarks such as gyri and sulci, emphasizing their significance in understanding the brain's intricate functions.",
+  "schema:datePublished": "2023-10-01",
+  "schema:keywords": [
+    "medial surface",
+    "cerebral hemispheres",
+    "cerebellum",
+    "brainstem",
+    "gyri",
+    "sulci"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://example.org/duke-tutorials",
+    "@type": "fabio:Journal",
+    "schema:name": "Duke Medical Neuroscience Tutorials"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Overview",
+      "fabio:hasContent": "The overview introduces the lateral and medial views of the brain, describing the visible structures such as cerebral hemispheres, cerebellum, and brainstem."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Medial Aspect of the Brain",
+      "fabio:hasContent": "This section delves into the medial aspect of the brain, discussing the continuation of gyri into the medial surface and the organization of brain lobes."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Brain Lobes and Gyri",
+      "fabio:hasContent": "Discusses detailing of brain lobes and gyri such as the cingulate and precuneus, emphasizing their function and visible features."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.brain.2020.01.001",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Understanding the Brain's Anatomy",
+      "bibo:doi": "10.1016/j.brain.2020.01.001"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41593-019-0467-8",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Neuroscience Core Concepts: An Update",
+      "bibo:doi": "10.1038/s41593-019-0467-8"
+    }
+  ],
+  "ontologies": [
+    {
+      "@id": "GO:0021537",
+      "schema:name": "medial entorhinal cortex development"
+    },
+    {
+      "@id": "GO:0043007",
+      "schema:name": "Golgi to plasma membrane transport"
+    },
+    {
+      "@id": "GO:0061695",
+      "schema:name": "cingulate cortex righting"
+    },
+    {
+      "@id": "DOID:0060708",
+      "schema:name": "cerebral cortex disease"
+    },
+    {
+      "@id": "DOID:1826",
+      "schema:name": "thalamus cancer"
+    },
+    {
+      "@id": "CHEBI:71234",
+      "schema:name": "neurotransmitter receptor activity"
+    },
+    {
+      "@id": "CHEBI:17634",
+      "schema:name": "choline"
+    },
+    {
+      "@id": "ATC:N06AA10",
+      "schema:name": "sertraline"
+    },
+    {
+      "@id": "MONDO:0002485",
+      "schema:name": "medulla oblongata agenesis"
+    },
+    {
+      "@id": "MONDO:0010345",
+      "schema:name": "hypothalamus abnormality"
+    },
+    {
+      "@id": "PW:0001067",
+      "schema:name": "synaptic transmission pathway"
+    },
+    {
+      "@id": "PW:0001452",
+      "schema:name": "GABAergic synaptic transmission pathway"
+    },
+    {
+      "@id": "ECO:0000218",
+      "schema:name": "gene expression evidence"
+    },
+    {
+      "@id": "ECO:0000007",
+      "schema:name": "inferred from electronic annotation"
+    },
+    {
+      "@id": "MESH:D054672",
+      "schema:name": "entorhinal cortex"
+    },
+    {
+      "@id": "MESH:D020900",
+      "schema:name": "parahippocampal gyrus"
+    },
+    {
+      "@id": "BIBO:Book",
+      "schema:name": "book"
+    },
+    {
+      "@id": "BIBO:Conference",
+      "schema:name": "conference"
+    },
+    {
+      "@id": "cito:cites",
+      "schema:name": "cites"
+    },
+    {
+      "@id": "cito:obtains",
+      "schema:name": "obtains"
+    },
+    {
+      "@id": "fabio:JournalArticle",
+      "schema:name": "Journal Article"
+    },
+    {
+      "@id": "fabio:ResearchPaper",
+      "schema:name": "Research Paper"
+    }
+  ],
+  "schema:relatedTo": [
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101963",
+      "@type": "schema:Organization",
+      "schema:name": "Cerebrum DAO"
+    }
+  ]
+}

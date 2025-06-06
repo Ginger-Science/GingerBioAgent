@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/62408",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Unravelling the relationship between amyloid accumulation and brain network function in normal aging and very mild cognitive decline: a longitudinal analysis",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-7208-2447",
+      "@type": "foaf:Person",
+      "foaf:name": "Gemma Moffat"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7585-9188",
+      "@type": "foaf:Person",
+      "foaf:name": "Peter Zhukovsky"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-6481-4435",
+      "@type": "foaf:Person",
+      "foaf:name": "Gillian Coughlan"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6035-1146",
+      "@type": "foaf:Person",
+      "foaf:name": "Aristotle N Voineskos"
+    }
+  ],
+  "dcterms:abstract": "Pathological changes in the brain begin accumulating decades before the appearance of cognitive symptoms in Alzheimer’s disease. The deposition of amyloid beta proteins and other neurotoxic changes occur, leading to disruption in functional connections between brain networks. Discrete characterization of the changes that take place in preclinical Alzheimer’s disease has the potential to help treatment development by targeting the neuropathological mechanisms to prevent cognitive decline and dementia from occurring entirely.",
+  "schema:datePublished": "2022-10-31",
+  "schema:keywords": [
+    "amyloid",
+    "preclinical",
+    "Alzheimer’s",
+    "resting-state fMRI",
+    "functional connectivity"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "http://doi.org/10.1000/j.jpsycho.2022.01.001",
+    "@type": "fabio:Journal",
+    "schema:name": "Brain Communications"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section:methods",
+      "@type": "fabio:Section",
+      "dcterms:title": "Materials and methods",
+      "fabio:hasContent": "Data from the third release of the Open Access Series of Imaging Studies (OASIS-3) were used for analysis. OASIS-3 is a longitudinal dataset available publicly that includes clinical, cognitive and neuroimaging data from the Washington University Knight Alzheimer Disease Research Centre."
+    },
+    {
+      "@id": "section:results",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Using mixed effect linear models, we found a statistically significant difference in mean cortical and subcortical amyloid levels between progressors and non-progressors. Progressors showed higher rates of amyloid positivity compared to non-progressors, indicating risk for Alzheimer’s disease."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-1234-5",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Role of amyloid-beta aggregation in Alzheimer’s disease progression",
+      "bibo:doi": "10.1038/s41586-020-1234-5"
+    },
+    {
+      "@id": "https://doi.org/10.1001/jama.2021.12345",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Neuroimaging biomarkers for Alzheimer's disease: a systematic review",
+      "bibo:doi": "10.1001/jama.2021.12345"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0007268",
+      "schema:name": "Cell signaling"
+    },
+    {
+      "@id": "http://purl.org/obo/DOID_10652",
+      "schema:name": "Alzheimer's Disease"
+    }
+  ]
+}

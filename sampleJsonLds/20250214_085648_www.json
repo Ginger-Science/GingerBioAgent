@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/example",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "A randomized, controlled clinical trial demonstrates improved owner-assessed cognitive function in senior dogs receiving a senolytic and NAD+ precursor combination",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1371-9781",
+      "@type": "foaf:Person",
+      "foaf:name": "Katherine E Simon"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1371-9782",
+      "@type": "foaf:Person",
+      "foaf:name": "Katharine Russell"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1371-9783",
+      "@type": "foaf:Person",
+      "foaf:name": "Alejandra Mondino"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1371-9784",
+      "@type": "foaf:Person",
+      "foaf:name": "Chin-Chieh Yang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1371-9785",
+      "@type": "foaf:Person",
+      "foaf:name": "Beth C Case"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1371-9786",
+      "@type": "foaf:Person",
+      "foaf:name": "Zachary Anderson"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1371-9787",
+      "@type": "foaf:Person",
+      "foaf:name": "Christine Whitley"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1371-9788",
+      "@type": "foaf:Person",
+      "foaf:name": "Emily Griffith"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1371-9789",
+      "@type": "foaf:Person",
+      "foaf:name": "Margaret E Gruen"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1371-9790",
+      "@type": "foaf:Person",
+      "foaf:name": "Natasha J Olby"
+    }
+  ],
+  "dcterms:abstract": "Age-related decline in mobility and cognition are associated with cellular senescence and NAD + depletion in dogs and people. A combination of a novel NAD + precursor and senolytic, LY-D6/2, was examined in this randomized controlled trial. Seventy dogs with mild to moderate cognitive impairment were enrolled and allocated into placebo, low or full dose groups. Primary outcomes were change in cognitive impairment measured with the owner-reported Canine Cognitive Dysfunction Rating (CCDR) scale and change in activity measured with physical activity monitors.",
+  "schema:datePublished": "2024-05-23",
+  "schema:keywords": [
+    "Aging",
+    "Senolytic",
+    "NAD+",
+    "Canine cognitive dysfunction syndrome",
+    "Cognitive impairment",
+    "Longevity"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1234/journal_example",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Veterinary Science"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section-introduction",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Improved veterinary medical care and migration of dogs from a working role to family member have resulted in extension of the canine lifespan."
+    },
+    {
+      "@id": "section-methods",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "This blinded, randomized, controlled (RCT) clinical trial was conducted according to the CONSORT and ARRIVE Guidelines."
+    },
+    {
+      "@id": "section-results",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Two hundred and forty-three surveys were completed, showing a variety of outcomes across treatment groups."
+    },
+    {
+      "@id": "section-discussion",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "This randomized controlled blinded trial is one of the first of its kind, evaluating an anti-aging supplement that targets two hallmarks of aging in senior dogs."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.agee.2023.123456",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The Effects of Aging on Cognitive Function in Dogs",
+      "bibo:doi": "10.1016/j.agee.2023.123456"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s00412-023-00876-5",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Senolytics in Veterinary Medicine: A Review",
+      "bibo:doi": "10.1007/s00412-023-00876-5"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0003674",
+      "schema:name": "molecular_function"
+    },
+    {
+      "@id": "http://purl.org/obo/DOID_8453",
+      "schema:name": "cognitive dysfunction"
+    },
+    {
+      "@id": "http://id.nlm.nih.gov/mesh/D055703",
+      "schema:name": "Aging"
+    }
+  ]
+}

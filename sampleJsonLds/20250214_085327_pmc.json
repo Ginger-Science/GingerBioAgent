@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1096/fj.202401704R",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "High‐molecular‐weight oligomer tau (HMWoTau) species are dramatically increased in Braak‐stage dependent manner in the frontal lobe of human brains, demonstrated by a novel oligomer Tau ELISA with a mouse monoclonal antibody (APNmAb005)",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Hiroaki Fukumoto"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Tzu-Huei Kao"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Chin-Yin Tai"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Ming-Kuei Jang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Masaomi Miyamoto"
+    }
+  ],
+  "dcterms:abstract": "Disease‐specific oligomers Tau assay system is anticipated in Alzheimer disease (AD) to elucidate their etiological roles. We developed a highly sensitive and selective ELISA for high‐molecular‐weight oligomer tau (HMWoTau) with LLOQ of 0.3 pg/well for the first time, using a novel mouse monoclonal antibody APNmAb005. HMWoTau species were visualized as globular particles by advanced microscopy techniques and showed significant increases in AD brains at advanced Braak stages, suggesting their potential as biomarkers for diagnosis.",
+  "schema:datePublished": "2024-11-30",
+  "schema:keywords": [
+    "Alzheimer",
+    "APNmAb005",
+    "Braak-stage",
+    "conformation-specific",
+    "ELISA",
+    "globular oligomer",
+    "HMWoTau",
+    "p181Tau",
+    "total Tau"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1096/fj.202401704R",
+    "@type": "fabio:Journal",
+    "schema:name": "The FASEB Journal"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section-1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Alzheimer's disease (AD) has been pathologically confirmed by the presence of Aβ plaque and neurofibrillary tangles. Recent discoveries have linked tau pathology to AD dementia scores and neuronal loss."
+    },
+    {
+      "@id": "section-2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "We developed ELISA methodologies for detecting HMWoTau, utilizing recombinant human tau and mouse monoclonal antibody APNmAb005 to establish a specific and sensitive assay."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXX",
+      "@type": "schema:ScholarlyArticle",
+      "dcterms:title": "Aβ-Protofibril selective antibody Lecanemab",
+      "bibo:doi": "10.1038/s41586-020-XXXX"
+    },
+    {
+      "@id": "https://doi.org/10.1002/cncr.20001",
+      "@type": "schema:ScholarlyArticle",
+      "dcterms:title": "Clinical efficacy of Donanemab",
+      "bibo:doi": "10.1002/cncr.20001"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "http://purl.org/obo/DOID_14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

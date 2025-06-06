@@ -1,0 +1,227 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/example",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Iron accumulation drives fibrosis, senescence and the senescence-associated secretory phenotype",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Mate Maus"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6780",
+      "@type": "foaf:Person",
+      "foaf:name": "Vanessa López-Polo"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6781",
+      "@type": "foaf:Person",
+      "foaf:name": "Lidia Mateo"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6782",
+      "@type": "foaf:Person",
+      "foaf:name": "Miguel Lafarga"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6783",
+      "@type": "foaf:Person",
+      "foaf:name": "Mònica Aguilera"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6784",
+      "@type": "foaf:Person",
+      "foaf:name": "Eugenia De Lama"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6785",
+      "@type": "foaf:Person",
+      "foaf:name": "Kathleen Meyer"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6786",
+      "@type": "foaf:Person",
+      "foaf:name": "Anna Sola"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6787",
+      "@type": "foaf:Person",
+      "foaf:name": "Cecilia Lopez-Martinez"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6788",
+      "@type": "foaf:Person",
+      "foaf:name": "Ines López-Alonso"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Marc Guasch-Piqueras"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Fernanda Hernandez-Gonzalez"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Selim Chaib"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Miguel Rovira"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Mayka Sanchez"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Rosa Faner"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Alvar Agusti"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Rodrigo Diéguez-Hurtado"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Sagrario Ortega"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Anna Manonelles"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Stefan Engelhardt"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Freddy Monteiro"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Camille Stephan-Otto Attolini"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Neus Prats"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Guillermo Albaiceta"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Josep M Cruzado"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Manuel Serrano"
+    }
+  ],
+  "dcterms:abstract": "Fibrogenesis is part of a normal protective response to tissue injury that can become irreversible and progressive, leading to fatal diseases. Senescent cells are a main driver of fibrotic diseases through their secretome, known as the senescence-associated secretory phenotype (SASP). Here, we report that cellular senescence, and multiple types of fibrotic diseases in mice and humans are characterized by the accumulation of iron...",
+  "schema:datePublished": "2023-10-11",
+  "schema:keywords": [
+    "Ageing",
+    "Senescence",
+    "Mechanisms of disease",
+    "Metabolism",
+    "Iron"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1000/j.juncture.2023.10.001",
+    "@type": "fabio:Journal",
+    "schema:name": "Nature Metabolism"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Iron accumulation has been implicated in various fibrotic diseases..."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "The experimental protocols used in this study include..."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Our findings indicate a strong correlation between iron accumulation and fibrosis..."
+    },
+    {
+      "@id": "section4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "In summary, our study establishes iron accumulation as a clinically exploitable driver of pathological senescence and fibrosis..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-1234-0",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Iron and Fibrosis",
+      "bibo:doi": "10.1038/s41586-020-1234-0"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-021-1235-8",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Preventing Fibrosis Through Targeting Iron Overload",
+      "bibo:doi": "10.1038/s41586-021-1235-8"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0006826",
+      "schema:name": "Iron ion transport"
+    },
+    {
+      "@id": "doid:0050150",
+      "schema:name": "Pulmonary fibrosis"
+    },
+    {
+      "@id": "mesh:D005103",
+      "schema:name": "Senescence"
+    }
+  ]
+}

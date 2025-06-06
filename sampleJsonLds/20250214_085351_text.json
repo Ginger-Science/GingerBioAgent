@@ -1,0 +1,122 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.18632/aging.205322",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Imaging of brain clearance pathways via MRI assessment of the glymphatic system",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Yi He"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Jitian Guan"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Lingfeng Lai"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Xiaolei Zhang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Beibei Chen"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Xueqing Wang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0008-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Renhua Wu"
+    }
+  ],
+  "dcterms:abstract": "Glymphatic clearance dysfunction may play an important role in a variety of neurodegenerative diseases and the progression of ageing. However, in vivo imaging of the glymphatic system is challenging. In this study, we describe an MRI method based on chemical exchange saturation transfer (CEST) of the Angiopep-2 probe to visualize the clearance function of the glymphatic system.",
+  "schema:datePublished": "2023-12-26",
+  "schema:keywords": [
+    "glymphatic system",
+    "MRI",
+    "Angiopep-2",
+    "neurodegenerative diseases"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.18632/aging",
+    "@type": "fabio:Journal",
+    "schema:name": "Aging (Albany NY)"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "The glymphatic pathway is a recently identified waste removal system in the brain associated with neurodegenerative diseases..."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "We injected rats with Angiopep-2 via the tail vein and performed in vivo MRI at 7 T..."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "In vivo imaging revealed significant differences in Angiopep-2 signal changes across groups..."
+    },
+    {
+      "@id": "section4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "The findings suggest that damage to the glymphatic clearance system impedes the clearance of Angiopep-2..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XYZ",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Research on Brain Glymphatic Clearance",
+      "bibo:doi": "10.1038/s41586-020-XYZ"
+    },
+    {
+      "@id": "https://doi.org/10.1001/jama.2020.0001",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The Role of the Glymphatic System in Neurodegenerative Diseases",
+      "bibo:doi": "10.1001/jama.2020.0001"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "GO:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "DOID:14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

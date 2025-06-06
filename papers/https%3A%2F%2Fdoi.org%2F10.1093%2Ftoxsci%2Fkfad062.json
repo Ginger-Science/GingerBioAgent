@@ -1,0 +1,230 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1093/toxsci/kfad062",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Comparison between endocrine activity assessed using ToxCast/Tox21 database and human plasma concentration of sunscreen active ingredients/UV filters",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "David O. Onyango"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Bastian G. Selman"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Jane L. Rose"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Corie A. Ellison"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "J. F. Nash"
+    }
+  ],
+  "dcterms:abstract": "Sunscreen products are composed of ultraviolet (UV) filters to reduce exposure to sunlight thereby lessening skin damage. Concerns have been raised regarding the toxicity and potential endocrine disrupting (ED) effects of UV filters. The ToxCast/Tox21 program provides data through in vitro screening databases that identify adverse outcome pathways related to ED potential of chemicals. Using this data, the study evaluates UV filters such as octisalate, homosalate, and oxybenzone commonly used in sunscreen products to assess their endocrine activity and human plasma concentrations.",
+  "schema:datePublished": "2023-10-10",
+  "schema:keywords": [
+    "endocrine disruption",
+    "plasma concentration",
+    "sunscreen",
+    "ToxCast/Tox21",
+    "UV filters"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1093/toxsci",
+    "@type": "fabio:Journal",
+    "schema:name": "Toxicological Sciences"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "sec1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "The paper discusses the usage of UV filters in sunscreens and the concerns regarding their ED effects. It highlights the importance of assessing these filters using the ToxCast/Tox21 databases."
+    },
+    {
+      "@id": "sec2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Materials and Methods",
+      "fabio:hasContent": "Detailed description of the methodology used to screen UV filters using the ToxCast/Tox21 database, including specific assays and endpoints relevant for endocrine activity assessment."
+    },
+    {
+      "@id": "sec3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Outcomes of the ToxCast/Tox21 screening, discussing the ED potential of various UV filters, and their corresponding plasma concentrations based on human exposure."
+    },
+    {
+      "@id": "sec4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "Comparison of the in vitro data with known human plasma concentrations, discussing the reliability and limitations of using ToxCast/Tox21 data for real-world assessments."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.tox.2018.01.003",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Evaluating the endocrine disruption potential of chemical compounds.",
+      "bibo:doi": "10.1016/j.tox.2018.01.003"
+    },
+    {
+      "@id": "https://doi.org/10.1042/BST20180367",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Advancements in understanding endocrine disrupting chemicals.",
+      "bibo:doi": "10.1042/BST20180367"
+    }
+  ],
+  "ontologies": [
+    {
+      "@id": "GO:0003707",
+      "schema:name": "steroid hormone receptor activity"
+    },
+    {
+      "@id": "GO:0030518",
+      "schema:name": "steroid hormone receptor signaling pathway"
+    },
+    {
+      "@id": "GO:0030556",
+      "schema:name": "intracellular steroid hormone receptor signaling pathway"
+    },
+    {
+      "@id": "GO:0008610",
+      "schema:name": "lipid biosynthetic process"
+    },
+    {
+      "@id": "GO:0042493",
+      "schema:name": "response to drug"
+    },
+    {
+      "@id": "DOID:1826",
+      "schema:name": "carcinoma"
+    },
+    {
+      "@id": "DOID:9352",
+      "schema:name": "endocrine system disease"
+    },
+    {
+      "@id": "DOID:14566",
+      "schema:name": "glandular disease"
+    },
+    {
+      "@id": "CHEBI:50895",
+      "schema:name": "benzophenone"
+    },
+    {
+      "@id": "CHEBI:5318",
+      "schema:name": "salicylic acid"
+    },
+    {
+      "@id": "CHEBI:27594",
+      "schema:name": "phenol"
+    },
+    {
+      "@id": "CHEBI:34047",
+      "schema:name": "2-ethylhexanoic acid"
+    },
+    {
+      "@id": "ATC:D11AX18",
+      "schema:name": "andrographolide"
+    },
+    {
+      "@id": "ATC:D05BB02",
+      "schema:name": "coal tar"
+    },
+    {
+      "@id": "ATC:G03HA01",
+      "schema:name": "mesterolone"
+    },
+    {
+      "@id": "MONDO:0005078",
+      "schema:name": "endocrine disorder"
+    },
+    {
+      "@id": "MONDO:0005240",
+      "schema:name": "adrenal gland disease"
+    },
+    {
+      "@id": "PW:0000746",
+      "schema:name": "endocrine and other factor-regulated calcium reabsorption pathway"
+    },
+    {
+      "@id": "PW:0000320",
+      "schema:name": "hypothalamic regulation of thyroid-stimulating hormone production"
+    },
+    {
+      "@id": "PW:0000110",
+      "schema:name": "estrogen biosynthetic pathway"
+    },
+    {
+      "@id": "ECO:0005667",
+      "schema:name": "evidence used in drug approval"
+    },
+    {
+      "@id": "ECO:0000323",
+      "schema:name": "experimental evidence used in manual assertion"
+    },
+    {
+      "@id": "ECO:0000218",
+      "schema:name": "high throughput evidence"
+    },
+    {
+      "@id": "MESH:D002317",
+      "schema:name": "Carcinoma"
+    },
+    {
+      "@id": "MESH:D019635",
+      "schema:name": "Benzophenones"
+    },
+    {
+      "@id": "MESH:D045169",
+      "schema:name": "Salicylates"
+    },
+    {
+      "@id": "bibo:Book",
+      "schema:name": "Book"
+    },
+    {
+      "@id": "bibo:Document",
+      "schema:name": "Document"
+    },
+    {
+      "@id": "cito:citesAsEvidence",
+      "schema:name": "cites as evidence"
+    },
+    {
+      "@id": "cito:compares",
+      "schema:name": "compares in context"
+    },
+    {
+      "@id": "fabio:ResearchArticle",
+      "schema:name": "Research Article"
+    }
+  ],
+  "schema:relatedTo": []
+}

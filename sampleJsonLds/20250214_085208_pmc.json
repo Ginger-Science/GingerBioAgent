@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1038/s41598-024-79667-7",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Photoacoustic polydopamine-indocyanine green (PDA-ICG) nanoprobe for detection of senescent cells",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1313-5467",
+      "@type": "foaf:Person",
+      "foaf:name": "Muhamad Hartono"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2093-095X",
+      "@type": "foaf:Person",
+      "foaf:name": "Andrew G Baker"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-6294-1932",
+      "@type": "foaf:Person",
+      "foaf:name": "Thomas R Else"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0286-7245",
+      "@type": "foaf:Person",
+      "foaf:name": "Alexander S Evtushenko"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4464-9153",
+      "@type": "foaf:Person",
+      "foaf:name": "Sarah E Bohndiek"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9358-4739",
+      "@type": "foaf:Person",
+      "foaf:name": "Daniel Muñoz-Espín"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5132-3892",
+      "@type": "foaf:Person",
+      "foaf:name": "Ljiljana Fruk"
+    }
+  ],
+  "dcterms:abstract": "Cellular senescence is considered an important tumour suppression mechanism in response to damage and oncogenic stress in early lesions. However, when senescent cells are not immune-cleared and persist in the tumour microenvironment, they can drive a variety of tumour-promoting activities, including cancer initiation, progression, and metastasis. Additionally, there is compelling evidence demonstrating a direct connection between chemo(radio)therapy-induced senescence and the development of drug resistance and cancer recurrence. Therefore, detection of senescent cells in tissues holds great promise for predicting cancer occurrence earlier, assessing tumour progression, aiding patient stratification and prognosis, and informing about the efficacy of potential senotherapies. This study develops a nanoprobe composed of biocompatible polydopamine (PDA) nanoparticle doped with FDA-approved indocyanine green (ICG) dye, designed as a contrast agent for senescence detection using photoacoustic imaging (PAI).",
+  "schema:datePublished": "2024-11-12",
+  "schema:keywords": [
+    "Senescence",
+    "Detection",
+    "Cancer",
+    "Polydopamine",
+    "ICG",
+    "Photoacoustic"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "http://doi.org/10.1038/s41598",
+    "@type": "fabio:Journal",
+    "schema:name": "Scientific Reports"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "sec:introduction",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Cellular senescence is a cell autonomous response to tissue damage, oncogenic stress and developmental cues. The main function of senescence is to limit the expansion of damaged cells and to enable tissue repair."
+    },
+    {
+      "@id": "sec:results-and-discussion",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results and Discussion",
+      "fabio:hasContent": "The study demonstrates that PDA-ICG nanoprobe preferentially accumulates in chemotherapy-induced senescent cells, most likely due to the combination of lysosome localization and an active, ICG-mediated cell uptake."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "A critical review of cellular senescence in cancer",
+      "bibo:doi": "10.1038/s41586-020-00139-0"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2020.03.012",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Therapeutic targeting of senescent cells",
+      "bibo:doi": "10.1016/j.cell.2020.03.012"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "http://purl.org/obo/DOID_14330",
+      "schema:name": "lung cancer"
+    },
+    {
+      "@id": "http://purl.org/obo/CHEBI_15377",
+      "schema:name": "water"
+    }
+  ]
+}

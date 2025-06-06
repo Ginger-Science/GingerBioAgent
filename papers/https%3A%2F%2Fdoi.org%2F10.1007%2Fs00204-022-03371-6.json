@@ -1,0 +1,211 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/",
+    "doco": "http://purl.org/spar/doco/",
+    "pro": "http://purl.org/spar/pro/",
+    "obi": "http://purl.obolibrary.org/obo/"
+  },
+  "@id": "https://doi.org/10.1007/s00204-022-03371-6",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Practical application of the interim internal threshold of toxicological concern (iTTC): a case study based on clinical data",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Abdulkarim Najjar"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5679",
+      "@type": "foaf:Person",
+      "foaf:name": "Corie A. Ellison"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5680",
+      "@type": "foaf:Person",
+      "foaf:name": "Sebastien Gregoire"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5681",
+      "@type": "foaf:Person",
+      "foaf:name": "Nicola J. Hewitt"
+    }
+  ],
+  "dcterms:abstract": "This study presents a practical example of the internal Threshold of Toxicological Concern (iTTC) used for assessing dermal exposures to consumer products. The study uses chemicals where no systemic toxicity data exist, evaluating them under maximum exposure conditions compared to the iTTC limit of 1 μM.",
+  "schema:datePublished": "2022-09-23",
+  "schema:keywords": [
+    "iTTC",
+    "Cosmetics ingredients",
+    "Decision tree",
+    "Systemic toxicity",
+    "PBPK",
+    "Dermal exposure",
+    "UV filter",
+    "Risk assessment"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1007/s00204-022",
+    "@type": "fabio:Journal",
+    "schema:name": "Archives of Toxicology"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "introduction",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "The concept of the threshold of toxicological concern (TTC) and its application to dermal exposure with internal TTC evaluations."
+    },
+    {
+      "@id": "casestudy",
+      "@type": "fabio:Section",
+      "dcterms:title": "Case Study",
+      "fabio:hasContent": "Case study chemicals include avobenzone, octocrylene, and ecamsule, evaluated using human pharmacokinetic data."
+    },
+    {
+      "@id": "conclusion",
+      "@type": "fabio:Section",
+      "dcterms:title": "Conclusion",
+      "fabio:hasContent": "The study highlights using internal exposures assessed against the iTTC and its benefits in low systemic toxicity scenarios."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.tox.2017.03.021",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The margin of internal exposure (MoIE) concept",
+      "bibo:doi": "10.1016/j.tox.2017.03.021"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.envint.2020.106214",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Human exposure to cosmetic ingredients",
+      "bibo:doi": "10.1016/j.envint.2020.106214"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.fct.2020.111109",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Estimation of dermal exposure to UV filters",
+      "bibo:doi": "10.1016/j.fct.2020.111109"
+    }
+  ],
+  "ontologies": [
+    {
+      "@id": "GO:0008152",
+      "schema:name": "metabolic process"
+    },
+    {
+      "@id": "GO:0006915",
+      "schema:name": "apoptotic process"
+    },
+    {
+      "@id": "GO:0003674",
+      "schema:name": "molecular function"
+    },
+    {
+      "@id": "DOID:0080600",
+      "schema:name": "cosmetic-related disorder"
+    },
+    {
+      "@id": "DOID:0060225",
+      "schema:name": "chemical poisoning"
+    },
+    {
+      "@id": "CHEBI:41467",
+      "schema:name": "oxybenzone"
+    },
+    {
+      "@id": "CHEBI:58952",
+      "schema:name": "octocrylene"
+    },
+    {
+      "@id": "ATC:D07AC13",
+      "schema:name": "hydrocortisone butyrate"
+    },
+    {
+      "@id": "MONDO:0005325",
+      "schema:name": "eczema"
+    },
+    {
+      "@id": "MONDO:0015967",
+      "schema:name": "dermatitis"
+    },
+    {
+      "@id": "PW:0000367",
+      "schema:name": "keratinocyte differentiation pathway"
+    },
+    {
+      "@id": "PW:0000183",
+      "schema:name": "xenobiotic metabolic process"
+    },
+    {
+      "@id": "ECO:0000218",
+      "schema:name": "computational evidence used in manual assertion"
+    },
+    {
+      "@id": "ECO:0000203",
+      "schema:name": "in vitro assay evidence"
+    },
+    {
+      "@id": "MESH:D014655",
+      "schema:name": "Sunscreening Agents"
+    },
+    {
+      "@id": "MESH:D020164",
+      "schema:name": "Skin Absorption"
+    },
+    {
+      "@id": "BIBO:Article",
+      "schema:name": "academic article"
+    },
+    {
+      "@id": "BIBO:Thesis",
+      "schema:name": "thesis"
+    },
+    {
+      "@id": "BiRO:Reference",
+      "schema:name": "bibliographic reference"
+    },
+    {
+      "@id": "CiTO:usesMethodIn",
+      "schema:name": "uses method in"
+    },
+    {
+      "@id": "CiTO:discusses",
+      "schema:name": "discusses"
+    },
+    {
+      "@id": "FaBiO:ResearchArticle",
+      "schema:name": "research article"
+    },
+    {
+      "@id": "FaBiO:JournalArticle",
+      "schema:name": "journal article"
+    },
+    {
+      "@id": "GO:0003824",
+      "schema:name": "catalytic activity"
+    },
+    {
+      "@id": "GO:0006725",
+      "schema:name": "positional regulation of response to toxic substance"
+    },
+    {
+      "@id": "DOID:0050827",
+      "schema:name": "contact dermatitis"
+    }
+  ],
+  "schema:relatedTo": []
+}

@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.5551/jat.63507",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Association between Serum Oxysterols and Coronary Plaque Regression during Lipid-Lowering Therapy with Statin and Ezetimibe: Insights from the CuVIC Trial",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Yasuhiro Nakano"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Mitsutaka Yamamoto"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Tetsuya Matoba"
+    }
+  ],
+  "dcterms:abstract": "This study evaluates the impact of ezetimibe in combination with statin therapy on coronary plaque burden and explores the relationship with serum oxysterol levels.",
+  "schema:datePublished": "2022-12-01",
+  "schema:keywords": [
+    "Ezetimibe",
+    "Statin",
+    "Oxysterols",
+    "Coronary plaque",
+    "Intravascular ultrasound"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "http://doi.org/10.5551/jat.63507",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Atherosclerosis and Thrombosis"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Despite major advances in cardiovascular science, coronary artery disease (CAD) remains a leading cause of mortality."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "We conducted a prospective randomized, open, blinded-endpoint trial among patients with CAD receiving stenting."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1001/jama.2015.8445",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Ezetimibe Added to Statin Therapy after Acute Coronary Syndromes",
+      "bibo:doi": "10.1001/jama.2015.8445"
+    },
+    {
+      "@id": "https://doi.org/10.1056/NEJMoa1512489",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Effect of very high-intensity statin therapy on regression of coronary atherosclerosis",
+      "bibo:doi": "10.1056/NEJMoa1512489"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "chebi:15377",
+      "schema:name": "Water"
+    },
+    {
+      "@id": "doid:14330",
+      "schema:name": "Lung Cancer"
+    },
+    {
+      "@id": "go:0008150",
+      "schema:name": "Biological Process"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/62408",
+  "@type": "schema:ScholarlyArticle",
+  "dcterms:title": "Rhodium nanozyme mitigates RPE degeneration and preserves vision in age-related macular degeneration via antioxidant and anti-inflammatory mechanisms.",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Qian Sun"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Yueqi Ni"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Kang Wang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Hong Zhang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Jia Liu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Lingjuan Xu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Yin Zhao"
+    }
+  ],
+  "dcterms:abstract": "Age-related macular degeneration (AMD) is the leading cause of blindness among elderly people worldwide. However, there are currently no effective treatments for AMD. In this study, a polyethylene glycol (PEG)-coated rhodium nanozyme (PEG-RhZ) with excellent reactive oxygen species (ROS) and reactive nitrogen species (RNS) elimination capability was synthesized for the treatment of AMD.",
+  "schema:datePublished": "2024-10-01",
+  "schema:keywords": [
+    "Nanozyme",
+    "RPE",
+    "Microglia",
+    "Oxidative stress",
+    "Inflammation"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1016/j.mtbio.2024.101230",
+    "@type": "fabio:Journal",
+    "schema:name": "Molecular Therapy - Bio."
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Age-related macular degeneration (AMD) is the leading cause of blindness among elderly individuals. Over 8.7% of the worldwide population has AMD."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "The PEG-RhZs were synthesized by a reduction method. The antioxidant activities of PEG-RhZs were evaluated."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "The use of PEG-RhZs effectively reduced oxidative stress levels and maintained RPE cell viability."
+    },
+    {
+      "@id": "section4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Conclusion",
+      "fabio:hasContent": "This study sheds light on the advancement of nanozymes with versatile enzyme-mimicking capabilities and presents promising alternatives for AMD treatment."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-1234",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Novel approaches in the treatment of AMD",
+      "bibo:doi": "10.1038/s41586-020-1234"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2020.01.001",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Understanding the pathogenesis of AMD",
+      "bibo:doi": "10.1016/j.cell.2020.01.001"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "doid:14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

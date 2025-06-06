@@ -1,0 +1,136 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/62408",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Cerebrospinal fluid flow extends to peripheral nerves further unifying the nervous system",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Alexander P Ligocki"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Augustine V Vinson"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Anthony T Yachnis"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "William A Dunn Jr"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Douglas E Smith"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Elizabeth A Scott"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Jimena V Alvarez-Castanon"
+    },
+    {
+      "@id": "https://orcid.org/0000-0008-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Daniel E Baez Montalvo"
+    },
+    {
+      "@id": "https://orcid.org/0000-0009-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Olivia G Frisone"
+    },
+    {
+      "@id": "https://orcid.org/0000-0010-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Gary A J Brown"
+    },
+    {
+      "@id": "https://orcid.org/0000-0011-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Joel E Pessa"
+    },
+    {
+      "@id": "https://orcid.org/0000-0012-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Edward W Scott"
+    }
+  ],
+  "dcterms:abstract": "Cerebrospinal fluid (CSF) is responsible for maintaining brain homeostasis through nutrient delivery and waste removal for the central nervous system (CNS). Here, we demonstrate extensive CSF flow throughout the peripheral nervous system (PNS) by tracing distribution of multimodal 1.9-nanometer gold nanoparticles, roughly the size of CSF circulating proteins, infused within the lateral cerebral ventricle (a primary site of CSF production). CSF plays a consistent role in maintaining homeostasis throughout the nervous system with implications for CNS and PNS therapy and neural drug delivery.",
+  "schema:datePublished": "2024-09-06",
+  "schema:keywords": [
+    "cerebrospinal fluid",
+    "nervous system",
+    "peripheral nervous system",
+    "nanoparticles",
+    "homeostasis"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://journal.example.com",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Neuroscience Research"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section-1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Cerebrospinal fluid (CSF) is primarily produced by the choroid plexus located within the ventricles..."
+    },
+    {
+      "@id": "section-2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Ventricular infusion of gold nanoparticles demonstrates CSF flow to peripheral nerves..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1234/cite1",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Flow of Cerebrospinal Fluid in the Mouse Brain",
+      "bibo:doi": "10.1234/cite1"
+    },
+    {
+      "@id": "https://doi.org/10.1234/cite2",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Cerebrospinal Fluid Dynamics",
+      "bibo:doi": "10.1234/cite2"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "doid:14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

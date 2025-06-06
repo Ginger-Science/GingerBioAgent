@@ -1,0 +1,264 @@
+{
+  "@type": "fabio:ResearchPaper",
+  "dcterms:title": "Increased frequency of clonal hematopoiesis of indeterminate potential in Bloom syndrome probands and carriers",
+  "dcterms:creator": [
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Isabella Lin",
+      "@id": "81bdbf98-3949-431e-ae82-78cc83296f6f"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Angela Wei",
+      "@id": "2b4efd2c-fedf-402f-aa6a-08d849e6628f"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Tsumugi A. Gebo",
+      "@id": "e8236304-ea58-4d17-b75b-1b2e27953e3d"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Paul C. Boutros",
+      "@id": "aadb3b5d-6075-4517-8f64-a7a7bf7fac40"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Maeve Flanagan",
+      "@id": "85c17f89-747a-4e66-9217-7604ba5d5c40"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Nicole Kucine",
+      "@id": "e782a469-4655-4715-93f9-18922e1a3139"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Christopher Cunniff",
+      "@id": "30092014-e5f1-44cc-a1f7-30557fe13979"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Valerie A. Arboleda",
+      "@id": "40c69836-8a3e-44c7-bb30-012c615aa0d3"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Vivian Y. Chang",
+      "@id": "9bb1116c-4fd6-4423-8322-46b8fe1572a7"
+    }
+  ],
+  "dcterms:abstract": "Bloom syndrome (BSyn, OMIM #210900) is a rare autosomal recessive disorder characterized by growth restriction, sun sensitivity, insulin resistance, mild immune deficiency, and increased risk of early-onset malignancy. Using exome sequencing of BSyn patients and BLM carriers, we found that both BSyn probands and BLM carriers exhibited an increased frequency of CHIP compared to sex- and age-matched controls. This study sheds new light on the interplay between genetic predispositions and somatic variation and highlights the need for additional studies to further evaluate the mechanisms and potential clinical implications for patients with one or two BLM PV.",
+  "dcterms:date": "2025-01",
+  "dcterms:publisher": "Ferrata Storti Foundation",
+  "fabio:hasPageNumbers": "187-192",
+  "dcterms:identifier": "https://doi.org/10.3324/haematol.2024.285239",
+  "obi:OBI_0000299": [
+    {
+      "dcterms:description": "Increased frequency of low frequency, putatively somatic variants in CHIP genes in BSyn probands and BLM carriers",
+      "@id": "ad86d187-7a03-4a76-9b10-77ca7d99475a"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0030097",
+      "dcterms:name": "clonal hematopoiesis",
+      "obi:BFO_0000050": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0030097",
+        "dcterms:name": "hematopoiesis",
+        "dcterms:description": "The paper discusses clonal hematopoiesis as a specific form of blood cell production characterized by somatic mutations in leukemia-related genes."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0006281",
+      "dcterms:name": "DNA repair",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0030097",
+        "dcterms:name": "clonal hematopoiesis",
+        "dcterms:description": "The paper demonstrates that germline variants in DNA repair genes are associated with increased prevalence of clonal hematopoiesis."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0060218",
+      "dcterms:name": "hematopoietic stem cell",
+      "obi:RO_0002215": {
+        "@id": "clonal expansion",
+        "dcterms:description": "The study shows that hematopoietic stem cells can undergo clonal expansion, particularly in the context of BLM mutations."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0002566",
+      "dcterms:name": "somatic mutation",
+      "obi:BFO_0000066": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0007516",
+        "dcterms:name": "blood cell",
+        "dcterms:description": "The research identifies somatic mutations occurring in blood cells, specifically in leukemia-related genes."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0003678",
+      "dcterms:name": "DNA helicase activity",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0006281",
+        "dcterms:name": "DNA repair",
+        "dcterms:description": "The paper discusses BLM helicase mutations affecting DNA repair processes, leading to increased genomic instability."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_2717",
+      "dcterms:title": "Bloom syndrome",
+      "dcterms:description": "Rare autosomal recessive disorder characterized by growth restriction, sun sensitivity, insulin resistance, mild immune deficiency, and increased cancer risk. 53% of participants developed cancer, with hematologic malignancies being most common. Study found increased frequency of clonal hematopoiesis of indeterminate potential (CHIP) in both Bloom syndrome patients and carriers."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_9952",
+      "dcterms:title": "acute lymphoblastic leukemia",
+      "dcterms:description": "Identified as one of the cancers occurring in Bloom syndrome patients, with cases reported in the study cohort occurring at ages 4 and 7 years post-collection."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_9119",
+      "dcterms:title": "acute myeloid leukemia",
+      "dcterms:description": "Reported in one Bloom syndrome patient at age 20 years post-collection."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_0050745",
+      "dcterms:title": "diffuse large B-cell lymphoma",
+      "dcterms:description": "Occurred in one Bloom syndrome patient at age 20 years post-collection."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_11054",
+      "dcterms:title": "bladder cancer",
+      "dcterms:description": "Reported in one Bloom syndrome patient at age 6 years post-collection."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_83828",
+      "dcterms:title": "DNA",
+      "dcterms:description": "The paper discusses DNA variants and mutations in BLM genes, particularly focusing on how DNA repair mechanisms are affected in Bloom syndrome patients and carriers. The study found increased frequency of somatic DNA variants in CHIP genes in both Bloom syndrome probands and BLM carriers."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_18367",
+      "dcterms:title": "telomere",
+      "dcterms:description": "The research indicates that variants in telomere maintenance genes are associated with increased prevalence of clonal hematopoiesis of indeterminate potential (CHIP). This suggests a connection between telomere biology and clonal evolution in hematopoietic cells."
+    }
+  ],
+  "obi:OBI_0000968": [
+    {
+      "foaf:name": "Illumina NovaSeq S1",
+      "dcterms:description": "Used for sequencing libraries",
+      "@id": "f9d07af4-10b8-479c-9974-ffb0a31738d5"
+    }
+  ],
+  "obi:OBI_0000293": [
+    {
+      "dcterms:description": "29 peripheral blood DNA samples from the BSR, including ten BSyn probands and their biological parents",
+      "@id": "332a2940-dc72-4ca5-8b4b-89ea67665484"
+    }
+  ],
+  "obi:OBI_0200000": [
+    {
+      "dcterms:description": "GATK best-practices pipeline for quality control, mapping and variant-calling",
+      "@id": "8ec56fb3-070d-4948-a5f8-87f1466c93c6"
+    }
+  ],
+  "obi:OBI_0000251": [
+    {
+      "dcterms:description": "All study participants provided informed consent under a protocol for the BSR approved by the Weill Cornell Medical College Institutional Review Board",
+      "@id": "e4ca1cef-2ed4-4bd5-b4b8-aebd9ce79134"
+    }
+  ],
+  "obi:OBI_0000070": [
+    {
+      "dcterms:description": "Exome sequencing with Nextera DNA Flex Pre-Enrichment Library Prep and Roche NimbleGen exome capture kit",
+      "@id": "2bb35ee6-94d5-4632-886a-8362eb276586"
+    }
+  ],
+  "obi:IAO_0000616": [
+    {
+      "dcterms:description": "PCB sits on the scientific advisory boards of Sage Bionetworks, Intersect Diagnostics Inc. and BioSymetrics Inc. The other authors have no conflicts of interest to disclose.",
+      "@id": "eca338e8-6d2c-4c37-8b29-4373de79614a"
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.3324/haematol.2024.285239",
+      "dcterms:title": "Bloom's syndrome clinical spectrum, molecular pathogenesis, and cancer predisposition"
+    },
+    {
+      "@id": "https://doi.org/10.3324/haematol.2024.285239",
+      "dcterms:title": "ClinVar public archive of relationships among sequence variation and human phenotype"
+    },
+    {
+      "@id": "https://doi.org/10.3324/haematol.2024.285239",
+      "dcterms:title": "Age of first cancer diagnosis and survival in Bloom syndrome"
+    },
+    {
+      "@id": "https://doi.org/10.3324/haematol.2024.285239",
+      "dcterms:title": "The risk for developing cancer in Israeli ATM, BLM, and FANCC heterozygous mutation carriers"
+    },
+    {
+      "@id": "https://doi.org/10.3324/haematol.2024.285239",
+      "dcterms:title": "Prevalence of the BLM nonsense mutation, p.Q548X, in ovarian cancer patients from Central and Eastern Europe"
+    },
+    {
+      "@id": "https://doi.org/10.3324/haematol.2024.285239",
+      "dcterms:title": "Deleterious germline BLM mutations and the risk for early-onset colorectal cancer"
+    },
+    {
+      "@id": "https://doi.org/10.3324/haematol.2024.285239",
+      "dcterms:title": "Exome sequencing identifies rare deleterious mutations in DNA repair genes FANCC and BLM as potential breast cancer susceptibility alleles"
+    },
+    {
+      "@id": "https://doi.org/10.3324/haematol.2024.285239",
+      "dcterms:title": "Heterozygous germline BLM mutations increase susceptibility to asbestos and mesothelioma"
+    },
+    {
+      "@id": "https://doi.org/10.3324/haematol.2024.285239",
+      "dcterms:title": "Age-related clonal hematopoiesis associated with adverse outcomes"
+    },
+    {
+      "@id": "https://doi.org/10.3324/haematol.2024.285239",
+      "dcterms:title": "Inherited causes of clonal haematopoiesis in 97,691 whole genomes"
+    },
+    {
+      "@id": "https://doi.org/10.3324/haematol.2024.285239",
+      "dcterms:title": "Cancer spectrum and outcomes in the Mendelian short telomere syndromes"
+    },
+    {
+      "@id": "https://doi.org/10.3324/haematol.2024.285239",
+      "dcterms:title": "Genetic determinants of clonal hematopoiesis and progression to hematologic malignancies in 479,117 individuals"
+    },
+    {
+      "@id": "https://doi.org/10.3324/haematol.2024.285239",
+      "dcterms:title": "The genome analysis toolkit a MapReduce framework for analyzing next-generation DNA sequencing data"
+    },
+    {
+      "@id": "https://doi.org/10.3324/haematol.2024.285239",
+      "dcterms:title": "A substantial proportion of apparently heterozygous TP53 pathogenic variants detected with a next-generation sequencing hereditary pan-cancer panel are acquired somatically"
+    },
+    {
+      "@id": "https://doi.org/10.3324/haematol.2024.285239",
+      "dcterms:title": "Clonal hematopoiesis of indeterminate potential and its distinction from myelodysplastic syndromes"
+    }
+  ],
+  "@id": "https://doi.org/10.1234/9283492",
+  "dcterms:hasPart": "A research paper titled Increased frequency of clonal hematopoiesis of indeterminate potential in Bloom syndrome probands and carriers authored by Isabella Lin Angela Wei Tsumugi A Gebo Paul C Boutros Maeve Flanagan Nicole Kucine Christopher Cunniff Valerie A Arboleda and Vivian Y Chang was published in January 2025 by Ferrata Storti Foundation The study focuses on Bloom syndrome a rare autosomal recessive disorder characterized by growth restriction sun sensitivity insulin resistance mild immune deficiency and increased cancer risk The research found increased frequency of clonal hematopoiesis in both Bloom syndrome patients and BLM carriers compared to matched controls The study analyzed 29 peripheral blood DNA samples from the BSR including ten Bloom syndrome probands and their biological parents using exome sequencing with Nextera DNA Flex PreEnrichment Library Prep and Roche NimbleGen exome capture kit on Illumina NovaSeq S1 The research identified increased frequency of low frequency putatively somatic variants in CHIP genes in both Bloom syndrome probands and BLM carriers Clonal hematopoiesis was examined as a specific form of blood cell production characterized by somatic mutations in leukemia related genes The study demonstrated that germline variants in DNA repair genes are associated with increased prevalence of clonal hematopoiesis Hematopoietic stem cells were shown to undergo clonal expansion particularly in context of BLM mutations The research explored BLM helicase mutations affecting DNA repair processes leading to increased genomic instability The study reported various cancers in Bloom syndrome patients including acute lymphoblastic leukemia at ages 4 and 7 years post collection acute myeloid leukemia at age 20 years post collection diffuse large B cell lymphoma at age 20 years post collection and bladder cancer at age 6 years post collection The research indicates that variants in telomere maintenance genes are associated with increased prevalence of clonal hematopoiesis suggesting a connection between telomere biology and clonal evolution in hematopoietic cells Data analysis was performed using GATK best practices pipeline for quality control mapping and variant calling All participants provided informed consent under a protocol approved by Weill Cornell Medical College Institutional Review Board",
+  "schema:relatedTo": [
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101956",
+      "@type": "schema:Organization",
+      "schema:name": "VitaDAO"
+    },
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101964",
+      "@type": "schema:Organization",
+      "schema:name": "Curetopia"
+    }
+  ],
+  "@context": {
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "cito": "http://purl.org/spar/cito/",
+    "doco": "http://purl.org/spar/doco/",
+    "pro": "http://purl.org/spar/pro/",
+    "obi": "http://purl.obolibrary.org/obo/",
+    "schema": "http://schema.org/"
+  }
+}

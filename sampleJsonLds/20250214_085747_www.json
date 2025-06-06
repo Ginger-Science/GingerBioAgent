@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/example",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Induced degeneration and regeneration in aged muscle reduce tubular aggregates but not muscle function",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Felipe Tadeu Galante Rocha de Vasconcelos"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Antonio Fernando Ribeiro Júnior"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Brandow Willy Souza"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Isabela de Aquino Zogbi"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Laura Machado"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-7890-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Lara Carvalho"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-8901-2345",
+      "@type": "foaf:Person",
+      "foaf:name": "Letícia Nogueira Feitosa"
+    },
+    {
+      "@id": "https://orcid.org/0000-0008-9012-3456",
+      "@type": "foaf:Person",
+      "foaf:name": "Lucas Santos Souza"
+    },
+    {
+      "@id": "https://orcid.org/0000-0009-0123-4567",
+      "@type": "foaf:Person",
+      "foaf:name": "Nathália Gagliardi Saldys"
+    },
+    {
+      "@id": "https://orcid.org/0000-0010-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Merari de Fátima Ramires Ferrari"
+    },
+    {
+      "@id": "https://orcid.org/0000-0011-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Mariz Vainzof"
+    }
+  ],
+  "dcterms:abstract": "This study investigates the relationship between degeneration/regeneration and tubular aggregates (TA) in aged murine models, revealing that TA formation occurs during muscle degeneration but does not correlate with functional improvement.",
+  "schema:datePublished": "2024-01-15",
+  "schema:keywords": [
+    "tubular aggregates",
+    "muscle regeneration",
+    "aging",
+    "muscular dystrophies",
+    "neuromuscular disease"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://journals.example.com/doi/10.1234/example",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Muscle Research"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Tubular aggregates (TA) are skeletal muscle structures that arise from the accumulation of sarcoplasmic reticulum proteins and have been studied in aging and muscle degeneration."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "We used aged mice to analyze the formation of TA post degeneration and regeneration through electroporation."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Our results suggest that muscle regeneration leads to a reduction in TA without improving muscle function."
+    },
+    {
+      "@id": "section4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "The findings indicate a complex interaction between muscle degeneration and the formation of tubular aggregates, which do not correlate with functional muscle improvements."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-12345-6",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Aging and muscle function",
+      "bibo:doi": "10.1038/s41586-020-12345-6"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.mcg.2020.05.002",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Muscle degeneration and regeneration: the role of tubular aggregates",
+      "bibo:doi": "10.1016/j.mcg.2020.05.002"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "GO:0001501",
+      "schema:name": "skeletal muscle development"
+    },
+    {
+      "@id": "DOID:14330",
+      "schema:name": "muscular dystrophy"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "@context": {
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "cito": "http://purl.org/spar/cito/",
+    "doco": "http://purl.org/spar/doco/",
+    "pro": "http://purl.org/spar/pro/",
+    "obi": "http://purl.obolibrary.org/obo/",
+    "schema": "http://schema.org/"
+  },
+  "@type": "fabio:ResearchPaper",
+  "dcterms:title": "Dopamine D2 receptor and β-arrestin 2 mediate Amyloid-β elevation induced by anti-parkinson's disease drugs, levodopa and piribedil, in neuronal cells",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0003-8245-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Jing Lu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7156-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Xiaohang Li"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9234-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Qinying Wang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-1122-3456",
+      "@type": "foaf:Person",
+      "foaf:name": "Gang Pei"
+    }
+  ],
+  "dcterms:abstract": "Although levodopa is the first-line medication for the treatment of Parkinson's disease (PD) showing unsurpassable efficiency, its chronic use causes dyskinesia. Accordingly, dopamine agonists are increasingly employed as monotherapy or in combination with levodopa to reduce the risk of motor complications. It is well recognized that patients with PD often exhibit cognitive deficits. However, clinical and animal studies assessing the effects of dopaminergic medications on cognition are controversial. Amyloid-β (Aβ) is one of the major hallmarks of Alzheimer's disease (AD), leading to progressive memory loss and cognitive deficit. Interestingly, the abnormal accumulation of Aβ is also detected in PD patients with cognitive deficits. Evidence indicated that levodopa induced a mild increase of Aβ plaque number and size in the brain of AD mouse. However, the underlying mechanism is unclear. Here we present that both levodopa and piribedil enhance the generation of Aβ and the activity of γ-secretase in human neuronal cells and primary neurons isolated from AD mouse. This effect was reduced by either the antagonism or the knockdown of dopamine D2 receptor (D2R). We further showed that in the cells expressing β-arrestin 2-biased D2R mutant, piribedil promoted cellular Aβ production to the extent comparable to the wild-type D2R whereas this activity was absent in those with G protein-biased D2R mutant. Moreover, the knockdown of β-arrestin 2 attenuated the increases of Aβ generation and γ-secretase activity mediated by levodopa or piribedil. Thus, our study suggests that targeting D2R-mediated β-arrestin function may have potential risk in the modulation of Aβ pathology.",
+  "dcterms:date": "2017-03-02",
+  "dcterms:publisher": "PLOS ONE",
+  "fabio:hasJournalVolume": "12",
+  "fabio:hasJournalIssue": "3",
+  "fabio:hasPageNumbers": "1-18",
+  "dcterms:identifier": "https://doi.org/10.1371/journal.pone.0173240",
+  "obi:OBI_0000299": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0070765",
+      "dcterms:name": "gamma secretase activity",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0034205",
+        "dcterms:name": "amyloid beta production",
+        "dcterms:description": "The gamma secretase activity directly regulates the production of amyloid beta (Aβ) peptides in neuronal cells, with increased gamma secretase activity leading to enhanced Aβ generation."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0014046",
+      "dcterms:name": "dopamine signaling",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0070765",
+        "dcterms:name": "gamma secretase activity",
+        "dcterms:description": "Dopamine signaling through D2R regulates gamma secretase activity, with activation of dopamine signaling leading to increased gamma secretase activity."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_1990763",
+      "dcterms:name": "beta arrestin 2",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0070765",
+        "dcterms:name": "gamma secretase activity",
+        "dcterms:description": "Beta arrestin 2 mediates the regulation of gamma secretase activity, with its knockdown reducing gamma secretase activity and Aβ production."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0070765",
+      "dcterms:name": "gamma secretase complex assembly",
+      "obi:BFO_0000050": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0034205",
+        "dcterms:name": "amyloid beta processing",
+        "dcterms:description": "Gamma secretase complex assembly is an integral part of the amyloid beta processing pathway, necessary for the generation of Aβ peptides."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0042987",
+      "dcterms:name": "amyloid precursor protein processing",
+      "obi:RO_0002233": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0070765",
+        "dcterms:name": "gamma secretase activity",
+        "dcterms:description": "Gamma secretase activity is a component of amyloid precursor protein processing, being essential for the proteolytic processing of APP."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_14330",
+      "dcterms:title": "Parkinson's disease",
+      "dcterms:description": "Despite showing unsurpassable efficiency, chronic use of levodopa causes dyskinesia. The study found that both levodopa and piribedil enhance the generation of amyloid-β and increase γ-secretase activity in neuronal cells through dopamine D2 receptor and β-arrestin 2 mediation."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_10652",
+      "dcterms:title": "Alzheimer's disease",
+      "dcterms:description": "The study reveals that anti-Parkinson's drugs levodopa and piribedil increase amyloid-β generation and γ-secretase activity in human neuronal cells and primary neurons isolated from AD mouse, potentially affecting AD pathology. This suggests these medications might contribute to increased amyloid-β accumulation, a major hallmark of Alzheimer's disease."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_14330",
+      "dcterms:title": "Parkinson's disease dementia",
+      "dcterms:description": "Patients with Parkinson's disease often exhibit cognitive deficits, and abnormal accumulation of amyloid-β is detected in PD patients with cognitive deficits. The study suggests that dopaminergic medications might affect cognitive function through modulation of amyloid-β levels."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_15765",
+      "dcterms:title": "Levodopa",
+      "dcterms:description": "Levodopa enhances the generation of amyloid-β and increases γ-secretase activity in neuronal cells. At micromolar concentrations shows cytotoxicity, but increases Aβ generation with an ECmax at 100 nM with little effect on cell viability. The effect is mediated through dopamine D2 receptor and β-arrestin 2 signaling pathway."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_92833",
+      "dcterms:title": "Piribedil",
+      "dcterms:description": "Piribedil promotes amyloid-β generation and increases γ-secretase activity in neuronal cells through D2 receptor-mediated β-arrestin 2 signaling. Does not affect BACE1 activity or expression of γ-secretase components."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_64645",
+      "dcterms:title": "Amyloid-β",
+      "dcterms:description": "Found to be elevated in both human neuronal cells and primary neurons from APP/PS1 mouse after treatment with levodopa or piribedil. Its generation is enhanced through increased γ-secretase activity mediated by D2R and β-arrestin 2 signaling pathway."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_18243",
+      "dcterms:title": "Dopamine",
+      "dcterms:description": "Major neurotransmitter controlling movement, reward, cognition, and emotion. Its precursor levodopa and receptor agonist piribedil both enhance amyloid-β generation through D2 receptor signaling."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/N04BA01",
+      "dcterms:title": "Levodopa",
+      "dcterms:description": "Levodopa, a first-line Parkinson's disease medication, was found to enhance the generation of amyloid-β (Aβ) and increase γ-secretase activity in neuronal cells. The study showed this effect was mediated through dopamine D2 receptor (D2R) and β-arrestin 2, with increases observed at concentrations as low as 30 nM."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/N04BC08",
+      "dcterms:title": "Piribedil",
+      "dcterms:description": "Piribedil, a dopamine D2 receptor agonist, was found to promote amyloid-β (Aβ) generation and increase γ-secretase activity in neuronal cells. The effect was similar to levodopa and was mediated through D2R and β-arrestin 2 signaling pathways."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/G02CB01",
+      "dcterms:title": "Bromocriptine",
+      "dcterms:description": "Bromocriptine, a dopaminergic Parkinson's disease medication, showed only a mild tendency to promote amyloid-β generation with low efficacy and had little effect on γ-secretase activity in neuronal cells."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/N02BA03",
+      "dcterms:title": "Carbidopa",
+      "dcterms:description": "Carbidopa showed little to no effect on amyloid-β generation in neuronal cells when tested alongside other anti-Parkinson's medications."
+    }
+  ],
+  "obi:OBI_0000293": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/CLO_0009443",
+      "dcterms:description": "SK-N-SH cells, human neuronal cells from iPSCs-derived NSCs, primary neurons from APP/PS1 mouse"
+    }
+  ],
+  "obi:OBI_0000070": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/OBI_0000070",
+      "dcterms:description": "Measurement of Aβ generation and γ-secretase activity in neuronal cells"
+    }
+  ],
+  "obi:IAO_0000616": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/OBI_0000070",
+      "dcterms:description": "The authors have declared that no competing interests exist."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2005.05.012",
+      "dcterms:title": "An Akt/beta-arrestin 2/PP2A signaling complex mediates dopaminergic neurotransmission and behavior"
+    },
+    {
+      "@id": "https://doi.org/10.1523/JNEUROSCI.5074-06.2007",
+      "dcterms:title": "Regulation of Akt signaling by D2 and D3 dopamine receptors in vivo"
+    },
+    {
+      "@id": "https://doi.org/10.1073/pnas.1502740112",
+      "dcterms:title": "Targeting β-arrestin2 in the treatment of L-DOPA-induced dyskinesia in Parkinson's disease"
+    },
+    {
+      "@id": "https://doi.org/10.1073/pnas.1502742112",
+      "dcterms:title": "Elucidation of G-protein and β-arrestin functional selectivity at the dopamine D2 receptor"
+    },
+    {
+      "@id": "https://pubmed.ncbi.nlm.nih.gov/8797238",
+      "dcterms:title": "Measuring age-related changes in dopamine D2 receptors with 11C-raclopride and 18F-N-methylspiroperidol"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.neubiorev.2009.12.008",
+      "dcterms:title": "Linking cognitive aging to alterations in dopamine neurotransmitter functioning recent data and future avenues"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nrn2977",
+      "dcterms:title": "The role of G protein-coupled receptors in the pathology of Alzheimer's disease"
+    },
+    {
+      "@id": "https://doi.org/10.1038/cr.2012.167",
+      "dcterms:title": "β-arrestin1 regulates γ-secretase complex assembly and modulates amyloid-β pathology"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nm.3023",
+      "dcterms:title": "β-arrestin2 regulates Aβ generation and γ-secretase activity in Alzheimer's disease"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nm1485",
+      "dcterms:title": "Activation of beta2-adrenergic receptor stimulates gamma-secretase activity and accelerates amyloid plaque formation"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0166415",
+      "dcterms:title": "An Anti-Parkinson's Disease Drug via Targeting Adenosine A2A Receptor Enhances Amyloid-β Generation and γ-Secretase Activity"
+    }
+  ],
+  "@id": "https://doi.org/10.1371/journal.pone.0172640",
+  "dcterms:hasPart": "A research paper titled Dopamine D2 receptor and β arrestin 2 mediate Amyloid β elevation induced by anti parkinsons disease drugs levodopa and piribedil in neuronal cells authored by Jing Lu Xiaohang Li Qinying Wang and Gang Pei was published in PLOS ONE on March 2 2017 The study investigates how anti Parkinsons drugs affect amyloid β production in neuronal cells Levodopa the primary treatment for Parkinsons disease and piribedil both enhance amyloid β generation and γ secretase activity in human neuronal cells and primary neurons from AD mice The effect occurs through dopamine D2 receptor D2R and β arrestin 2 mediation Gamma secretase activity directly regulates amyloid β production with increased activity leading to enhanced amyloid β generation Dopamine signaling through D2R regulates gamma secretase activity with β arrestin 2 mediating this regulation Knockdown of β arrestin 2 reduces gamma secretase activity and amyloid β production The gamma secretase complex assembly is essential for amyloid β processing and is integral to amyloid precursor protein processing Parkinsons disease patients often exhibit cognitive deficits and abnormal amyloid β accumulation Studies used SK N SH cells human neuronal cells from iPSCs derived NSCs and primary neurons from APP PS1 mouse Levodopa enhances amyloid β generation with an ECmax at 100 nM showing little effect on cell viability Piribedil promotes amyloid β generation through D2 receptor mediated β arrestin 2 signaling without affecting BACE1 activity or γ secretase component expression Bromocriptine showed only mild tendency to promote amyloid β generation while Carbidopa showed little to no effect The research suggests targeting D2R mediated β arrestin function may risk modulating amyloid β pathology Studies were conducted using measurements of amyloid β generation and γ secretase activity in neuronal cells The findings have implications for both Parkinsons disease treatment and potential impacts on Alzheimers disease pathology as amyloid β is a major hallmark of Alzheimers disease leading to progressive memory loss and cognitive deficit",
+  "schema:relatedTo": [
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101956",
+      "@type": "schema:Organization",
+      "schema:name": "VitaDAO"
+    },
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101963",
+      "@type": "schema:Organization",
+      "schema:name": "Cerebrum DAO"
+    }
+  ]
+}

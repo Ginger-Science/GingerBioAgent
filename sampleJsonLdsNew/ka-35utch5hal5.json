@@ -1,0 +1,226 @@
+{
+  "@context": {
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "cito": "http://purl.org/spar/cito/",
+    "doco": "http://purl.org/spar/doco/",
+    "pro": "http://purl.org/spar/pro/",
+    "obi": "http://purl.obolibrary.org/obo/",
+    "schema": "http://schema.org/"
+  },
+  "@type": "fabio:ResearchPaper",
+  "dcterms:title": "ASXL1 mutations in Bohring-Opitz syndrome activate canonical and noncanonical Wnt signaling",
+  "dcterms:abstract": "ASXL1 (additional sex combs-like 1) plays key roles in epigenetic regulation of early developmental gene expression. De novo protein-truncating mutations in ASXL1 cause Bohring-Opitz syndrome (BOS; OMIM #605039), a rare neurodevelopmental condition characterized by severe intellectual disabilities, distinctive facial features, hypertrichosis, increased risk of Wilms tumor, and variable congenital anomalies, including heart defects and severe skeletal defects giving rise to a typical BOS posture. These BOS-causing ASXL1 variants are also high-prevalence somatic driver mutations in acute myeloid leukemia. We used primary cells from individuals with BOS (n = 18) and controls (n = 49) to dissect gene regulatory changes caused by ASXL1 mutations using comprehensive multiomics assays for chromatin accessibility (ATAC-seq), DNA methylation, histone methylation binding, and transcriptome in peripheral blood and skin fibroblasts. Our data show that regardless of cell type, ASXL1 mutations drive strong cross-tissue effects that disrupt multiple layers of the epigenome. The data showed a broad activation of canonical Wnt signaling at the transcriptional and protein levels and upregulation of VANGL2, which encodes a planar cell polarity pathway protein that acts through noncanonical Wnt signaling to direct tissue patterning and cell migration. This multiomics approach identifies the core impact of ASXL1 mutations and therapeutic targets for BOS and myeloid leukemias.",
+  "dcterms:date": "2023",
+  "dcterms:publisher": "JCI Insight",
+  "fabio:hasJournalVolume": "8",
+  "fabio:hasJournalIssue": "10",
+  "dcterms:identifier": "https://doi.org/10.1172/jci.insight.167744",
+  "obi:OBI_0000299": [
+    {
+      "dcterms:description": "Multiomics data including ATAC-seq, DNA methylation, histone methylation binding, and transcriptome analysis"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0060070",
+      "dcterms:name": "canonical Wnt signaling pathway",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0043009",
+        "dcterms:name": "embryonic development",
+        "dcterms:description": "The canonical Wnt signaling is an evolutionarily conserved pathway essential for development, playing important roles in stem cell biology and regulation of hematopoiesis."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0016342",
+      "dcterms:name": "β-catenin degradation",
+      "obi:BFO_0000066": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0000502",
+        "dcterms:name": "proteasome",
+        "dcterms:description": "In the absence of Wnt signaling, β-catenin is degraded by the 26S proteasome."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0016021",
+      "dcterms:name": "VANGL2",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0001843",
+        "dcterms:name": "neural tube closure",
+        "dcterms:description": "VANGL2 has a crucial role in neural tube closure, with the gradient of Wnt activity helping establish VANGL2 polarity in the neural plate during neurulation."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0060071",
+      "dcterms:name": "planar cell polarity pathway",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0048469",
+        "dcterms:name": "neuronal maturation",
+        "dcterms:description": "In the nervous system, the PCP pathway regulates neuronal maturation and has a functional role in neural complex formation."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0016021",
+      "dcterms:name": "VANGL2",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0016477",
+        "dcterms:name": "cell migration",
+        "dcterms:description": "VANGL2 regulates polarized cellular migration and differentiation and tissue morphology during development."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_0080697",
+      "dcterms:title": "Bohring-Opitz syndrome",
+      "dcterms:description": "Caused by de novo protein-truncating mutations in ASXL1 gene, characterized by severe intellectual disabilities, distinctive facial features, hypertrichosis, increased risk of Wilms tumor, and variable congenital anomalies including heart defects and severe skeletal defects. Research shows mutations drive strong cross-tissue effects disrupting multiple layers of the epigenome and activate canonical Wnt signaling and VANGL2 upregulation."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_9119",
+      "dcterms:title": "acute myeloid leukemia",
+      "dcterms:description": "BOS-causing ASXL1 variants are high-prevalence somatic driver mutations in this cancer. The dysregulation of Wnt pathways and ASXL1 mutations observed may provide insight into the pathogenesis of myeloid cancers."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_5176",
+      "dcterms:title": "Wilms tumor",
+      "dcterms:description": "Increased risk identified in BOS patients, with evidence showing one patient who underwent treatment with actinomycin D and vincristine showing complete loss of heterozygosity in blood RNA-seq for the ASXL1 mutation."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_0080074",
+      "dcterms:title": "neural tube defects",
+      "dcterms:description": "Research indicates that dysregulation of VANGL2 and Wnt signaling in BOS may contribute to neural phenotypes, as VANGL2 mutations are known to cause severe neural tube defects in humans and mice."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_85043",
+      "dcterms:title": "histone H3K4me3",
+      "dcterms:description": "H3K4me3 is a histone modification recognized by the PHD domain of ASXL1. Western blot analysis showed no significant changes in H3K4me3 levels between BOS and control fibroblasts."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_85045",
+      "dcterms:title": "histone H3K27me3",
+      "dcterms:description": "H3K27me3 is a histone modification that can be recognized by ASXL1. No significant changes in H3K27me3 levels were observed between BOS and control fibroblast samples."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_5738",
+      "dcterms:title": "histone H2AK119ub",
+      "dcterms:description": "H2AK119ub is a histone modification thought to be affected by ASXL1. Histone immunoblotting showed no significant changes in H2AK119ub levels between BOS and control fibroblasts."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/L01CA02",
+      "dcterms:title": "Vincristine",
+      "dcterms:description": "Vincristine was administered in combination with actinomycin D for Wilms tumor treatment in a patient (Pt6) with truncating mutation at amino acid 672. Post-treatment blood RNA-seq showed complete loss of heterozygosity with only pathogenic ASXL1 mutation reads present."
+    }
+  ],
+  "obi:OBI_0000968": [
+    {
+      "dcterms:description": "Western blot apparatus for protein analysis"
+    }
+  ],
+  "obi:OBI_0000293": [
+    {
+      "dcterms:description": "Primary cells from BOS patients (n=18) and controls (n=49), including peripheral blood and skin fibroblasts"
+    }
+  ],
+  "obi:OBI_0200000": [
+    {
+      "dcterms:description": "Multiomics analysis of chromatin accessibility, DNA methylation, histone methylation binding, and transcriptome data"
+    }
+  ],
+  "obi:OBI_0000251": [
+    {
+      "dcterms:description": "Study included 18 BOS patients and 49 controls"
+    }
+  ],
+  "obi:OBI_0000070": [
+    {
+      "dcterms:description": "ATAC-seq, CUT&RUN, DNA methylation analysis, RNA-seq, Western blot analysis"
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/s0378-1119(03)00430-x",
+      "dcterms:title": "A human homolog of Additional sex combs, ADDITIONAL SEX COMBS-LIKE 1, maps to chromosome 20q11"
+    },
+    {
+      "@id": "https://doi.org/10.4161/cc.11.1.18475",
+      "dcterms:title": "The HARE-HTH and associated domains"
+    },
+    {
+      "@id": "https://doi.org/10.1586/14789450.2015.1033409",
+      "dcterms:title": "Functional proteomics of the epigenetic regulators ASXL1, ASXL2 and ASXL3 a convergence of proteomics and epigenetics for translational medicine"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13072-020-0328-z",
+      "dcterms:title": "Characterization of the plant homeodomain (PHD) reader family for their histone tail interactions"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.tibs.2011.03.005",
+      "dcterms:title": "The PHD finger a versatile epigenome reader"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2017.08.002",
+      "dcterms:title": "Genome Regulation by Polycomb and Trithorax 70 Years and Counting"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.ydbio.2009.10.004",
+      "dcterms:title": "Additional sex combs-like 1 belongs to the enhancer of trithorax and polycomb group and genetically interacts with Cbx2 in mice"
+    },
+    {
+      "@id": "https://doi.org/10.1093/genetics/130.4.817",
+      "dcterms:title": "Genetic analysis of the additional sex combs locus of Drosophila melanogaster"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.stemcr.2019.03.006",
+      "dcterms:title": "Pathological ASXL1 Mutations and Protein Variants Impair Neural Crest Development"
+    },
+    {
+      "@id": "https://doi.org/10.1002/dvg.22793",
+      "dcterms:title": "Additional sex combs-like family genes are required for normal cardiovascular development"
+    },
+    {
+      "@id": "https://doi.org/10.1084/jem.20131141",
+      "dcterms:title": "Deletion of Asxl1 results in myelodysplasia and severe developmental defects in vivo"
+    },
+    {
+      "@id": "https://doi.org/10.1002/gcc.22443",
+      "dcterms:title": "ASXL2 mutations are frequently found in pediatric AML patients with t(8;21)/RUNX1-RUNX1T1 and associated with a better prognosis"
+    },
+    {
+      "@id": "https://doi.org/10.1073/pnas.1002530107",
+      "dcterms:title": "Ezh2, the histone methyltransferase of PRC2, regulates the balance between self-renewal and differentiation in the cerebral cortex"
+    },
+    {
+      "@id": "https://doi.org/10.1038/ncomms10292",
+      "dcterms:title": "BAP1/ASXL1 recruitment and activation for H2A deubiquitination"
+    },
+    {
+      "@id": "https://doi.org/10.1172/jci.insight.167744",
+      "dcterms:title": "The stability of epigenetic factor ASXL1 is regulated through ubiquitination and USP7-mediated deubiquitination"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41421-018-0022-5",
+      "dcterms:title": "Mtf2-PRC2 control of canonical Wnt signaling is required for definitive erythropoiesis"
+    },
+    {
+      "@id": "https://doi.org/10.1136/gutjnl-2015-310625",
+      "dcterms:title": "The microtubule-associated protein PRC1 promotes early recurrence of hepatocellular carcinoma in association with the Wnt/β-catenin signalling pathway"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-018-5085-9",
+      "dcterms:title": "Mutant ASXL1 cooperates with BAP1 to promote myeloid leukaemogenesis"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s12185-018-2563-7",
+      "dcterms:title": "Aberrant histone modifications induced by mutant ASXL1 in myeloid neoplasms"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.molcel.2019.03.018",
+      "dcterms:title": "An Adversarial DNA N6-Methyladenine-Sensor Network Preserves Polycomb Silencing"
+    }
+  ],
+  "@id": "https://doi.org/10.1172/jci.insight.167744.",
+  "dcterms:hasPart": "A research study titled ASXL1 mutations in Bohring-Opitz syndrome activate canonical and noncanonical Wnt signaling was published in JCI Insight in 2023 investigating the role of ASXL1 mutations in Bohring-Opitz syndrome The study examined primary cells from 18 BOS patients and 49 controls using multiomics assays including ATAC-seq DNA methylation histone methylation binding and transcriptome analysis in blood and skin fibroblasts Bohring-Opitz syndrome is caused by de novo protein-truncating mutations in the ASXL1 gene leading to severe intellectual disabilities distinctive facial features hypertrichosis increased Wilms tumor risk and congenital anomalies including heart and skeletal defects The research revealed that ASXL1 mutations cause strong cross-tissue effects disrupting multiple epigenome layers and activating canonical Wnt signaling The canonical Wnt pathway is essential for development stem cell biology and hematopoiesis regulation VANGL2 a planar cell polarity pathway protein involved in noncanonical Wnt signaling was found to be upregulated VANGL2 plays crucial roles in neural tube closure neuronal maturation and cell migration The study analyzed several histone modifications including H3K4me3 H3K27me3 and H2AK119ub with Western blot analysis showing no significant changes between BOS and control fibroblasts The BOS-causing ASXL1 variants are also high-prevalence somatic driver mutations in acute myeloid leukemia suggesting shared pathogenic mechanisms A case study of a BOS patient with Wilms tumor treated with vincristine and actinomycin D showed complete loss of heterozygosity in blood RNA-seq for the ASXL1 mutation The research utilized Western blot apparatus for protein analysis and conducted comprehensive multiomics analysis including ATAC-seq CUTRUN DNA methylation analysis RNA-seq and Western blot analysis The findings identify core impacts of ASXL1 mutations and potential therapeutic targets for both BOS and myeloid leukemias",
+  "schema:relatedTo": [
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101964",
+      "@type": "schema:Organization",
+      "schema:name": "Curetopia"
+    }
+  ]
+}

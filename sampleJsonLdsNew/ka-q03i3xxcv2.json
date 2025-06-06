@@ -1,0 +1,167 @@
+{
+  "@context": {
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "cito": "http://purl.org/spar/cito/",
+    "doco": "http://purl.org/spar/doco/",
+    "pro": "http://purl.org/spar/pro/",
+    "obi": "http://purl.obolibrary.org/obo/",
+    "schema": "http://schema.org/"
+  },
+  "@type": "fabio:ResearchPaper",
+  "dcterms:creator": [],
+  "obi:OBI_0000299": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0001913",
+      "dcterms:name": "T cell mediated cytotoxicity",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0006915",
+        "dcterms:name": "apoptotic process",
+        "dcterms:description": "T cell cytotoxicity regulates cell death through apoptotic pathways, particularly through FasL and TRAIL-induced cell death mechanisms"
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0097193",
+      "dcterms:name": "mitochondrial apoptotic signaling pathway",
+      "obi:BFO_0000050": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0012501",
+        "dcterms:name": "programmed cell death",
+        "dcterms:description": "MCL1 and JUNB modulate the mitochondrial apoptosis pathway to mediate resistance to FasL and TRAIL-induced cell death"
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0006486",
+      "dcterms:name": "glycosylation",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0042110",
+        "dcterms:name": "T cell activation",
+        "dcterms:description": "B3GNT2-mediated glycosylation was shown to regulate T cell activation by modifying cell surface proteins and disrupting T cell-tumor cell interactions"
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0071159",
+      "dcterms:name": "NF-kappa B signaling",
+      "obi:RO_0002629": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0006915",
+        "dcterms:name": "apoptotic process",
+        "dcterms:description": "JUNB activates the NF-κB pathway, which upregulates BCL2A1 and affects cell survival against T cell cytotoxicity"
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0140888",
+      "dcterms:name": "interferon gamma signaling",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0006955",
+        "dcterms:name": "immune response",
+        "dcterms:description": "B3GNT2 overexpression affects IFNγ secretion by T cells, impacting immune response"
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_1909",
+      "dcterms:title": "melanoma",
+      "dcterms:description": "Study identified that overexpression of CD274 (PD-L1), MCL1, JUNB, and B3GNT2 genes enables melanoma cells to evade T cell killing. MCL1 and JUNB modulate mitochondrial apoptosis pathway, while B3GNT2 disrupts tumor-T cell interactions by modifying surface proteins."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_3908",
+      "dcterms:title": "non-small cell lung cancer",
+      "dcterms:description": "Research demonstrated that candidate genes CD274, MCL1, JUNB, and B3GNT2 conferred resistance to T cell cytotoxicity in non-small cell lung cancer cells, suggesting potential therapeutic targets for immunotherapy."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_4074",
+      "dcterms:title": "pancreatic adenocarcinoma",
+      "dcterms:description": "Study showed that inhibition of MCL1 and B3GNT2 in pancreatic adenocarcinoma models enhanced susceptibility to T cell killing, indicating potential strategies to improve immunotherapy effectiveness."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_0050861",
+      "dcterms:title": "colorectal adenocarcinoma",
+      "dcterms:description": "Research found that knockdown of CD274, MCL1, JUNB, and B3GNT2 significantly decreased cell survival when colorectal adenocarcinoma cells were exposed to T cells, suggesting these genes as potential therapeutic targets."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_3068",
+      "dcterms:title": "glioblastoma",
+      "dcterms:description": "Study demonstrated that overexpression of candidate genes could provide resistance to T cell cytotoxicity in glioblastoma cells, indicating potential mechanisms of immune evasion."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_769",
+      "dcterms:title": "neuroblastoma",
+      "dcterms:description": "Research showed that candidate genes could confer resistance to T cell-mediated killing in neuroblastoma cells, suggesting potential targets for enhancing immunotherapy effectiveness."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/L01XJ",
+      "dcterms:title": "MCL1 inhibitors",
+      "dcterms:description": "MCL1 inhibitors (like S63845 and AZD5991) were shown to sensitize tumor cells to T cell cytotoxicity. When combined with immunotherapy, MCL1 inhibition reduced survival of melanoma and pancreatic adenocarcinoma cells against T cell killing, suggesting potential therapeutic value."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/L01FF",
+      "dcterms:title": "PD-L1 inhibitors",
+      "dcterms:description": "CD274 (PD-L1) inhibition was confirmed as a key target for immune checkpoint blockade therapies. The study validated PD-L1's role in immune evasion and its current focus in clinical development of immunotherapy treatments."
+    }
+  ],
+  "obi:OBI_0000968": [],
+  "obi:OBI_0000293": [],
+  "obi:OBI_0200000": [],
+  "obi:OBI_0000251": [],
+  "obi:OBI_0000070": [],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1056/NEJMoa1606774",
+      "dcterms:title": "Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nature21349",
+      "dcterms:title": "Elements of cancer immunity and the cancer-immune set point"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.immuni.2019.12.011",
+      "dcterms:title": "Top 10 challenges in cancer immunotherapy"
+    },
+    {
+      "@id": "https://doi.org/10.1056/NEJMoa1604958",
+      "dcterms:title": "Mutations associated with acquired resistance to PD-1 blockade in melanoma"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nm730",
+      "dcterms:title": "Tumor-associated B7-H1 promotes T-cell apoptosis a potential mechanism of immune evasion"
+    },
+    {
+      "@id": "https://doi.org/10.1084/jem.20130066",
+      "dcterms:title": "Indoleamine 2,3-dioxygenase is a critical resistance mechanism in antitumor T cell immunotherapy targeting CTLA-4"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S1074-7613(03)00152-3",
+      "dcterms:title": "B7-H4, a molecule of the B7 family, negatively regulates T cell immunity"
+    },
+    {
+      "@id": "https://doi.org/10.1073/pnas.1305569110",
+      "dcterms:title": "Anti-CD47 antibody-mediated phagocytosis of cancer by macrophages primes an effective antitumor T-cell response"
+    },
+    {
+      "@id": "https://doi.org/10.1056/NEJMoa1302369",
+      "dcterms:title": "Nivolumab plus ipilimumab in advanced melanoma"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-2746-2",
+      "dcterms:title": "Functional genomic landscape of cancer-intrinsic evasion of killing by T cells"
+    }
+  ],
+  "@id": "https://doi.org/10.1038/s41467-022-29506-4",
+  "dcterms:hasPart": "The research paper investigates molecular mechanisms of cancer cell resistance to T cell mediated cytotoxicity T cell cytotoxicity regulates cell death through apoptotic pathways particularly through FasL and TRAIL-induced cell death mechanisms The study examines multiple biological processes and their interactions in cancer immune evasion MCL1 and JUNB modulate the mitochondrial apoptosis pathway to mediate resistance to FasL and TRAIL-induced cell death while B3GNT2-mediated glycosylation regulates T cell activation by modifying cell surface proteins and disrupting T cell-tumor cell interactions JUNB activates the NF-κB pathway which upregulates BCL2A1 and affects cell survival against T cell cytotoxicity B3GNT2 overexpression affects IFNγ secretion by T cells impacting immune response The research spans multiple cancer types including melanoma non-small cell lung cancer pancreatic adenocarcinoma colorectal adenocarcinoma glioblastoma and neuroblastoma In melanoma overexpression of CD274 MCL1 JUNB and B3GNT2 genes enables cancer cells to evade T cell killing Similar resistance mechanisms were observed in non-small cell lung cancer cells In pancreatic adenocarcinoma inhibition of MCL1 and B3GNT2 enhanced susceptibility to T cell killing Colorectal adenocarcinoma showed decreased cell survival upon knockdown of these genes while glioblastoma and neuroblastoma demonstrated similar resistance mechanisms through candidate gene overexpression The study evaluated therapeutic approaches including MCL1 inhibitors like S63845 and AZD5991 which sensitize tumor cells to T cell cytotoxicity when combined with immunotherapy PD-L1 inhibition was confirmed as a key target for immune checkpoint blockade therapies validating PD-L1s role in immune evasion The findings suggest potential therapeutic strategies for enhancing immunotherapy effectiveness across multiple cancer types through targeting these resistance mechanisms",
+  "schema:relatedTo": [
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101956",
+      "@type": "schema:Organization",
+      "schema:name": "VitaDAO"
+    },
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101962",
+      "@type": "schema:Organization",
+      "schema:name": "CryoDAO"
+    },
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101963",
+      "@type": "schema:Organization",
+      "schema:name": "Cerebrum DAO"
+    }
+  ]
+}

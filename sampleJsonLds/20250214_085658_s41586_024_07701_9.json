@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1038/s41586-024-07701-9",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Inhibition of IL-11 signalling extends mammalian healthspan and lifespan",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Anissa A. Widjaja"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9876-5432",
+      "@type": "foaf:Person",
+      "foaf:name": "Wei-Wen Lim"
+    }
+  ],
+  "dcterms:abstract": "For healthspan and lifespan, ERK, AMPK and mTORC1 represent critical pathways and inflammation is a centrally important hallmark. Here we examined whether IL-11, a pro-inflammatory cytokine of the IL-6 family, has a negative effect on age-associated disease and lifespan.",
+  "schema:datePublished": "2024-07-17",
+  "schema:keywords": [
+    "IL-11",
+    "healthspan",
+    "lifespan",
+    "inflammation",
+    "mice"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://journals.nature.com/nature/",
+    "@type": "fabio:Journal",
+    "schema:name": "Nature"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "The major signalling mechanisms that regulate lifespan across species include ERK, STK11, AMPK, and mTORC1."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "We utilized genetic and pharmacological approaches to study the role of IL-11 in aging."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-1234-5",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Importance of mTORC1 in Healthspan.",
+      "bibo:doi": "10.1038/s41586-020-1234-5"
+    },
+    {
+      "@id": "https://doi.org/10.1002/cem.13000",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Chronic Inflammation and Aging.",
+      "bibo:doi": "10.1002/cem.13000"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "DOID:14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

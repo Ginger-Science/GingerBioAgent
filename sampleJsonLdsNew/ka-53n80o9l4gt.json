@@ -1,0 +1,213 @@
+{
+  "@context": {
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "cito": "http://purl.org/spar/cito/",
+    "doco": "http://purl.org/spar/doco/",
+    "pro": "http://purl.org/spar/pro/",
+    "obi": "http://purl.obolibrary.org/obo/",
+    "schema": "http://schema.org/"
+  },
+  "@type": "fabio:ResearchPaper",
+  "dcterms:title": "Multiomics of Bohring-Opitz syndrome truncating ASXL1 mutations identify canonical and noncanonical Wnt signaling dysregulation",
+  "dcterms:creator": [
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Isabella Lin"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Angela Wei"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Zain Awamleh"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Meghna Singh"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Aileen Ning"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Analeyla Herrera"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "REACH Biobank and Registry"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Bianca E. Russell"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Rosanna Weksberg"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Valerie A. Arboleda"
+    }
+  ],
+  "dcterms:abstract": "ASXL1 (additional sex combs–like 1) plays key roles in epigenetic regulation of early developmental gene expression. De novo protein-truncating mutations in ASXL1 cause Bohring-Opitz syndrome (BOS; OMIM #605039), a rare neurodevelopmental condition characterized by severe intellectual disabilities, distinctive facial features, hypertrichosis, increased risk of Wilms tumor, and variable congenital anomalies, including heart defects and severe skeletal defects giving rise to a typical BOS posture. These BOS-causing ASXL1 variants are also high-prevalence somatic driver mutations in acute myeloid leukemia. We used primary cells from individuals with BOS (n = 18) and controls (n = 49) to dissect gene regulatory changes caused by ASXL1 mutations using comprehensive multiomics assays for chromatin accessibility (ATAC-seq), DNA methylation, histone methylation binding, and transcriptome in peripheral blood and skin fibroblasts. Our data show that regardless of cell type, ASXL1 mutations drive strong cross-tissue effects that disrupt multiple layers of the epigenome. The data showed a broad activation of canonical Wnt signaling at the transcriptional and protein levels and upregulation of VANGL2, which encodes a planar cell polarity pathway protein that acts through noncanonical Wnt signaling to direct tissue patterning and cell migration. This multiomics approach identifies the core impact of ASXL1 mutations and therapeutic targets for BOS and myeloid leukemias.",
+  "dcterms:date": "2023-04-13",
+  "dcterms:publisher": "JCI Insight",
+  "fabio:hasJournalVolume": "8",
+  "fabio:hasJournalIssue": "10",
+  "fabio:hasPageNumbers": "e167744",
+  "dcterms:identifier": "https://doi.org/10.1172/jci.insight.167744",
+  "obi:OBI_0000299": [
+    {
+      "dcterms:description": "Generated data on gene regulatory changes using multiomics assays including ATAC-seq, DNA methylation, histone methylation binding, and transcriptome analysis"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0060070",
+      "dcterms:name": "canonical Wnt signaling pathway",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0014029",
+        "dcterms:name": "neural crest development",
+        "dcterms:description": "The canonical Wnt signaling regulates neural crest induction and is essential for development, particularly impacting neural crest cells which contribute to nervous system and craniofacial development."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0014029",
+      "dcterms:name": "neural crest development",
+      "obi:BFO_0000050": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0043009",
+        "dcterms:name": "embryonic development",
+        "dcterms:description": "Neural crest development is a crucial component of embryonic development, particularly affecting craniofacial and cardiac development in BOS patients."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0060071",
+      "dcterms:name": "planar cell polarity pathway",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0016477",
+        "dcterms:name": "cell migration",
+        "dcterms:description": "The planar cell polarity pathway regulates polarized cellular migration and differentiation, particularly in neural development and tissue morphology."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0060070",
+      "dcterms:name": "canonical Wnt signaling pathway",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0005211",
+        "dcterms:name": "stem cell maintenance",
+        "dcterms:description": "Canonical Wnt signaling plays an important role in stem cell maintenance and differentiation of cells in adults."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0030877",
+      "dcterms:name": "beta-catenin pathway",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0009299",
+        "dcterms:name": "transcription",
+        "dcterms:description": "Nuclear β-catenin binds to TCF and LEF families to regulate transcription of Wnt pathway targets."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0001843",
+      "dcterms:name": "neural tube closure",
+      "obi:BFO_0000050": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0014020",
+        "dcterms:name": "neurulation",
+        "dcterms:description": "Neural tube closure is a critical component of neurulation, regulated by planar cell polarity genes."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_0080697",
+      "dcterms:title": "Bohring-Opitz syndrome",
+      "dcterms:description": "Characterized by severe intellectual disabilities, distinctive facial features, hypertrichosis, increased risk of Wilms tumor, and variable congenital anomalies including heart defects and severe skeletal defects. Research shows truncating ASXL1 mutations drive strong cross-tissue effects disrupting multiple layers of the epigenome, causing broad activation of canonical Wnt signaling and upregulation of VANGL2."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_9119",
+      "dcterms:title": "acute myeloid leukemia",
+      "dcterms:description": "ASXL1 truncating variants identified as high-prevalence somatic driver mutations in this cancer. These mutations are similar to those causing Bohring-Opitz syndrome and affect myeloid differentiation through epigenetic dysregulation."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_0050908",
+      "dcterms:title": "myelodysplastic syndrome",
+      "dcterms:description": "Truncating mutations in ASXL1 are found in approximately 16% of cases and affect myeloid cell development through disruption of epigenetic regulation."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_5176",
+      "dcterms:title": "Wilms tumor",
+      "dcterms:description": "Increased risk identified in Bohring-Opitz syndrome patients with ASXL1 mutations, requiring specific tumor surveillance protocols."
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/ATC/L01CA02",
+      "dcterms:title": "Vincristine",
+      "dcterms:description": "Administered alongside Actinomycin D for Wilms tumor treatment in a BOS patient (patient 6) with ASXL1 mutation at amino acid 672. Treatment was completed years prior to sample collection for the study."
+    }
+  ],
+  "obi:OBI_0000968": [
+    {
+      "dcterms:description": "ATAC-seq, CUT&RUN, Illumina Epic Arrays, RNA-seq"
+    }
+  ],
+  "obi:OBI_0000293": [
+    {
+      "dcterms:description": "Primary cells from individuals with BOS (n = 18) and controls (n = 49), including peripheral blood and skin fibroblasts"
+    }
+  ],
+  "obi:OBI_0200000": [
+    {
+      "dcterms:description": "Comprehensive multiomics analysis of chromatin accessibility, DNA methylation, histone methylation binding, and transcriptome data"
+    }
+  ],
+  "obi:OBI_0000251": [
+    {
+      "dcterms:description": "Recruited 18 individuals with BOS, 25 sex-matched and genetically related controls, and 30 sex- and age-matched controls"
+    }
+  ],
+  "obi:OBI_0000070": [
+    {
+      "dcterms:description": "ATAC-seq for chromatin accessibility, CUT&RUN for H3K4me3 and H3K27me3 enrichment, DNA methylation analysis using Illumina Epic Arrays, and RNA-seq for transcriptome analysis"
+    }
+  ],
+  "obi:IAO_0000616": [
+    {
+      "dcterms:description": "The authors have declared that no conflict of interest exists."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/S0378-1119(03)00500-X",
+      "dcterms:title": "A human homolog of Additional sex combs, ADDITIONAL SEX COMBS-LIKE 1, maps to chromosome 20q11"
+    },
+    {
+      "@id": "https://doi.org/10.4161/cc.11.1.18475",
+      "dcterms:title": "The HARE-HTH and associated domains novel modules in the coordination of epigenetic DNA and protein modifications"
+    },
+    {
+      "@id": "https://doi.org/10.1586/14789450.2015.1042866",
+      "dcterms:title": "Functional proteomics of the epigenetic regulators ASXL1, ASXL2 and ASXL3 a convergence of proteomics and epigenetics for translational medicine"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13072-020-0329-y",
+      "dcterms:title": "Characterization of the plant homeodomain (PHD) reader family for their histone tail interactions"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.tibs.2011.03.005",
+      "dcterms:title": "The PHD finger a versatile epigenome reader"
+    }
+  ],
+  "@id": "https://doi.org/10.1172/jci.insight.167744",
+  "dcterms:hasPart": "A research paper titled Multiomics of Bohring-Opitz syndrome truncating ASXL1 mutations identify canonical and noncanonical Wnt signaling dysregulation was published in JCI Insight on April 13 2023 by Isabella Lin and colleagues ASXL1 protein truncating mutations cause Bohring-Opitz syndrome characterized by severe intellectual disabilities distinctive facial features hypertrichosis increased Wilms tumor risk and congenital anomalies The study analyzed primary cells from 18 BOS patients and 49 controls using multiomics assays including ATAC-seq DNA methylation histone methylation binding and transcriptome analysis in blood and skin fibroblasts ASXL1 mutations were found to drive strong cross-tissue effects disrupting multiple epigenome layers and activating canonical Wnt signaling The canonical Wnt pathway regulates neural crest induction essential for nervous system and craniofacial development while also maintaining stem cell populations Neural crest development critically affects craniofacial and cardiac development in BOS patients The planar cell polarity pathway through VANGL2 upregulation controls polarized cellular migration and differentiation particularly in neural development The beta-catenin pathway regulates transcription of Wnt targets through TCF and LEF families Neural tube closure is regulated by planar cell polarity genes during neurulation ASXL1 truncating variants are also high-prevalence somatic driver mutations in acute myeloid leukemia and myelodysplastic syndrome occurring in approximately 16 percent of cases BOS patients have increased Wilms tumor risk requiring specific surveillance One BOS patient with ASXL1 mutation at amino acid 672 received Vincristine and Actinomycin D treatment for Wilms tumor The study methodology included comprehensive multiomics analysis using ATAC-seq CUTRUN Illumina Epic Arrays and RNA-seq on samples from 18 BOS individuals 25 sex-matched genetically related controls and 30 sex and age-matched controls This multiomics approach identified core impacts of ASXL1 mutations and potential therapeutic targets for both BOS and myeloid leukemias",
+  "schema:relatedTo": [
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101963",
+      "@type": "schema:Organization",
+      "schema:name": "Cerebrum DAO"
+    },
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101964",
+      "@type": "schema:Organization",
+      "schema:name": "Curetopia"
+    }
+  ]
+}

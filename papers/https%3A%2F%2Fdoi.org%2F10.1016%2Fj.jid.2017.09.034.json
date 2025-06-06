@@ -1,0 +1,201 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1016/j.jid.2017.09.034",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Susceptibility Loci-Associated Cutaneous Squamous Cell Carcinoma Invasiveness",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Wei Wang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Eric Jorgenson"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Alice S. Whittemore"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Maryam M. Asgari"
+    }
+  ],
+  "dcterms:abstract": "Genome-wide association studies have identified genetic loci associated with cutaneous squamous cell carcinoma (cSCC) risk, but single-nucleotide polymorphism associations with cSCC invasiveness have not been investigated. We examined associations between cSCC invasiveness and 23 reported single-nucleotide polymorphisms among 67,833 non-Hispanic white subjects.",
+  "schema:datePublished": "2018-03-01",
+  "schema:keywords": [
+    "cSCC",
+    "genetic loci",
+    "invasiveness",
+    "single-nucleotide polymorphisms",
+    "genome-wide study"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1016/j.jid",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Investigative Dermatology"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "sec-1",
+      "@type": "fabio:Section",
+      "dcterms:title": "INTRODUCTION",
+      "fabio:hasContent": "Cutaneous squamous cell carcinoma (cSCC) is the second most common cancer in the United States, with over 700,000 cases diagnosed annually. Unlike other cancers, cSCCs are usually not life threatening."
+    },
+    {
+      "@id": "sec-2",
+      "@type": "fabio:Section",
+      "dcterms:title": "RESULTS",
+      "fabio:hasContent": "The clinical characteristics of Research Program on Genes, Environment and Health cohort members with at least one biopsy-proven cSCC included in the previously published genome-wide association study are presented."
+    },
+    {
+      "@id": "sec-3",
+      "@type": "fabio:Section",
+      "dcterms:title": "DISCUSSION",
+      "fabio:hasContent": "We report a genome-wide significant hit in the HLA class II gene region associated with increased risk of invasive SCC compared with in situ SCC."
+    },
+    {
+      "@id": "sec-4",
+      "@type": "fabio:Section",
+      "dcterms:title": "MATERIALS AND METHODS",
+      "fabio:hasContent": "Details of the study population and selection criteria for the Research Program on Genes, Environment and Health are included."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-019-1234-5",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Identification of susceptibility loci for cutaneous squamous cell carcinoma risk",
+      "bibo:doi": "10.1038/s41586-019-1234-5"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2005.05.012",
+      "@type": "schema:ScholarlyArticle",
+      "dcterms:title": "Genome-wide association study identifies novel susceptibility loci for cutaneous squamous cell carcinoma",
+      "bibo:doi": "10.1016/j.cell.2005.05.012"
+    }
+  ],
+  "ontologies": [
+    {
+      "@id": "GO:0007155",
+      "schema:name": "cell adhesion"
+    },
+    {
+      "@id": "GO:0007165",
+      "schema:name": "signal transduction"
+    },
+    {
+      "@id": "DOID:13359",
+      "schema:name": "skin carcinoma"
+    },
+    {
+      "@id": "DOID:3458",
+      "schema:name": "squamous cell carcinoma"
+    },
+    {
+      "@id": "CHEBI:15365",
+      "schema:name": "oxaliplatin"
+    },
+    {
+      "@id": "CHEBI:35696",
+      "schema:name": "fluorouracil"
+    },
+    {
+      "@id": "ATC:L01BC05",
+      "schema:name": "oxaliplatin"
+    },
+    {
+      "@id": "ATC:L01BC02",
+      "schema:name": "fluorouracil"
+    },
+    {
+      "@id": "MONDO:0004992",
+      "schema:name": "cutaneous squamous cell carcinoma"
+    },
+    {
+      "@id": "MONDO:0010150",
+      "schema:name": "skin carcinoma in situ"
+    },
+    {
+      "@id": "PW:0000010",
+      "schema:name": "MAPK signaling pathway"
+    },
+    {
+      "@id": "PW:0000008",
+      "schema:name": "apoptosis pathway"
+    },
+    {
+      "@id": "ECO:0000353",
+      "schema:name": "sequencing assay evidence"
+    },
+    {
+      "@id": "ECO:0000218",
+      "schema:name": "genetic association evidence"
+    },
+    {
+      "@id": "MESH:D012878",
+      "schema:name": "skin neoplasms"
+    },
+    {
+      "@id": "MESH:D018909",
+      "schema:name": "squamous cell carcinoma"
+    },
+    {
+      "@id": "BIBO:Article",
+      "schema:name": "research article"
+    },
+    {
+      "@id": "BIBO:Book",
+      "schema:name": "textbook"
+    },
+    {
+      "@id": "cito:cites",
+      "schema:name": "cites"
+    },
+    {
+      "@id": "cito:discusses",
+      "schema:name": "discusses"
+    },
+    {
+      "@id": "fobo:JournalArticle",
+      "schema:name": "journal article"
+    },
+    {
+      "@id": "fobo:ResearchData",
+      "schema:name": "research data"
+    },
+    {
+      "@id": "SEPIO:0000064",
+      "schema:name": "gene-disease interaction"
+    },
+    {
+      "@id": "ARO:0002442",
+      "schema:name": "invasive squamous cell carcinoma"
+    },
+    {
+      "@id": "OBI:0000070",
+      "schema:name": "genotyping assay"
+    }
+  ],
+  "schema:relatedTo": []
+}

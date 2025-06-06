@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1002/mco2.617",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Metabolic shifts during coffee consumption refresh the immune response: insight from comprehensive multiomics analysis",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-9626-6437",
+      "@type": "foaf:Person",
+      "foaf:name": "Pinglang Ruan"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7241-6375",
+      "@type": "foaf:Person",
+      "foaf:name": "Ming Yang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4890-1968",
+      "@type": "foaf:Person",
+      "foaf:name": "Xinyi Lv"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5783-0875",
+      "@type": "foaf:Person",
+      "foaf:name": "Kai Shen"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7462-9421",
+      "@type": "foaf:Person",
+      "foaf:name": "Yiran Chen"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8176-2795",
+      "@type": "foaf:Person",
+      "foaf:name": "Hongli Li"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0271-0413",
+      "@type": "foaf:Person",
+      "foaf:name": "Di Zhao"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2026-3375",
+      "@type": "foaf:Person",
+      "foaf:name": "Jianhua Huang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1638-4116",
+      "@type": "foaf:Person",
+      "foaf:name": "Yang Xiao"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5116-0068",
+      "@type": "foaf:Person",
+      "foaf:name": "Weijun Peng"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8574-9602",
+      "@type": "foaf:Person",
+      "foaf:name": "Haijing Wu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1548-6639",
+      "@type": "foaf:Person",
+      "foaf:name": "Qianjin Lu"
+    }
+  ],
+  "dcterms:abstract": "Coffee, a widely consumed beverage, has shown benefits for human health but lacks sufficient basic and clinical evidence to fully understand its impacts and mechanisms. Here, we conducted a cross‐sectional observational study of coffee consumption and a 1‐month clinical trial in humans. We found that coffee consumption significantly reshaped the immune system and metabolism, including reduced levels of inflammatory factors and a reduced frequency of senescent T cells. The frequency of senescent T cells and the levels of the senescence‐associated secretory phenotype were lower in both long‐term coffee consumers and new coffee consumers than in coffee nondrinking subjects, suggesting that coffee has anti‐immunosenescence effects. Moreover, coffee consumption downregulated the activities of the JAK/STAT and MAPK signaling pathways and reduced systemic proinflammatory cytokine levels. Mechanistically, coffee‐associated metabolites, such as 1‐methylxanthine, 3‐methylxanthine, paraxanthine, and ceramide, reduced the frequency of senescent CD4+CD57+T cells in vitro. Finally, in vivo, coffee intake alleviated inflammation and immunosenescence in imiquimod‐induced psoriasis‐like mice. Our results provide novel evidence of the anti‐inflammatory and anti‐immunosenescence effects of coffee, suggesting that coffee consumption could be considered a healthy habit.",
+  "schema:datePublished": "2024-05-17",
+  "schema:keywords": [
+    "anti‐immunosenescence",
+    "anti‐inflammatory",
+    "coffee consumption",
+    "coffee‐related metabolism",
+    "immune remodeling"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1002/mco2",
+    "@type": "fabio:Journal",
+    "schema:name": "MedComm"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Coffee, a commonly consumed beverage, has been reported to have beneficial effects on human health. However, the exact mechanism by which it influences health remains incompletely understood."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Our findings revealed that coffee consumption reduced the frequency of IL4+and IFN‐γ+immune cells and the mRNA levels of p16 and p21 in vivo."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Effects of Caffeine on Immune Functions",
+      "bibo:doi": "10.1038/s41586-020-XXXX"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2020.01.007",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Caffeine Modulates Immune Response",
+      "bibo:doi": "10.1016/j.cell.2020.01.007"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0006955",
+      "schema:name": "Immune Response"
+    },
+    {
+      "@id": "doid:14330",
+      "schema:name": "lung cancer"
+    },
+    {
+      "@id": "chebi:15377",
+      "schema:name": "caffeine"
+    }
+  ]
+}

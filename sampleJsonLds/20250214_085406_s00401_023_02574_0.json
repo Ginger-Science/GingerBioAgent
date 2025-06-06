@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1007/s00401-023-02574-0",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Tau seeds occur before earliest Alzheimer’s changes and are prevalent across neurodegenerative diseases",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Matteo Manca"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8765-4321",
+      "@type": "foaf:Person",
+      "foaf:name": "Heidi G. Standke"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Danielle F. Browne"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-0987-6543",
+      "@type": "foaf:Person",
+      "foaf:name": "Mikayla L. Huntley"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-2109-8765",
+      "@type": "foaf:Person",
+      "foaf:name": "Olivia R. Thomas"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-3210-9876",
+      "@type": "foaf:Person",
+      "foaf:name": "Xiongwei Zhu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-4321-0987",
+      "@type": "foaf:Person",
+      "foaf:name": "Allison Kraus"
+    }
+  ],
+  "dcterms:abstract": "Tau neurofibrillary tangles are a hallmark of Alzheimer’s disease neuropathological change. However, it remains largely unclear how distinctive Alzheimer’s disease tau seeds (i.e. 3R/4R) correlate with histological indicators of tau accumulation. Here, we use tau real-time quaking-induced conversion (RT-QuIC) assays to selectively quantitate 3R/4R tau seeds in the frontal lobe which accumulates histologically identifiable tau pathology at late disease stages of AD neuropathologic change.",
+  "schema:datePublished": "2023-05-08",
+  "schema:keywords": [
+    "Alzheimer's disease",
+    "tau pathology",
+    "RT-QuIC",
+    "neurodegenerative diseases"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1007/s00401-023-02574-0",
+    "@type": "fabio:Journal",
+    "schema:name": "Acta Neuropathologica"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Self-propagating misfolded tau seeds are implicated as causal in tau-related disease processes. Towards this, use of sensitive techniques that specifically measure tau seeds are important to assess where and when seeds occur as part of disease-specific pathological sequelae."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "Neuropathologic examination and immunostaining were applied to assess 67 cases of neurodegenerative diseases, including Alzheimer’s and Lewy body diseases."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The Role of Tau in Alzheimer’s Disease",
+      "bibo:doi": "10.1038/s41586-020-XXXX"
+    },
+    {
+      "@id": "https://doi.org/10.1002/alz.12068",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Alzheimer’s disease facts and figures",
+      "bibo:doi": "10.1002/alz.12068"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "GO:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "DOID:14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

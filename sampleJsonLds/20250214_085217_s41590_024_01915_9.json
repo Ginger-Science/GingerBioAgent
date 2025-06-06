@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1038/s41590-024-01915-9",
+  "@type": "schema:ScholarlyArticle",
+  "dcterms:title": "Age-related epithelial defects limit thymic function and regeneration",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-4254-687X",
+      "@type": "foaf:Person",
+      "foaf:name": "Anastasia I. Kousa"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1962-9490",
+      "@type": "foaf:Person",
+      "foaf:name": "Lorenz Jahn"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3153-4834",
+      "@type": "foaf:Person",
+      "foaf:name": "Kelin Zhao"
+    }
+  ],
+  "dcterms:abstract": "The thymus is essential for establishing adaptive immunity yet undergoes age-related involution that leads to compromised immune responsiveness. The thymus is also extremely sensitive to acute insult and although capable of regeneration, this capacity declines with age for unknown reasons. We applied single-cell and spatial transcriptomics, lineage-tracing and advanced imaging to define age-related changes in nonhematopoietic stromal cells and discovered the emergence of two atypical thymic epithelial cell (TEC) states.",
+  "schema:datePublished": "2024-08-07",
+  "schema:keywords": [
+    "Thymus",
+    "Aging",
+    "Thymic Epithelial Cells",
+    "Immunity",
+    "Regeneration"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://www.nature.com/nature-immunology",
+    "@type": "fabio:Journal",
+    "schema:name": "Nature Immunology"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "The thymus is crucial for T-cell development, yet undergoes involution with age, leading to potential immune deficiencies."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methodology",
+      "fabio:hasContent": "We utilized single-cell transcriptomics, imaging, and lineage tracing to examine thymic epithelial cell changes in aged mice."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-1234-5",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Thymic regeneration: stepping back from atrophy",
+      "bibo:doi": "10.1038/s41586-020-1234-5"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41590-019-0451-1",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Immunologic aging: the thymus strikes back",
+      "bibo:doi": "10.1038/s41590-019-0451-1"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0001775",
+      "schema:name": "T cell activation"
+    },
+    {
+      "@id": "doid:0050772",
+      "schema:name": "senescence"
+    },
+    {
+      "@id": "chebi:15377",
+      "schema:name": "Water"
+    }
+  ]
+}

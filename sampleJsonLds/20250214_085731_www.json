@@ -1,0 +1,220 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/62408",
+  "@type": "schema:ScholarlyArticle",
+  "dcterms:title": "Postmortem imaging reveals patterns of medial temporal lobe vulnerability to tau pathology in Alzheimer’s disease",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/1252bc97-b8c8-42cc-a5ab-814884bffd79",
+      "@type": "foaf:Person",
+      "foaf:name": "Sadhana Ravikumar"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123456",
+      "@type": "foaf:Person",
+      "foaf:name": "Amanda E Denning"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123457",
+      "@type": "foaf:Person",
+      "foaf:name": "Sydney Lim"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123458",
+      "@type": "foaf:Person",
+      "foaf:name": "Eunice Chung"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123459",
+      "@type": "foaf:Person",
+      "foaf:name": "Niyousha Sadeghpour"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123460",
+      "@type": "foaf:Person",
+      "foaf:name": "Ranjit Ittyerah"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123461",
+      "@type": "foaf:Person",
+      "foaf:name": "Laura E M Wisse"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123462",
+      "@type": "foaf:Person",
+      "foaf:name": "Sandhitsu R Das"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123463",
+      "@type": "foaf:Person",
+      "foaf:name": "Long Xie"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123464",
+      "@type": "foaf:Person",
+      "foaf:name": "John L Robinson"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123465",
+      "@type": "foaf:Person",
+      "foaf:name": "Theresa Schuck"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123466",
+      "@type": "foaf:Person",
+      "foaf:name": "Edward B Lee"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123467",
+      "@type": "foaf:Person",
+      "foaf:name": "John A Detre"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123468",
+      "@type": "foaf:Person",
+      "foaf:name": "M Dylan Tisdall"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123469",
+      "@type": "foaf:Person",
+      "foaf:name": "Karthik Prabhakaran"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123470",
+      "@type": "foaf:Person",
+      "foaf:name": "Gabor Mizsei"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123471",
+      "@type": "foaf:Person",
+      "foaf:name": "Maria Mercedes Iñiguez de Onzono"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123472",
+      "@type": "foaf:Person",
+      "foaf:name": "Martin Maria del Mar Arroyo Jiménez"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123473",
+      "@type": "foaf:Person",
+      "foaf:name": "Monica Mũnoz"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123474",
+      "@type": "foaf:Person",
+      "foaf:name": "Maria del Pilar Marcos Rabal"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123475",
+      "@type": "foaf:Person",
+      "foaf:name": "Sandra Cebada Sánchez"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123476",
+      "@type": "foaf:Person",
+      "foaf:name": "José Carlos Delgado González"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123477",
+      "@type": "foaf:Person",
+      "foaf:name": "Carlos de la Rosa Prieto"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123478",
+      "@type": "foaf:Person",
+      "foaf:name": "David J Irwin"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123479",
+      "@type": "foaf:Person",
+      "foaf:name": "David A Wolk"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123480",
+      "@type": "foaf:Person",
+      "foaf:name": "Ricardo Insausti"
+    },
+    {
+      "@id": "https://orcid.org/abcdefg123481",
+      "@type": "foaf:Person",
+      "foaf:name": "Paul A Yushkevich"
+    }
+  ],
+  "dcterms:abstract": "Our current understanding of the spread and neurodegenerative effects of tau neurofibrillary tangles (NFTs) within the medial temporal lobe (MTL) during the early stages of Alzheimer’s Disease (AD) is limited by the presence of confounding non-AD pathologies and the two-dimensional (2-D) nature of conventional histology studies. Here, we combine ex vivo MRI and serial histological imaging from 25 human MTL specimens to present a detailed, 3-D characterization of quantitative NFT burden measures.",
+  "schema:datePublished": "2024-06-01",
+  "schema:keywords": [
+    "Alzheimer's disease",
+    "Tau pathology",
+    "Neuroimaging",
+    "Histology"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "http://example.com/journal-id",
+    "@type": "fabio:Journal",
+    "schema:name": "Alzheimer's & Dementia Journal"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Alzheimer’s disease (AD) is a slowly developing neurodegenerative disorder characterized by..."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Brain donor cohorts were obtained from autopsy cases at the Human Neuroanatomy Laboratory..."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "In this study we generate an ex vivo MRI atlas with detailed cytoarchitecture-based labels..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Analysis of Tau in Alzheimer’s Disease",
+      "bibo:doi": "10.1038/s41586-020-XXX"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.neurobiolaging.2020.01.001",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Neurobiology of Aging and Tau Pathology",
+      "bibo:doi": "10.1016/j.neurobiolaging.2020.01.001"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0007389",
+      "schema:name": "Developmental process"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_14512",
+      "schema:name": "Alzheimer's Disease"
+    },
+    {
+      "@id": "http://id.nlm.nih.gov/mesh/D000050202",
+      "schema:name": "Neurofibrillary Tangles"
+    }
+  ]
+}

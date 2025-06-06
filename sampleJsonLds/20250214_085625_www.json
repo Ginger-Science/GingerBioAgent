@@ -1,0 +1,123 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/solanezumab-alzheimer-studies",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Change in Digital Cognitive Test Performance between Solanezumab and Placebo Groups in Preclinical Alzheimer’s Disease: Secondary Analyses from the A4 Study",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1496-0929",
+      "@type": "foaf:Person",
+      "foaf:name": "Kathryn V Papp"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8032-7809",
+      "@type": "foaf:Person",
+      "foaf:name": "P. Maruff"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8995",
+      "@type": "foaf:Person",
+      "foaf:name": "D. M. Rentz"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "M. C. Donohue"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "A. Liu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "P. S. Aisen"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "R. A. Sperling"
+    }
+  ],
+  "dcterms:abstract": "This study investigates the effect of solanezumab on cognitive performance in a longitudinal trial involving cognitively unimpaired older adults at risk for Alzheimer's disease. Results showed no significant differences in cognitive decline between solanezumab and placebo groups over a 240-week period.",
+  "schema:datePublished": "2024-06-17",
+  "schema:keywords": [
+    "Solanezumab",
+    "Preclinical Alzheimer’s disease",
+    "Clinical trial",
+    "Digital cognitive assessment",
+    "Computerized cognitive assessment"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1234/journal-example",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Alzheimer's Disease"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "In cognitively unimpaired older adults, abnormally high levels of amyloid (Aβ+) indicate biological changes characteristic of Alzheimer's disease. This study aims to assess whether solanezumab treatment affects cognitive decline."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "Participants were randomly assigned to receive either solanezumab or placebo. Cognitive tests were performed at baseline and every 6 months."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "The study found no significant difference in the C3 Summary Score between treatment groups over the period of 240 weeks, indicating that solanezumab did not influence cognitive decline."
+    },
+    {
+      "@id": "section4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "This study reinforces the finding that solanezumab does not slow cognitive decline despite a decrease in amyloid levels."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-1234-5",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Evaluating the efficacy of new therapies in Alzheimer’s",
+      "bibo:doi": "10.1038/s41586-020-1234-5"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jalz.2020.10.001",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Recent advancements in Alzheimer's research",
+      "bibo:doi": "10.1016/j.jalz.2020.10.001"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_14330",
+      "schema:name": "Lung cancer"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0008150",
+      "schema:name": "Biological Process"
+    }
+  ]
+}

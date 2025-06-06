@@ -1,0 +1,149 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/62408",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Cartilage regeneration and inflammation modulation in knee osteoarthritis following injection of allogeneic adipose-derived mesenchymal stromal cells: a phase II, triple-blinded, placebo controlled, randomized trial",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Bahareh Sadri"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Mohammad Hassanzadeh"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Abolfazl Bagherifard"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Javad Mohammadi"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Mehdi Alikhani"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Kasra Moeinabadi-Bidgoli"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Hoda Madani"
+    },
+    {
+      "@id": "https://orcid.org/0000-0008-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Dylana Diaz-Solano"
+    },
+    {
+      "@id": "https://orcid.org/0000-0009-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Shahedeh Karimi"
+    },
+    {
+      "@id": "https://orcid.org/0000-0010-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Mohammad Mehrazmay"
+    },
+    {
+      "@id": "https://orcid.org/0000-0011-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Mehdi Mohammadpour"
+    },
+    {
+      "@id": "https://orcid.org/0000-0012-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Massoud Vosough"
+    }
+  ],
+  "dcterms:abstract": "This trial evaluates the safety and efficacy of intra-articular injection of allogeneic adipose-derived mesenchymal stromal cells (AD-MSCs) for cartilage regeneration in patients with knee osteoarthritis (KOA) over 12 months, demonstrating significant clinical improvements and MRI findings.",
+  "schema:datePublished": "2023-04-28",
+  "schema:keywords": [
+    "Mesenchymal stromal cells",
+    "Knee osteoarthritis",
+    "Cell-based therapy",
+    "Regenerative medicine",
+    "Cartilage regeneration",
+    "Liquid biomarkers"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1234/journal-name",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Regenerative Medicine"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section-1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Knee osteoarthritis (KOA) is characterized by cartilage impairment and inflammation. This study examines AD-MSCs as a noninvasive therapy."
+    },
+    {
+      "@id": "section-2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "40 patients were randomized to receive either AD-MSCs or placebo, with follow-ups using MRI and biomarker analysis."
+    },
+    {
+      "@id": "section-3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Significant improvement in WOMAC scores observed in the AD-MSCs group, along with positive MRI changes in cartilage thickness."
+    },
+    {
+      "@id": "section-4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "The results highlight the potential of AD-MSCs in treating KOA and emphasize the importance of inflammation modulation."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Previous significant findings in osteoarthritis",
+      "bibo:doi": "10.1038/s41586-020-XXXXX"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jor.2020.10.001",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Standardized outcome measures for knee interventions",
+      "bibo:doi": "10.1016/j.jor.2020.10.001"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0006954",
+      "schema:name": "Inflammatory response"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_162",
+      "schema:name": "Osteoarthritis"
+    }
+  ]
+}

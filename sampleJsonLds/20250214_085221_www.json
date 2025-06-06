@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1038/s41586-023-06172-8",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Signalling by senescent melanocytes hyperactivates hair growth",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-0000-0002",
+      "@type": "foaf:Person",
+      "foaf:name": "Xiaojie Wang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0000-0003",
+      "@type": "foaf:Person",
+      "foaf:name": "Raul Ramos"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0000-0004",
+      "@type": "foaf:Person",
+      "foaf:name": "Anne Q Phan"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0000-0005",
+      "@type": "foaf:Person",
+      "foaf:name": "Kosuke Yamaga"
+    }
+  ],
+  "dcterms:abstract": "Niche signals maintain stem cells in a prolonged quiescence or transiently activate them for proper regeneration. Altering balanced niche signalling can lead to regenerative disorders. Here, using genetic mouse models, we show that dermal clusters of senescent melanocytes drive epithelial hair stem cells to exit quiescence and enhance hair renewal through the signalling factor osteopontin.",
+  "schema:datePublished": "2023-01-01",
+  "schema:keywords": [
+    "senescence",
+    "skin stem cells",
+    "hair growth",
+    "osteopontin"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1038/nature",
+    "@type": "fabio:Journal",
+    "schema:name": "Nature"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section-1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Introduction content goes here."
+    },
+    {
+      "@id": "section-2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "Methods content goes here."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2021.01.001",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Role of Senescent Cells in Activation of Stem Cells",
+      "bibo:doi": "10.1016/j.cell.2021.01.001"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-019-1020-9",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Melanocyte Stem Cells in Skin Homeostasis",
+      "bibo:doi": "10.1038/s41586-019-1020-9"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0006950",
+      "schema:name": "Response to stress"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_0050594",
+      "schema:name": "Hair loss"
+    }
+  ]
+}

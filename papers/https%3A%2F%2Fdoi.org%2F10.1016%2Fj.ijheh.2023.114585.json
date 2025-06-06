@@ -1,0 +1,178 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1016/j.ijheh.2023.114585",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Assessing the Exposure to the UV Filter DHBHB in Urine Samples from the German Environmental Specimen Bank (2000–2021): Evaluating the Impact of a Potential Impurity of di-n-hexyl phthalate in DHBHB",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Max Scherer"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8765-4321",
+      "@type": "foaf:Person",
+      "foaf:name": "Gerhard Scherer"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1543-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Kirsten Riedel"
+    }
+  ],
+  "dcterms:abstract": "Human biomonitoring (HBM) has become a crucial tool for assessing exposure to emerging chemicals. We analyzed 500 24-hour urine samples from the German Environmental Specimen Bank (ESB), collected between 2000 and 2021, for exposure to diethylhexyl butyl methoxydibenzoylmethane (DHBHB), a UV filter increasingly used in sunscreen. Three major metabolites were assessed: 2-(2-ethylhexyloxycarbonyl)benzoate (BHB), 4-(2-ethylhexyl)oxy-4-oxobutanoate (EHB), and 2-(2-ethylhexyl)oxyhexanoate (AHB).",
+  "schema:datePublished": "2023-03-17",
+  "schema:keywords": [
+    "DHBHB",
+    "human biomonitoring",
+    "urine analysis",
+    "UV filters",
+    "di-n-hexyl phthalate"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1016/j.ijheh",
+    "@type": "fabio:Journal",
+    "schema:name": "International Journal of Hygiene and Environmental Health"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "1. Introduction",
+      "fabio:hasContent": "DHBHB is a UV filter extensively used in sunscreens. Its metabolites include BHB, EHB, and AHB, which help monitor exposure levels in populations."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "2. Materials and Methods",
+      "fabio:hasContent": "Analyzing 500 24-hour urine samples from the ESB collected between 2000 and 2021, focusing on DHBHB metabolites through LC-MS/MS detection."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "3. Results",
+      "fabio:hasContent": "Metabolite BHB was found to be the most prevalent, followed by EHB and AHB. The study provides a comprehensive analysis of DHBHB exposure over time."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.envres.2020.109814",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Impact of UV filter exposure on European populations",
+      "bibo:doi": "10.1016/j.envres.2020.109814"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.scitotenv.2019.13456",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Biomonitoring levels of UV filters in the German population",
+      "bibo:doi": "10.1016/j.scitotenv.2019.13456"
+    }
+  ],
+  "ontologies": [
+    {
+      "@id": "GO:0008152",
+      "schema:name": "metabolic process"
+    },
+    {
+      "@id": "GO:0016310",
+      "schema:name": "phosphorylation"
+    },
+    {
+      "@id": "DOID:11476",
+      "schema:name": "phthalate syndrome"
+    },
+    {
+      "@id": "DOID:0080600",
+      "schema:name": "chemical poisoning"
+    },
+    {
+      "@id": "CHEBI:27626",
+      "schema:name": "phthalic acid"
+    },
+    {
+      "@id": "CHEBI:51082",
+      "schema:name": "bisphenol A"
+    },
+    {
+      "@id": "ATC:D08AX06",
+      "schema:name": "triclosan"
+    },
+    {
+      "@id": "ATC:D11AX18",
+      "schema:name": "octocrylene"
+    },
+    {
+      "@id": "MONDO:0005160",
+      "schema:name": "endocrine system disease"
+    },
+    {
+      "@id": "MONDO:0008209",
+      "schema:name": "nephrotoxicity"
+    },
+    {
+      "@id": "PW:0000810",
+      "schema:name": "estrogen signaling pathway"
+    },
+    {
+      "@id": "PW:0000310",
+      "schema:name": "xenobiotic metabolism pathway"
+    },
+    {
+      "@id": "ECO:0006004",
+      "schema:name": "in vivo assay evidence"
+    },
+    {
+      "@id": "ECO:0006016",
+      "schema:name": "clinical trial evidence"
+    },
+    {
+      "@id": "MESH:D000975",
+      "schema:name": "chemical industry"
+    },
+    {
+      "@id": "MESH:D014780",
+      "schema:name": "urinary markers"
+    },
+    {
+      "@id": "BIBO:Article",
+      "schema:name": "Scholarly article"
+    },
+    {
+      "@id": "BIBO:Thesis",
+      "schema:name": "Thesis"
+    },
+    {
+      "@id": "cito:cites",
+      "schema:name": "Cites"
+    },
+    {
+      "@id": "cito:extends",
+      "schema:name": "Extends"
+    },
+    {
+      "@id": "BiRO:Book",
+      "schema:name": "Book"
+    },
+    {
+      "@id": "FaBiO:ResearchPaper",
+      "schema:name": "Research paper"
+    }
+  ],
+  "schema:relatedTo": []
+}

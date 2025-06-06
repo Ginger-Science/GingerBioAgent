@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1038/s41467-023-37480-2",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Histone demethylase KDM2A is a selective vulnerability of cancers relying on alternative telomere maintenance",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Fei Li"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Yizhe Wang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Inah Hwang"
+    }
+  ],
+  "dcterms:abstract": "Telomere length maintenance is essential for cellular immortalization and tumorigenesis. 5% − 10% of human cancers rely on a recombination-based mechanism termed alternative lengthening of telomeres (ALT) to sustain their replicative immortality.",
+  "schema:datePublished": "2023-03-17",
+  "schema:keywords": [
+    "Cancer epigenetics",
+    "Telomeres",
+    "DNA damage and repair"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1038/ncomms12345",
+    "@type": "fabio:Journal",
+    "schema:name": "Nature Communications"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section-1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Telomeres are specialized nucleoprotein structures that shield the linear chromosome ends of eukaryotes from promiscuous DNA repair..."
+    },
+    {
+      "@id": "section-2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "A CRISPR-based genetic screen of chromatin regulators required by ALT cells..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-0001",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Title of Cited Paper 1",
+      "bibo:doi": "10.1038/s41586-020-0001"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2022.09.005",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Title of Cited Paper 2",
+      "bibo:doi": "10.1016/j.cell.2022.09.005"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "doid:14330",
+      "schema:name": "lung cancer"
+    },
+    {
+      "@id": "chebi:15377",
+      "schema:name": "water"
+    }
+  ]
+}

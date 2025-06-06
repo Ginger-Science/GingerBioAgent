@@ -1,0 +1,212 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.2340/00015555-0599",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Prevention of Polymorphic Light Eruption with a Sunscreen of Very High Protection Level Against UVB and UVA Radiation Under Standardized Photodiagnostic Conditions",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Verena Schleiyer"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Oliver Weber"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Arni Yazdi"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Frauke Benedix"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Klaus Dietz"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Martin Röcken"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Mark Berenburg"
+    }
+  ],
+  "dcterms:abstract": "Polymorphic light eruption (PLE) is mainly provoked by ultraviolet A and to a lesser degree by UVB. This study assessed the efficacy of a sunscreen under standardized conditions. The sunscreen prevented PLE effectively in patients with a history of PLE.",
+  "schema:datePublished": "2008-04-10",
+  "schema:keywords": [
+    "Polymorphic light eruption",
+    "Sunscreen",
+    "UVB protection",
+    "UVA protection",
+    "Photodiagnostic"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1234/56789",
+    "@type": "fabio:Journal",
+    "schema:name": "Acta Dermato-Venereologica"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "sec1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "The introduction outlines the prevalence of PLE and the challenges associated with its prevention and treatment."
+    },
+    {
+      "@id": "sec2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Materials and Methods",
+      "fabio:hasContent": "Twelve patients with a history of PLE participated in this study using a sunscreen with very high protection level."
+    },
+    {
+      "@id": "sec3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "PLE was prevented in all patients using the sunscreen under standardized conditions."
+    },
+    {
+      "@id": "sec4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "The study demonstrated the efficacy of the sunscreen in preventing PLE, with results supporting further examination of regular sunscreen application."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.jaad.2007.01.027",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Polymorphic light eruption: an overview",
+      "bibo:doi": "10.1016/j.jaad.2007.01.027"
+    },
+    {
+      "@id": "https://doi.org/10.1111/j.1365-2133.2005.06753.x",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Prevention of UV-induced skin damage",
+      "bibo:doi": "10.1111/j.1365-2133.2005.06753.x"
+    }
+  ],
+  "ontologies": [
+    {
+      "@id": "GO:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "GO:0003674",
+      "schema:name": "molecular_function"
+    },
+    {
+      "@id": "GO:0016020",
+      "schema:name": "membrane"
+    },
+    {
+      "@id": "DOID:0050560",
+      "schema:name": "polymorphic light eruption"
+    },
+    {
+      "@id": "DOID:14566",
+      "schema:name": "skin disease"
+    },
+    {
+      "@id": "CHEBI:50411",
+      "schema:name": "sunscreen agent"
+    },
+    {
+      "@id": "CHEBI:39145",
+      "schema:name": "octyl methoxycinnamate"
+    },
+    {
+      "@id": "CHEBI:34522",
+      "schema:name": "ethylhexyl salicylate"
+    },
+    {
+      "@id": "ATC:D02BA01",
+      "schema:name": "octyl methoxycinnamate"
+    },
+    {
+      "@id": "MONDO:0003909",
+      "schema:name": "photosensitivity disorder"
+    },
+    {
+      "@id": "PW:0000013",
+      "schema:name": "photoprotection pathway"
+    },
+    {
+      "@id": "PW:0000873",
+      "schema:name": "UV adaptation pathway"
+    },
+    {
+      "@id": "ECO:0000220",
+      "schema:name": "clinical trial evidence used in manual assertion"
+    },
+    {
+      "@id": "ECO:0000218",
+      "schema:name": "inferred from direct assay evidence"
+    },
+    {
+      "@id": "MESH:D017266",
+      "schema:name": "benzoic acid"
+    },
+    {
+      "@id": "MESH:D007657",
+      "schema:name": "light"
+    },
+    {
+      "@id": "BIBO:Article",
+      "schema:name": "journal article"
+    },
+    {
+      "@id": "BIBO:Patent",
+      "schema:name": "patent"
+    },
+    {
+      "@id": "cito:usesMethodIn",
+      "schema:name": "uses method in"
+    },
+    {
+      "@id": "cito:agreesWith",
+      "schema:name": "agrees with"
+    },
+    {
+      "@id": "fabio:ResearchArticle",
+      "schema:name": "research article"
+    },
+    {
+      "@id": "fabio:ClinicalStudy",
+      "schema:name": "clinical study"
+    },
+    {
+      "@id": "biro:ReferenceList",
+      "schema:name": "reference list"
+    },
+    {
+      "@id": "biro:BookSection",
+      "schema:name": "book section"
+    }
+  ],
+  "schema:relatedTo": []
+}

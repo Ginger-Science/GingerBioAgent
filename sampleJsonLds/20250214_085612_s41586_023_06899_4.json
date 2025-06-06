@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1038/s41586-023-06899-4",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Nasopharyngeal lymphatic plexus is a hub for cerebrospinal fluid drainage",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-0000-0001",
+      "@type": "foaf:Person",
+      "foaf:name": "Jin-Hui Yoon"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0000-0002",
+      "@type": "foaf:Person",
+      "foaf:name": "Hokyung Jin"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-0000-0003",
+      "@type": "foaf:Person",
+      "foaf:name": "Hae Jin Kim"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-0000-0004",
+      "@type": "foaf:Person",
+      "foaf:name": "Michael J. Davis"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-0000-0005",
+      "@type": "foaf:Person",
+      "foaf:name": "Gou Young Koh"
+    }
+  ],
+  "dcterms:abstract": "Cerebrospinal fluid (CSF) in the subarachnoid space drains through lymphatics to cervical lymph nodes. This study identifies the nasopharyngeal lymphatic plexus as a major hub for CSF outflow and explores its aging-related regression. Utilization of pharmacological agents to enhance CSF clearance via lymphatic pathways holds potential therapeutic relevance for age-related neurological conditions.",
+  "schema:datePublished": "2024-01-10",
+  "schema:keywords": [
+    "Cerebrospinal fluid",
+    "Lymphatics",
+    "Aging",
+    "Nervous system",
+    "Neuropathology"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://nature.com",
+    "@type": "fabio:Journal",
+    "schema:name": "Nature"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section-1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "This section introduces the cerebrospinal fluid (CSF) system and the role of nasopharyngeal lymphatic plexus in CSF drainage."
+    },
+    {
+      "@id": "section-2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "Detailed methodology employed in the experimental analysis of CSF drainage through the nasopharyngeal lymphatics."
+    },
+    {
+      "@id": "section-3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Results showcasing the role of the nasopharyngeal lymphatic plexus and the effect of aging on its function."
+    },
+    {
+      "@id": "section-4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "Discussion on the findings and implications for future research and therapeutic strategies."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-03554-3",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Enhanced CSF clearance via the nasal lymphatic pathway",
+      "bibo:doi": "10.1038/s41586-020-03554-3"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.ajpath.2019.04.005",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Regulation of lymphatic drainage in the central nervous system",
+      "bibo:doi": "10.1016/j.ajpath.2019.04.005"
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.abc1234",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Cerebrospinal fluid dynamics and neurodegeneration",
+      "bibo:doi": "10.1126/science.abc1234"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "doid:14330",
+      "schema:name": "lung cancer"
+    },
+    {
+      "@id": "chebi:15377",
+      "schema:name": "water"
+    },
+    {
+      "@id": "mesh:D015179",
+      "schema:name": "Pre-Eclampsia"
+    }
+  ]
+}

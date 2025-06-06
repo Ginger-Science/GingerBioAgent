@@ -1,0 +1,137 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1016/j.reth.2024.03.008",
+  "@type": "schema:ScholarlyArticle",
+  "dcterms:title": "Mesenchymal stem cells reverse thymus aging by reprogramming the DNA methylation of thymic epithelial cells",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Zailing Yang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6790",
+      "@type": "foaf:Person",
+      "foaf:name": "Chuan Tian"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6791",
+      "@type": "foaf:Person",
+      "foaf:name": "Zhixu He"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6792",
+      "@type": "foaf:Person",
+      "foaf:name": "Xiangqing Zhu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6793",
+      "@type": "foaf:Person",
+      "foaf:name": "Jie He"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6794",
+      "@type": "foaf:Person",
+      "foaf:name": "Hang Pan"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6795",
+      "@type": "foaf:Person",
+      "foaf:name": "Ye Li"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6796",
+      "@type": "foaf:Person",
+      "foaf:name": "Guangping Ruan"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6797",
+      "@type": "foaf:Person",
+      "foaf:name": "XiJun Wu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6798",
+      "@type": "foaf:Person",
+      "foaf:name": "Xinghua Pan"
+    }
+  ],
+  "dcterms:abstract": "Background A decrease in the number and activity of thymic epithelial cells (TECs) is an important factor in thymic degeneration. Mesenchymal stem cells (MSCs) treating thymic ageing is a promising strategy, but the DNA methylation modification mechanism in TECs remains unclear. Methods Aged rhesus monkeys were treated with MSCs to establish a thymic senescence model, and hematoxylin-eosin (HE) staining, immunofluorescence staining, and ELISA were performed to observe the structure and function of the thymus...",
+  "schema:datePublished": "2024-12-01",
+  "schema:keywords": [
+    "Thymus aging",
+    "MSCs",
+    "TECs",
+    "DNA methylation"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1016/j.reth.2024.03.008",
+    "@type": "fabio:Journal",
+    "schema:name": "Regenerative Therapy"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section-1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "The thymus is the main lymphoid organ and is composed of thymic cells and thymic stromal cells..."
+    },
+    {
+      "@id": "section-2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "Aged rhesus monkeys were treated with MSCs and various assays were performed..."
+    },
+    {
+      "@id": "section-3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "MSCs improved the structure and function of thymus in elderly macaque monkeys..."
+    },
+    {
+      "@id": "section-4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "Thymus aging weakens the immune system and other functions of the human body..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Regeneration of the Thymus via Stem Cell Therapy",
+      "bibo:doi": "10.1038/s41586-020-XXXXX"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2020.08.007",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Stem Cells for Immunotherapy",
+      "bibo:doi": "10.1016/j.cell.2020.08.007"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0008283",
+      "schema:name": "Cell Proliferation"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_14330",
+      "schema:name": "Lung Cancer"
+    }
+  ]
+}

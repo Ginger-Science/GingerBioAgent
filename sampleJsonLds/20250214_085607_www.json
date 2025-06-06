@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/cell-senescence-2024",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Cellular senescence: Neither irreversible nor reversible",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Maurice Reimann"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8765-4321",
+      "@type": "foaf:Person",
+      "foaf:name": "Soyoung Lee"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Clemens A Schmitt"
+    }
+  ],
+  "dcterms:abstract": "Cellular senescence is a critical stress response program implicated in embryonic development, wound healing, aging, and immunity. This Review summarizes the evidence that senescent cells need to actively maintain their arrest machinery and discusses the consequences if these epigenome-remodeled cells resume proliferation in a 'post-senescent' condition.",
+  "schema:datePublished": "2024-04-01",
+  "schema:keywords": [
+    "cellular senescence",
+    "aging",
+    "wound healing",
+    "immunity",
+    "epigenetics"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1000/j.journalname.2024.01.001",
+    "@type": "fabio:Journal",
+    "schema:name": "Journal of Cellular Biology"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "sec:introduction",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Seminal observations by Hayflick and Moorhead first described the limited proliferative lifespan normal cells exhibit in culture..."
+    },
+    {
+      "@id": "sec:discussion",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "In essence, despite the widespread perception of cellular senescence as an endpoint response to a variety of triggers, the notion of its irreversible nature is poorly substantiated..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-12345-0",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Senescence and its role in aging",
+      "bibo:doi": "10.1038/s41586-020-12345-0"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2020.01.045",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The role of cellular senescence in cancer",
+      "bibo:doi": "10.1016/j.cell.2020.01.045"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0007049",
+      "schema:name": "cell cycle"
+    },
+    {
+      "@id": "http://purl.org/obo/DOID_14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

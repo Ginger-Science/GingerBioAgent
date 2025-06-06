@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1038/s41586-024-07132-6",
+  "@type": "schema:ScholarlyArticle",
+  "dcterms:title": "Multisensory gamma stimulation promotes glymphatic clearance of amyloid",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Mitchell H. Murdock"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Cheng-Yi Yang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Ping-Chieh Pao"
+    }
+  ],
+  "dcterms:abstract": "The glymphatic movement of fluid through the brain removes metabolic waste. Noninvasive 40 Hz stimulation promotes 40 Hz neural activity in multiple brain regions and attenuates pathology in mouse models of Alzheimer’s disease. This study shows that multisensory gamma stimulation promotes the influx of cerebrospinal fluid and the efflux of interstitial fluid in the cortex of the 5XFAD mouse model of Alzheimer’s disease.",
+  "schema:datePublished": "2024-02-28",
+  "schema:keywords": [
+    "glymphatic system",
+    "Alzheimer's disease",
+    "gamma stimulation",
+    "cerebrospinal fluid"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1038",
+    "@type": "fabio:Journal",
+    "schema:name": "Nature"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "The glymphatic system is critical in clearing metabolic waste from the brain..."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "6-month-old 5XFAD mice were subjected to multisensory 40 Hz stimulation to assess its effects..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-1234",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "A study on the role of the glymphatic system in brain health",
+      "bibo:doi": "10.1038/s41586-020-1234"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.neuron.2019.06.013",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Noninvasive stimulation reduces amyloid burden in Alzheimer's model",
+      "bibo:doi": "10.1016/j.neuron.2019.06.013"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0048468",
+      "schema:name": "cellular process"
+    },
+    {
+      "@id": "doid:14330",
+      "schema:name": "Alzheimer's disease"
+    },
+    {
+      "@id": "mesh:D015179",
+      "schema:name": "Pre-Eclampsia"
+    }
+  ]
+}

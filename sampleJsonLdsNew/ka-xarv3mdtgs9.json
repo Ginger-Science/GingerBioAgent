@@ -1,0 +1,161 @@
+{
+  "@context": {
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "cito": "http://purl.org/spar/cito/",
+    "doco": "http://purl.org/spar/doco/",
+    "pro": "http://purl.org/spar/pro/",
+    "obi": "http://purl.obolibrary.org/obo/",
+    "schema": "http://schema.org/"
+  },
+  "@type": "fabio:ResearchPaper",
+  "obi:OBI_0000299": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0030097",
+      "dcterms:name": "hematopoiesis",
+      "obi:BFO_0000066": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0048539",
+        "dcterms:name": "bone marrow",
+        "dcterms:description": "The paper discusses clonal hematopoiesis occurring in blood-forming tissues, particularly in the context of Bloom syndrome patients and carriers."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0003678",
+      "dcterms:name": "DNA helicase activity",
+      "obi:BFO_0000050": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0006281",
+        "dcterms:name": "DNA repair",
+        "dcterms:description": "The BLM gene discussed in the paper codes for a DNA helicase that is crucial for DNA repair processes."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0016444",
+      "dcterms:name": "somatic cell DNA recombination",
+      "obi:RO_0002304": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0071425",
+        "dcterms:name": "hematopoietic stem cell proliferation",
+        "dcterms:description": "The paper describes how mutations in DNA repair genes affect clonal expansion of hematopoietic cells."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0000723",
+      "dcterms:name": "telomere maintenance",
+      "obi:RO_0002629": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0090398",
+        "dcterms:name": "cellular aging",
+        "dcterms:description": "The study mentions how telomere maintenance genes are associated with the prevalence of clonal hematopoiesis."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0006974",
+      "dcterms:name": "DNA damage response",
+      "obi:RO_0002305": {
+        "@id": "http://purl.obolibrary.org/obo/GO_0008283",
+        "dcterms:name": "cell proliferation",
+        "dcterms:description": "The paper discusses how defects in DNA damage response (through BLM mutations) lead to increased cellular proliferation and cancer risk."
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_2717",
+      "dcterms:title": "Bloom syndrome",
+      "dcterms:description": "Characterized by growth restriction, sun sensitivity, insulin resistance, mild immune deficiency, and increased risk of early-onset malignancy. 53% of participants had developed cancer, with hematologic malignancies being the most common cancer risk. Study found both Bloom syndrome patients and BLM carriers exhibited increased frequency of clonal hematopoiesis of indeterminate potential (CHIP) compared to controls."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_1240",
+      "dcterms:title": "leukemia",
+      "dcterms:description": "CHIP is associated with an annual increased risk of leukemia ranging from 0.5% to 1.0%. In the study cohort, some patients developed various types of leukemia including acute lymphoblastic leukemia (ALL) and acute myeloid leukemia (AML) post sample collection."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_9256",
+      "dcterms:title": "colorectal cancer",
+      "dcterms:description": "Recent studies have identified increased risk of colorectal cancer in BLM pathogenic variant carriers."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_1612",
+      "dcterms:title": "breast cancer",
+      "dcterms:description": "Recent studies have identified increased risk of breast cancer in BLM pathogenic variant carriers."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_2645",
+      "dcterms:title": "mesothelioma",
+      "dcterms:description": "Recent studies have identified increased risk of mesothelioma in BLM pathogenic variant carriers."
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_83828",
+      "dcterms:title": "DNA",
+      "dcterms:description": "DNA variants were analyzed from peripheral blood samples, with variant allele frequencies (VAF) below 0.3 indicating acquired somatic variants, while VAF greater than or equal to 0.3 indicated likely germline or de novo variants"
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1159/000456532",
+      "dcterms:title": "Bloom's syndrome clinical spectrum, molecular pathogenesis, and cancer predisposition"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt1113",
+      "dcterms:title": "ClinVar public archive of relationships among sequence variation and human phenotype"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.gim.2022.03.019",
+      "dcterms:title": "Age of first cancer diagnosis and survival in Bloom syndrome"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cancergen.2015.12.006",
+      "dcterms:title": "The risk for developing cancer in Israeli ATM, BLM, and FANCC heterozygous mutation carriers"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s10689-014-9755-y",
+      "dcterms:title": "Prevalence of the BLM nonsense mutation, p.Q548X, in ovarian cancer patients from Central and Eastern Europe"
+    },
+    {
+      "@id": "https://doi.org/10.1038/srep14060",
+      "dcterms:title": "Deleterious germline BLM mutations and the risk for early-onset colorectal cancer"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pgen.1002894",
+      "dcterms:title": "Exome sequencing identifies rare deleterious mutations in DNA repair genes FANCC and BLM as potential breast cancer susceptibility alleles"
+    },
+    {
+      "@id": "https://doi.org/10.1073/pnas.2019652117",
+      "dcterms:title": "Heterozygous germline BLM mutations increase susceptibility to asbestos and mesothelioma"
+    },
+    {
+      "@id": "https://doi.org/10.1056/NEJMoa1408617",
+      "dcterms:title": "Age-related clonal hematopoiesis associated with adverse outcomes"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-2819-2",
+      "dcterms:title": "Inherited causes of clonal haematopoiesis in 97,691 whole genomes"
+    },
+    {
+      "@id": "https://doi.org/10.1182/blood.2019004537",
+      "dcterms:title": "Cancer spectrum and outcomes in the Mendelian short telomere syndromes"
+    },
+    {
+      "@id": "https://doi.org/10.1182/blood-2023-171751",
+      "dcterms:title": "Genetic determinants of clonal hematopoiesis and progression to hematologic malignancies in 479,117 individuals"
+    },
+    {
+      "@id": "https://doi.org/10.1101/gr.107524.110",
+      "dcterms:title": "The genome analysis toolkit a MapReduce framework for analyzing next-generation DNA sequencing data"
+    },
+    {
+      "@id": "https://doi.org/10.1002/humu.23903",
+      "dcterms:title": "A substantial proportion of apparently heterozygous TP53 pathogenic variants detected with a next-generation sequencing hereditary pan-cancer panel are acquired somatically"
+    },
+    {
+      "@id": "https://doi.org/10.1182/blood-2015-03-631747",
+      "dcterms:title": "Clonal hematopoiesis of indeterminate potential and its distinction from myelodysplastic syndromes"
+    }
+  ],
+  "@id": "https://doi.org/10.1016/j.hemonc.2024.100637",
+  "dcterms:hasPart": "A research paper examining hematopoiesis within blood forming tissues particularly in Bloom syndrome patients and carriers reveals significant findings about DNA repair and cellular processes The study focuses on how the BLM gene which codes for a DNA helicase affects DNA repair processes and influences clonal hematopoiesis Mutations in DNA repair genes are shown to impact the clonal expansion of hematopoietic cells while telomere maintenance genes are linked to clonal hematopoiesis prevalence The research demonstrates that defects in DNA damage response caused by BLM mutations lead to increased cellular proliferation and elevated cancer risk Bloom syndrome is characterized by growth restriction sun sensitivity insulin resistance mild immune deficiency and increased risk of early onset malignancy with 53 percent of study participants developing cancer predominantly hematologic malignancies Both Bloom syndrome patients and BLM carriers showed higher frequency of clonal hematopoiesis of indeterminate potential CHIP compared to control groups CHIP is associated with an annual increased leukemia risk of 0 5 to 1 0 percent with some patients developing acute lymphoblastic leukemia ALL and acute myeloid leukemia AML after sample collection Recent studies have identified increased risks of colorectal cancer breast cancer and mesothelioma in BLM pathogenic variant carriers DNA analysis from peripheral blood samples was conducted with variant allele frequencies VAF below 0 3 indicating acquired somatic variants while VAF greater than or equal to 0 3 suggested likely germline or de novo variants The research highlights the interconnected nature of DNA repair mechanisms cellular aging hematopoietic stem cell proliferation and cancer development in the context of Bloom syndrome and BLM mutations",
+  "schema:relatedTo": [
+    {
+      "@id": "did:dkg:base:84532/0xd5550173b0f7b8766ab2770e4ba86caf714a5af5/101964",
+      "@type": "schema:Organization",
+      "schema:name": "Curetopia"
+    }
+  ]
+}

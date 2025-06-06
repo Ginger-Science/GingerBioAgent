@@ -1,0 +1,136 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/62408",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Unlocking the enigma: unraveling multiple cognitive dysfunction linked to glymphatic impairment in early Alzheimer’s disease",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-5252-4128",
+      "@type": "foaf:Person",
+      "foaf:name": "Jiayi Zhong"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9235-989X",
+      "@type": "foaf:Person",
+      "foaf:name": "Xiaochen Zhang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6847-2131",
+      "@type": "foaf:Person",
+      "foaf:name": "Huanyu Xu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1239-8569",
+      "@type": "foaf:Person",
+      "foaf:name": "Xiaoran Zheng"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6882-9812",
+      "@type": "foaf:Person",
+      "foaf:name": "Luyao Wang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7323-7495",
+      "@type": "foaf:Person",
+      "foaf:name": "Jiehui Jiang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6781-2190",
+      "@type": "foaf:Person",
+      "foaf:name": "Yunxia Li"
+    }
+  ],
+  "dcterms:abstract": "Alzheimer’s disease (AD) is one of the world’s well-known neurodegenerative diseases, which is related to the balance mechanism of production and clearance of two proteins (amyloid-β and tau) regulated by the glymphatic system. Latest studies have found that AD patients exhibit impairments to their glymphatic system. However, the alterations in the AD disease continuum, especially in the early stages, remain unclear. Moreover, the relationship between the glymphatic system and cognitive dysfunction is still worth exploring.",
+  "schema:datePublished": "2023-06-26",
+  "schema:keywords": [
+    "Alzheimer’s disease",
+    "mild cognitive impairment",
+    "glymphatic system",
+    "diffusion tensor imaging",
+    "cognitive dysfunction",
+    "classification",
+    "medical image processing",
+    "clinical dementia rating scale"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1186/s12883-023-02976-7",
+    "@type": "fabio:Journal",
+    "schema:name": "Frontiers in Neuroscience"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "sec1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Alzheimer’s disease (AD) is a prevalent neurodegenerative disease characterized by a gradual decline in cognitive functions coupled with aberrations in mental and behavioral patterns..."
+    },
+    {
+      "@id": "sec2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Materials and methods",
+      "fabio:hasContent": "This study was based on a cohort from Tongji Hospital. Firstly, the images of all subjects were pre-processed using a unified process..."
+    },
+    {
+      "@id": "sec3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "ALPS-index was significantly different among NC, MCI and AD groups, and ALPS-index decreased with cognitive decline..."
+    },
+    {
+      "@id": "sec4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "We explored the alterations of the glymphatic system along the AD continuum through ANOVA and partial correlation..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1016/j.neurobiolaging.2020.10.001",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Livingston et al., 2020",
+      "bibo:doi": "10.1016/j.neurobiolaging.2020.10.001"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.neurobiolaging.2021.07.003",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Scheltens et al., 2021",
+      "bibo:doi": "10.1016/j.neurobiolaging.2021.07.003"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s11745-021-00671-x",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Harrison et al., 2020",
+      "bibo:doi": "10.1007/s11745-021-00671-x"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/DOID_9351",
+      "schema:name": "Alzheimer's Disease"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0007411",
+      "schema:name": "central nervous system development"
+    },
+    {
+      "@id": "http://id.nlm.nih.gov/mesh/D000544",
+      "schema:name": "Dementia"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1186/s13195-022-01128-y",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "Granulovacuolar degeneration bodies are independently induced by tau and α-synuclein pathology",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Marta Jorge-Oliva"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8765-4321",
+      "@type": "foaf:Person",
+      "foaf:name": "Jasper F. M. Smits"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5678-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Vera I. Wiersma"
+    },
+    {
+      "@id": "https://orcid.org/0000-0000-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Wiep Scheper"
+    }
+  ],
+  "dcterms:abstract": "Granulovacuolar degeneration bodies (GVBs) are intracellular vesicular structures that commonly accompany pathological tau accumulations in neurons of patients with tauopathies. In this study, we show that GVBs are independently induced by tau and α-synuclein pathology, providing insights into their formation and implications in neurodegenerative diseases.",
+  "schema:datePublished": "2022-12-14",
+  "schema:keywords": [
+    "tau pathology",
+    "alpha-synuclein",
+    "granulovacuolar degeneration bodies",
+    "neurodegenerative diseases",
+    "neuronal response"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1002/PRC",
+    "@type": "fabio:Journal",
+    "schema:name": "Alzheimer's Research & Therapy"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section_1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Granulovacuolar degeneration bodies (GVBs) are intracellular structures associated with tauopathies. This section introduces the connection between tau protein pathology and GVB formation."
+    },
+    {
+      "@id": "section_2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Methods",
+      "fabio:hasContent": "This study combined primary neuron models and human brain tissue observations to investigate GVBs in tau and α-synuclein pathologies."
+    },
+    {
+      "@id": "section_3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "We observed that GVBs are present in conjunction with both tau and α-synuclein pathologies, highlighting their potential as biomarkers."
+    },
+    {
+      "@id": "section_4",
+      "@type": "fabio:Section",
+      "dcterms:title": "Conclusion",
+      "fabio:hasContent": "Our findings suggest GVBs may represent a general response to cytosolic protein pathology in neurodegenerative diseases."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1002/path.3969",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Unfolded protein response in tauopathies",
+      "bibo:doi": "10.1002/path.3969"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.nbd.2020.105138",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Granulovacuolar degeneration in aging and dementia",
+      "bibo:doi": "10.1016/j.nbd.2020.105138"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/GO_0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "http://purl.org/obo/DOID_14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

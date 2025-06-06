@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1234/example",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "CSF 14-3-3β is associated with progressive cognitive decline in Alzheimer’s disease",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Qiang Qiang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Loren Skudder-Hill"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Tomoko Toyota"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4567-8901",
+      "@type": "foaf:Person",
+      "foaf:name": "Zhe Huang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5678-9012",
+      "@type": "foaf:Person",
+      "foaf:name": "Wenshi Wei"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-6789-0123",
+      "@type": "foaf:Person",
+      "foaf:name": "Hiroaki Adachi"
+    }
+  ],
+  "dcterms:abstract": "Alzheimer's disease is a neurodegenerative disorder characterized pathologically by amyloid-beta plaques, tau tangles, and neuronal loss. Our study investigates the role of CSF 14-3-3β in cognitive decline in Alzheimer's disease by analyzing data from the Alzheimer’s Disease Neuroimaging Initiative (ADNI). We found that higher CSF 14-3-3β levels correlate with cognitive impairment and other Alzheimer's disease biomarkers, indicating its potential as a diagnostic tool.",
+  "schema:datePublished": "2023-11-20",
+  "schema:keywords": [
+    "Alzheimer’s disease",
+    "14-3-3β",
+    "CSF",
+    "biomarker",
+    "dementia"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1234/journal123",
+    "@type": "fabio:Journal",
+    "schema:name": "Alzheimer's Research & Therapy"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "#introduction",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Alzheimer’s disease is a chronic neurodegenerative disorder that affects millions of people worldwide, especially those over the age of 65."
+    },
+    {
+      "@id": "#methods",
+      "@type": "fabio:Section",
+      "dcterms:title": "Materials and methods",
+      "fabio:hasContent": "We sourced participants from the Alzheimer’s Disease Neuroimaging Initiative (ADNI), ensuring a diverse sample for our analyses."
+    },
+    {
+      "@id": "#results",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "Our findings indicate that increased CSF 14-3-3β levels correlate highly with the progression of Alzheimer’s disease."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The role of biomarkers in Alzheimer's disease.",
+      "bibo:doi": "10.1038/s41586-020-XXXX"
+    },
+    {
+      "@id": "https://doi.org/10.1111/j.1471-4159.2020.01000.x",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Longitudinal study of cognitive decline in Alzheimer's disease.",
+      "bibo:doi": "10.1111/j.1471-4159.2020.01000.x"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "GO:0008150",
+      "schema:name": "biological_process"
+    },
+    {
+      "@id": "DOID:14330",
+      "schema:name": "lung cancer"
+    }
+  ]
+}

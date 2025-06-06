@@ -1,0 +1,80 @@
+{
+  "name": "bio-agents",
+  "description": "Project starter for elizaOS",
+  "version": "1.0.0-beta.6",
+  "type": "module",
+  "private": true,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@elizaos/cli": "1.0.0-beta.7",
+    "@elizaos/core": "1.0.0-beta.7",
+    "@elizaos/plugin-anthropic": "1.0.0-beta.7",
+    "@elizaos/plugin-discord": "1.0.0-beta.7",
+    "@elizaos/plugin-local-ai": "1.0.0-beta.7",
+    "@elizaos/plugin-openai": "1.0.0-beta.7",
+    "@elizaos/plugin-sql": "1.0.0-beta.7",
+    "@instructor-ai/instructor": "^1.7.0",
+    "axios": "^1.8.1",
+    "cheerio": "^1.0.0",
+    "cli-progress": "^3.12.0",
+    "dkg.js": "^8.0.4",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.41.0",
+    "form-data": "^4.0.2",
+    "googleapis": "^146.0.0",
+    "jsonld-streaming-parser": "^5.0.0",
+    "libxmljs": "^1.0.11",
+    "n3": "^1.24.2",
+    "openai": "^4.90.0",
+    "pdf2pic": "^3.1.4",
+    "pg": "^8.14.1",
+    "punycode": "^2.3.1",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "zod": "3.24.2"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/n3": "^1.24.2",
+    "@types/node": "^22.13.8",
+    "@types/pg": "^8.11.11",
+    "drizzle-kit": "^0.30.6",
+    "prettier": "3.5.3",
+    "tsup": "8.4.0"
+  },
+  "scripts": {
+    "start": "npx @elizaos/cli start",
+    "dev": "npx @elizaos/cli dev",
+    "build": "tsup",
+    "lint": "prettier --write ./src",
+    "test": "npx @elizaos/cli test",
+    "deploy": "npx @elizaos/cli deploy",
+    "format": "prettier --write ./src",
+    "format:check": "prettier --check ./src",
+    "script": "node --import ./ts-node.register.mjs",
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
+    "db:migrate": "drizzle-kit migrate"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b165ad83e5f7a21bc1edbd83374ca087e3cd6b33",
+  "packageManager": "pnpm@9.15.0"
+}

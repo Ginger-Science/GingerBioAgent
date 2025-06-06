@@ -1,0 +1,130 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "cito": "http://purl.org/spar/cito/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "go": "http://purl.obolibrary.org/obo/GO_",
+    "doid": "http://purl.org/obo/DOID_",
+    "chebi": "http://purl.org/obo/CHEBI_",
+    "atc": "http://purl.org/obo/ATC_",
+    "pw": "http://purl.org/obo/PW_",
+    "eco": "http://purl.org/obo/ECO_",
+    "mondo": "http://purl.org/obo/MONDO_",
+    "comptox": "https://comptox.epa.gov/",
+    "mesh": "http://id.nlm.nih.gov/mesh/"
+  },
+  "@id": "https://doi.org/10.1016/j.isci.2023.106405",
+  "@type": "bibo:AcademicArticle",
+  "dcterms:title": "TZAP overexpression induces telomere dysfunction and ALT-like activity in ATRX/DAXX-deficient cells",
+  "dcterms:creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Sara Priego Moreno"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-2345-6789",
+      "@type": "foaf:Person",
+      "foaf:name": "Javier Miralles Fusté"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9876-5432",
+      "@type": "foaf:Person",
+      "foaf:name": "Melanie Kaiser"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1357-2468",
+      "@type": "foaf:Person",
+      "foaf:name": "Julia Su Zhou Li"
+    },
+    {
+      "@id": "https://orcid.org/0000-0004-6543-2109",
+      "@type": "foaf:Person",
+      "foaf:name": "Joe Nassour"
+    },
+    {
+      "@id": "https://orcid.org/0000-0005-0987-1234",
+      "@type": "foaf:Person",
+      "foaf:name": "Candy Haggblom"
+    },
+    {
+      "@id": "https://orcid.org/0000-0006-3456-7890",
+      "@type": "foaf:Person",
+      "foaf:name": "Eros Lazzerini Denchi"
+    },
+    {
+      "@id": "https://orcid.org/0000-0007-1234-5678",
+      "@type": "foaf:Person",
+      "foaf:name": "Jan Karlseder"
+    }
+  ],
+  "dcterms:abstract": "The appropriate regulation of telomere length homeostasis is crucial for the maintenance of genome integrity. The telomere-binding protein TZAP has been suggested to regulate telomere length by promoting t-circle and c-circle excisions through telomere trimming. Using a system based on TZAP overexpression, we show that efficient TZAP recruitment to telomeres occurs in ATRX/DAXX-deficient cells and that this leads to telomere dysfunction and ALT-like activity.",
+  "schema:datePublished": "2023-03-14",
+  "schema:keywords": [
+    "Telomere dysfunction",
+    "TZAP",
+    "ALT-like activity",
+    "ATRX",
+    "DAXX"
+  ],
+  "fabio:hasPublicationVenue": {
+    "@id": "https://doi.org/10.1016/j.isci.2023.106405",
+    "@type": "fabio:Journal",
+    "schema:name": "iScience"
+  },
+  "fabio:hasPart": [
+    {
+      "@id": "section1",
+      "@type": "fabio:Section",
+      "dcterms:title": "Introduction",
+      "fabio:hasContent": "Telomeres are the nucleoprotein structures that protect the end of eukaryotic linear chromosomes..."
+    },
+    {
+      "@id": "section2",
+      "@type": "fabio:Section",
+      "dcterms:title": "Results",
+      "fabio:hasContent": "TZAP overexpression in ALT+cells results in the exacerbation of telomere dysfunction and ALT-like features..."
+    },
+    {
+      "@id": "section3",
+      "@type": "fabio:Section",
+      "dcterms:title": "Discussion",
+      "fabio:hasContent": "Our data indicate that TZAP overexpression in ALT+cells causes telomeric replication stress..."
+    }
+  ],
+  "cito:cites": [
+    {
+      "@id": "https://doi.org/10.1038/s41586-020-XXX",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The Telomere Stress",
+      "bibo:doi": "10.1038/s41586-020-XXX"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2020.08.030",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Cancer Mechanisms and Telomeres",
+      "bibo:doi": "10.1016/j.cell.2020.08.030"
+    }
+  ],
+  "cito:discusses": [
+    {
+      "@id": "go:0007009",
+      "schema:name": "Organelle organization"
+    },
+    {
+      "@id": "doid:0050770",
+      "schema:name": "telomere dysfunction"
+    },
+    {
+      "@id": "chebi:15377",
+      "schema:name": "water"
+    },
+    {
+      "@id": "mesh:D015279",
+      "schema:name": "Telomere"
+    }
+  ]
+}
