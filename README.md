@@ -1,7 +1,7 @@
 # Ginger Science BioAgent
 ### Created in BioAgent hackathon
 
-## This agent monitors a Google Drive folder for research papers. When it gets a new paper, it analyzes it and adds it to a knowledge graph. 
+This agent monitors a Google Drive folder for research papers. When it gets a new paper, it analyzes it and adds it to a knowledge graph. 
 
 ## The front end agent, "Vivian Flame" is able to generate hypotheses from this data. 
 
