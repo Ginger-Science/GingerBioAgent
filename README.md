@@ -1,13 +1,13 @@
 # Ginger Science BioAgent
 ### Created in BioAgent hackathon
 
-This agent monitors a Google Drive folder for research papers. When it gets a new paper, it analyzes it and adds it to a knowledge graph. 
+### 1. This agent monitors a Google Drive folder for research papers. When it gets a new paper, it analyzes it and adds it to a knowledge graph. 
 
-## The front end agent, "Vivian Flame" is able to generate hypotheses from this data. 
+### 2. The front end agent, "Vivian Flame" is able to generate novel hypotheses from this data. 
 
-## Vivian calls plugin-nft-generation on /GENERATE_COLLECTIOn
+### 3. Vivian calls plugin-nft-generation on /GENERATE_COLLECTION
 
-#### The agent posts to Discord and X. 
+### 4. Vivian posts to Ginger Science Discord and X. 
 
 ## TODO: 
 - refine social posting instructions for production
