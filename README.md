@@ -1,5 +1,7 @@
 # Ginger Science BioAgent
-### Created in BioAgent x AI hackathon
+### Created in BioAgent x AI hackatho
+
+We will extend the BioAgent functionality to marketplace delivery of data in Chronium/Chainlink hackathon June 2025
 
 ### 1. This agent monitors a Google Drive folder for research papers. When it gets a new paper, it analyzes it and adds it to a knowledge graph. 
 
