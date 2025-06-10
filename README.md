@@ -17,7 +17,7 @@ We will extend the BioAgent functionality to marketplace delivery of data in Chr
 
 # Instructions
 
-I was able to get the agent running by taking these steps, in this order:
+I was able to get the BioAgent running by taking these steps, in this order:
 
 - Clone this repo https://github.com/bio-xyz/BioAgents 
 - Setup dependencies https://github.com/bio-xyz/BioAgents/blob/main/SETUP.md 
