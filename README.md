@@ -1,5 +1,5 @@
 # Ginger Science BioAgent
-### Created in BioAgent x AI hackatho
+### Created in BioAgent x AI hackathon
 
 We will extend the BioAgent functionality to marketplace delivery of data in Chronium/Chainlink hackathon June 2025
 
